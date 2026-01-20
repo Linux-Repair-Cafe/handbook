@@ -4,7 +4,7 @@ MANUAL PARA USUARIOS PRINCIPIANTES
 
 > ¿TIRARLO? ¡NI PENSARLO! REPAIRCAFE.ORG
 
-Adaptación de: https://www.repaircafe.org/en/repair-cafe-linux/
+Adaptación de: https://www.repaircafe.org/es/repair-cafe-linux/
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
@@ -261,7 +261,7 @@ Tu ordenador está listo para usar. Es momento para comenzar a usarlo para tus t
 
 Con los programas <ins>OneDrive</ins> en <ins>Rclone</ins> puedes conectar tu almacenamiento en la nube OneDrive con tu ordenador Linux. Instala el programa mediante <ins>Gestor de software</ins>.
 
-Para una explicación más detallada sobre el uso de <ins>OneDrive</ins> consulta esta página.
+Para una explicación más detallada sobre el uso de <ins>OneDrive</ins> consulta [esta página](https://forums.linuxmint.com/viewtopic.php?t=409957).
 
 ### Participar en reuniones de Teams o Zoom
 

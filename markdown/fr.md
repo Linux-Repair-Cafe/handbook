@@ -4,7 +4,7 @@ Manuel Pour Les Utilisateurs Débutants
 
 > JETER ? PAS QUESTION ! REPAIRCAFE.ORG
 
-Adapté de: https://www.repaircafe.org/en/repair-cafe-linux/
+Adapté de: https://www.repaircafe.org/fr/repair-cafe-linux/
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
@@ -31,7 +31,7 @@ Sources en langue française :
 - [Forum Francophone Linux Mint](https://forum-francophone-linuxmint.fr/)
 - [Documentation officielle de Linux Mint](https://linuxmint.com/documentation.php)
 
-Les sources de langue anglaise (utilisez la fonction traduction de Firefox si vous ne maitrisez pas bien l’anglais).
+Les sources de langue anglaise (utilisez la fonction traduction de <ins>Firefox</ins> si vous ne maitrisez pas bien l’anglais).
 
 - [Linux Mint Forum](https://forums.linuxmint.com/)
 - [Ubuntu Questions & réponses](https://askubuntu.com/) – Linux Mint est basé sur Ubuntu. De nombreuses solutions
@@ -78,7 +78,7 @@ La version de Linux Mint qui est installée sur votre ordinateur est comme une p
 
 👉 Cliquez sur le bouclier de sécurité avec le point rouge dans le panneau.
 
-<img>
+![screenshot of the task bar tray icons](../assets/tray.png)
 
 L’écran <ins>Gestionnaire de mise à jour</ins> (parfois cela s'appelle <ins>Update Manager</ins>) apparait.
 
@@ -104,7 +104,7 @@ Les mises à jour sont téléchargées et installées. La première fois, cela p
 
 Désormais les mises à jour seront effectuées automatiquement. Ceci est visible dans la barre des tâches inférieure, à l’icône en forme de roue dentée.
 
-<img>
+![screenshot of the icon for automatic updates](../assets/auto-updates.png)
 
 Vous pouvez toujours forcer une mise à jour manuellement en cliquant sur le bouclier de sécurité. Certaines mises à jour ne seront activées qu’après un redémarrage de votre ordinateur. Vous en recevrez une notification.
 
@@ -118,7 +118,7 @@ Vous pouvez facilement ouvrir les programmes via le menu Linux Mint. Il convient
 
 👉 Cliquez sur l’icône Linux Mint en bas à gauche de l’image ou sur la touche Windows de votre clavier.
 
-<img>
+![Linux Mint menu button icon](../assets/linux-mint-menu.png)
 
 Cliquez sur le programme que vous souhaitez ouvrir.
 
@@ -257,6 +257,8 @@ Votre ordinateur est prêt à l’emploi Il est temps de commencer à l’utilis
 ### Stockage OneDrive
 Les programmes <ins>OneDrive</ins> ou <ins>Rclone</ins> vous permettent de connecter votre espace de stockage OneDrive dans le cloud à votre ordinateur Linux. Installez le programme via Gestionnaire de logiciels.
 
+<!-- TODO: For more information about using <ins>OneDrive</ins>, see this [page](https://ubuntuhandbook.org/index.php/2024/02/install-onedrive-ubuntu/). -->
+
 ### Prendre part à des réunions Teams ou Zoom
 
 Nous recommandons de suivre la réunion via le navigateur web <ins>Firefox</ins> ou d’installer une application sur un téléphone ou une tablette. Pour installer Microsoft Teams ou Zoom dans la <ins>Gestionnaire de logiciels</ins>, activez les « flatpaks non vérifiés » dans la boutique de logiciels. Lisez les informations sur les implications en matière de sécurité sur les forums de Linux Mint.
@@ -337,7 +339,8 @@ A partir de <ins>Paramètres système</ins>, vous démarrez <ins>Fonds d’écra
 
 👉 Sélectionnez »Paramétrer ».
 
-<img>
+<!-- TODO: localise screenshot -->
+![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-nl.png)
 
 👉 Cliquez sur – ou + pour agrandir ou rapetisser l'icône de Linux Mint.
 
@@ -359,7 +362,8 @@ Le panneau se colore en rose pour indiquer que vous êtes en mode édition. Ces 
 
 👉 Déplacez la « hauteur de panneau » à un niveau adapté.
 
-<img>
+<!-- TODO: localise screenshot -->
+![screenshot of the dialog to adjust panel height](../assets/panel-height-nl.png)
 
 👉 Quittez l'écran à l'aide de la flèche gauche à gauche de l'écran.
 
@@ -373,7 +377,9 @@ Ici vous pouvez activer ou désactiver la visibilité des programmes, qui appara
 
 👉 Choisissez le « Modifier le menu ». Vous voyez maintenant cet écran.
 
-<img>
+<!-- TODO: localise screenshot -->
+![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-nl.png)
+
 
 Vous pouvez toujours faire apparaitre les programmes. Pour ce faire, il faut ouvrir le Menuprincipal et dans la catégorie où vous attendez votre programme, cochez de nouveau la case du programme. Cliquez ensuite sur « Fermer ».
 

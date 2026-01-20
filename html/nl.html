@@ -1249,5 +1249,259 @@
 		}
 		</style>
 		</head><body>
-		<div class="markdown-body"></div>
+		<div class="markdown-body"><h1 dir="auto">Van Start Met Linux</h1>
+<p dir="auto">Handleiding Voor Beginnende Gebruikers</p>
+<blockquote>
+<p dir="auto">WEGGOOIEN? MOOI NIET! REPAIRCAFE.ORG</p>
+</blockquote>
+<p dir="auto">Aangepast van: <a href="https://www.repaircafe.org/nl/repair-cafe-linux/" rel="nofollow">https://www.repaircafe.org/nl/repair-cafe-linux/</a></p>
+<p dir="auto"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/3d22dfd9c30b86dbc3e8c5267df57d5626f274c5235c71be1906587e23e6b697/68747470733a2f2f6c6963656e7365627574746f6e732e6e65742f6c2f62792d6e632d73612f342e302f38387833312e706e67" alt="CC BY-NC-SA 4.0" data-canonical-src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" style="max-width: 100%;"></a></p>
+<h2 dir="auto">Inleiding</h2>
+<p dir="auto">Gefeliciteerd met je nieuwe Linux besturingssysteem! Je laptop gaat nu langer mee, je bent minder afhankelijk van commerciële bedrijven en je privacy wordt beter gewaarborgd.</p>
+<p dir="auto">Dit document helpt je je weg vinden in Linux Mint. Het helpt je bij het afronden van de installatie, het instellen van het uiterlijk en het beantwoorden van de eerste vragen die je misschien hebt. Ongeveer de helft van de inhoud gaat over zaken die je maar één keer hoeft in te stellen. We hopen dat je zo een vlot begin kunt maken met het gebruiken van je ‘nieuwe’ Linux-computer.</p>
+<p dir="auto">De opmaak in dit document is een leeshulp:</p>
+<ul dir="auto">
+<li>Namen van programma’s zien er zo uit: <ins>Energiebeheer</ins>.</li>
+</ul>
+<p dir="auto">👉 Een wijzend handje voor tekst geeft aan dat je handelingen op de computer gaat uitvoeren.</p>
+<p dir="auto">Misschien heb je nog niet eerder met Linux gewerkt. Geen nood, je staat er niet alleen voor. Online is ongelooflijk veel informatie te vinden over dit besturingssysteem. Heb je een vraag, dan is de kans groot dat iemand anders die al eens heeft gesteld – en antwoord heeft gekregen. Post je een vraag op een forum, dan helpt iemand je meestal binnen een dag verder.</p>
+<p dir="auto">Hieronder vind je een aantal betrouwbare, veelgebruikte websites en fora:</p>
+<p dir="auto">Nederlandstalige bronnen:</p>
+<ul dir="auto">
+<li><a href="https://www.linuxmintnl.nl/" rel="nofollow">Linux Mint Nederland</a></li>
+<li><a href="https://forums.linuxmint.com/viewforum.php?f=67" rel="nofollow">Linux Mint Forum NL</a></li>
+<li><a href="https://nl.libreoffice.org/" rel="nofollow">LibreOffice Nederland</a></li>
+<li><a href="https://ask.libreoffice.org/c/dutch/18" rel="nofollow">LibreOffice Vragenforum NL</a></li>
+<li><a href="https://www.linuxalt.com/" rel="nofollow">Linuxalt.com</a> – alternatieven voor Windows-programma’s in Linux</li>
+</ul>
+<p dir="auto">Engelstalige bronnen (gebruik de vertaalfunctie van <ins>Firefox</ins> als je Engels lastig vindt).</p>
+<ul dir="auto">
+<li><a href="https://forums.linuxmint.com/" rel="nofollow">Linux Mint Forum</a></li>
+<li><a href="https://askubuntu.com/" rel="nofollow">Ubuntu Vraag &amp; Antwoord</a> – Linux Mint is gebaseerd op Ubuntu. Veel Ubuntu-oplossingen zijn<br>
+ook bruikbaar in Linux</li>
+<li><a href="https://ask.libreoffice.org/c/english/5" rel="nofollow">LibreOffice Forum</a></li>
+</ul>
+<p dir="auto">Videomateriaal:</p>
+<ul dir="auto">
+<li><a href="https://www.youtube.com/" rel="nofollow">YouTube</a> – zoek op specifieke onderwerpen, bijvoorbeeld ‘Linux Mint instellen’</li>
+</ul>
+<p dir="auto">Een zoektip voor internet: begin je zoekopdracht met: ‘Linux Mint + [vul hier het onderwerp in]’. Bijvoorbeeld: ‘Linux Mint + wachtwoord veranderen’. Zo vermijd je zoekresultaten voor andere besturingssystemen.</p>
+<p dir="auto">Wil je investeren in je kennis over Linux? Dan zijn de volgende bronnen aan te raden:</p>
+<ul dir="auto">
+<li><a href="https://makkelijkelinuxtips.blogspot.com/p/1.html" rel="nofollow">Makkelijke Linux Tips</a> – praktische, duidelijke tips en trucs</li>
+<li><a href="https://www.delinuxspecialist.nl/lgh/lgh-1.6-pre2.pdf" rel="nofollow">Linux Gebruikershandleiding</a> – een pdf-document in het Nederlands van meer dan 100 pagina’s. Sommige delen zijn wat verouderd, maar veel technische informatie (zoals bestandsstructuren en commando’s) blijft tijdloos</li>
+</ul>
+<h2 dir="auto">De Eerste Keer Opstarten</h2>
+<p dir="auto">Linux Mint is geïnstalleerd op je computer alsof deze nieuw uit de winkel komt. Na de eerste keer opstarten zijn nog een paar stappen nodig om je nieuwe systeem gebruiksklaar te maken. Die ga je nu zetten. Ook is het verstandig om enkele noodzakelijke aanvullingen direct te installeren, zoals updates.</p>
+<p dir="auto">In dit hoofdstuk lopen we alle onderdelen stap voor stap met je door. Veel van deze handelingen zijn maar één keer nodig. Als je ze goed uitvoert, heb je daar later profijt van. Na deze stappen is je systeem klaar voor gebruik.</p>
+<p dir="auto">Volg de stappen rustig en in je eigen tempo — je bent bijna klaar om met Linux aan de slag te gaan!</p>
+<h3 dir="auto">Afronden van de installatie</h3>
+<p dir="auto">Wanneer je de computer voor het eerst opstart, doorloop je een aantal stappen om je systeem gebruiksklaar te maken:</p>
+<ul dir="auto">
+<li>
+<p dir="auto">Taalinstelling. Kies de taal waarin je wilt dat het systeem met je communiceert. Kies de taal die voor jou het meest vertrouwd is. Je kunt deze keuze later altijd aanpassen.</p>
+</li>
+<li>
+<p dir="auto">Toetsenbordindeling. We raden aan te kiezen voor Engels (VS, internationaal, met dode toetsen). Daarmee kun je accenten typen zoals ö, ë, è en ï. Wil je later een extra toetsenbordindeling toevoegen? Dat kan altijd als je de installatie hebt afgerond.</p>
+</li>
+<li>
+<p dir="auto">Wifinetwerk. Als je computer niet met een netwerkkabel is verbonden, zal hij om het wifiwachtwoord vragen. Voer het wachtwoord van je router in.</p>
+</li>
+<li>
+<p dir="auto">Locatie. Bevestig de standaardlocatie (meestal Amsterdam) of kies handmatig een ander land of andere regio.</p>
+</li>
+<li>
+<p dir="auto">Gebruikersnaam (accountnaam). Deze naam wordt ook gebruikt voor je persoonlijke map (bijv. / home/jouwnaam). Kies een korte, duidelijke gebruikersnaam die bestaat uit:</p>
+<ul dir="auto">
+<li>Alleen kleine letters</li>
+<li>Geen spaties of leestekens</li>
+<li>Eén woord dat voor jou herkenbaar is</li>
+</ul>
+</li>
+<li>
+<p dir="auto">Wachtwoord. Omdat je ook beheerder bent van je systeem, kies je een sterk wachtwoord<br>
+van minimaal acht tekens en met voldoende variatie (cijfers, hoofdletters, symbolen). Kies een wachtwoord dat je ook kunt onthouden. Deel dit met iemand die je vertrouwt of schrijf het op.</p>
+</li>
+<li>
+<p dir="auto">Automatisch aanmelden. Als je dit selecteert, hoef je bij het opstarten niet je wachtwoord te geven. Dit raden we af, omdat je computer dan voor anderen direct toegankelijk is.</p>
+</li>
+<li>
+<p dir="auto">Versleuteling van je persoonlijke map. We raden aan om deze optie in te schakelen. Je gegevens worden dan versleuteld opgeslagen, dat biedt extra bescherming bij verlies of diefstal van je computer. Deze maatregel is in sommige situaties (zoals administratief werk voor verenigingen) zelfs verplicht vanwege de privacywetgeving. Voor de versleuteling heb je geen extra wachtwoord nodig.</p>
+<blockquote>
+<p dir="auto">[!CAUTION]<br>
+Bij versleuteling zijn je gegevens écht versleuteld. Als je het wachtwoord kwijtraakt, kun je bestanden niet meer herstellen. Er is geen magische truc om ze terug te halen. Vandaar de tip om een wachtwoord te kiezen dat je kunt onthouden, en om dat op te schrijven of te delen met iemand die je vertrouwt.</p>
+</blockquote>
+</li>
+</ul>
+<h3 dir="auto">Updates installeren</h3>
+<p dir="auto">De versie van Linux Mint die op je computer is geïnstalleerd, is een momentopname. Sindsdien zijn er waarschijnlijk nieuwe updates beschikbaar gekomen. Kleine updates zijn er ongeveer elke zes maanden, grote updates meestal elke twee jaar. Het is verstandig deze updates meteen te installeren voordat je verder gaat met het verkennen van je computer.</p>
+<p dir="auto">👉 Klik op het veiligheidsschild met de rode stip in het paneel.</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/tray.png"><img src="../assets/tray.png" alt="screenshot of the task bar tray icons" style="max-width: 100%;"></a></p>
+<p dir="auto">Het scherm <ins>Bijwerkbeheer</ins> opent.</p>
+<p dir="auto">👉 Klik op ‘OK’.</p>
+<p dir="auto">Je ziet weer het scherm van <ins>Bijwerkbeheer</ins>.</p>
+<p dir="auto">👉 Klik aan de bovenkant op ‘Verversen’.</p>
+<p dir="auto">Er kan een mededeling komen dat een nieuwe versie van <ins>Bijwerkbeheer</ins> beschikbaar is. In dat geval:</p>
+<p dir="auto">👉 Klik op ‘Actualisering uitvoeren’.</p>
+<p dir="auto">👉 Geef het wachtwoord.</p>
+<p dir="auto">De update van <ins>Bijwerkbeheer</ins> zelf wordt nu geïnstalleerd. Zodra deze klaar is:</p>
+<p dir="auto">👉 Klik bovenaan op ‘Actualiseringen installeren’.</p>
+<p dir="auto">De updates worden gedownload en geïnstalleerd. Dit kan de eerste keer tot een half uur duren, afhankelijk van je internetverbinding. Wacht dit rustig af.</p>
+<p dir="auto">👉 Sluit het scherm <ins>Bijwerkbeheer</ins>.</p>
+<p dir="auto">Vanaf nu worden updates automatisch uitgevoerd. Dit is zichtbaar in de onderste taakbalk aan het tandwiel-icoon.</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/auto-updates.png"><img src="../assets/auto-updates.png" alt="screenshot of the icon for automatic updates" style="max-width: 100%;"></a></p>
+<p dir="auto">Je kunt altijd handmatig een update forceren door op het veiligheidsschild te klikken. Sommige updates worden trouwens pas actief na een herstart van je computer. Hier krijg je een melding van.</p>
+<h2 dir="auto">Programma’S Gebruiken</h2>
+<p dir="auto">Nu je de installatie hebt afgerond en de laatste updates hebt geïnstalleerd, is je computer klaar voor gebruik. De volgende hoofdstukken helpen je bij het wennen aan Linux. Dit hoofdstuk gaat over het gebruik van programma’s.</p>
+<h3 dir="auto">Programma’s openen</h3>
+<p dir="auto">Programma’s kun je eenvoudig openen via het menu van Linux Mint. Dit doe je zo:</p>
+<p dir="auto">👉 Klik op het Linux Mint-icoon linksonder in beeld of op de Windows-toets op je toetsenbord.</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/linux-mint-menu.png"><img src="../assets/linux-mint-menu.png" alt="Linux Mint menu button icon" style="max-width: 100%;"></a></p>
+<p dir="auto">Klik op het programma dat je wilt gebruiken. Bijvoorbeeld: Menu &gt; Voorkeuren &gt; Geluid</p>
+<h3 dir="auto">Het formaat aanpassen</h3>
+<p dir="auto">Je kunt het menu groter of kleiner maken door aan de randen te slepen.</p>
+<h3 dir="auto">Zoeken naar een programma</h3>
+<p dir="auto">Boven in het menu staat een zoekveld.</p>
+<p dir="auto">👉 Typ een algemene term, zoals: ‘tekst’, ‘mail’, ‘internet’, ‘video’, ‘afdruk’, ‘muis’, ‘player’, ‘reken’, enzovoort.</p>
+<p dir="auto">Het menu toont alle programma’s die te maken hebben met het onderwerp dat je hebt ingetypt. Weet je de naam van het programma al? Typ die dan direct in.</p>
+<h3 dir="auto">Programma’s starten</h3>
+<p dir="auto">👉 Klik op de naam van het programma om het te starten.</p>
+<h3 dir="auto">Snelkoppeling op het bureaublad maken</h3>
+<p dir="auto">👉 Rechterklik op het programma in het menu.</p>
+<p dir="auto">👉 Kies ‘Toevoegen aan het werkblad’ om de snelkoppeling te maken.</p>
+<h3 dir="auto">Bladeren door categorieën</h3>
+<p dir="auto">👉 Klik op een categorie in de linkerkolom van het menu.</p>
+<p dir="auto">De rechterkolom toont alle bijbehorende programma’s.</p>
+<p dir="auto">👉 Klik op een programma om het te starten.</p>
+<h2 dir="auto">E-Mail Instellen</h2>
+<p dir="auto">Voor het instellen van e-mail heb je de gebruikersnaam en het wachtwoord van je mailaccount nodig, en een mailprogramma. Linux Mint wordt geleverd met het mailprogramma Thunderbird.</p>
+<p dir="auto">👉 Start <ins>Thunderbird</ins> via het menu.</p>
+<p dir="auto">👉 Beantwoord de vragen die verschijnen.</p>
+<p dir="auto"><ins>Thunderbird</ins> haalt op de achtergrond automatisch ook een aantal e-mailinstellingen op.</p>
+<p dir="auto">Als alles goed is ingevuld, heb je snel toegang tot je mailbox.</p>
+<p dir="auto">Kom je er niet uit? Raadpleeg de handleiding over automatische accountconfiguratie via de <a href="https://support.mozilla.org/nl/kb/automatische-accountconfiguratie" rel="nofollow">website van Mozilla</a>.</p>
+<h3 dir="auto">Thunderbird-profiel overzetten van een andere computer</h3>
+<p dir="auto">Heb je <ins>Thunderbird</ins> eerder gebruikt op een andere computer? Dan kun je je e-mailinstellingen, berichten en mappen meenemen door het profiel over te zetten. Hiervoor moet je je profielmap zichtbaar maken in Linux. Dat gaat zo:</p>
+<p dir="auto">👉 Open Bestanden (tweede pictogram van links in het paneel).</p>
+<p dir="auto">Je ziet nu je persoonlijke map.</p>
+<p dir="auto">👉 Druk op Ctrl + H om verborgen bestanden weer te geven.</p>
+<p dir="auto">Zoek de map <ins>Thunderbird</ins>. Hierin staan je profielen opgeslagen.</p>
+<p dir="auto">Gebruik deze map om gegevens over te zetten van je oude systeem, zoals beschreven in de handleiding op de <a href="https://support.mozilla.org/nl/kb/profielen-waar-thunderbird-gebruikersgegevens-bewaart#w_een-back-up-van-een-profiel-terugzetten" rel="nofollow">website van Mozilla</a>.</p>
+<h2 dir="auto">Bestanden Beheren</h2>
+<p dir="auto">In Linux Mint gebruik je het programma Bestanden (ook wel Nemo genoemd) om mappen en<br>
+bestanden te openen, te zoeken en beheren.</p>
+<h3 dir="auto">Bestanden openen en zoeken</h3>
+<p dir="auto">Openen:</p>
+<p dir="auto">Start <ins>Bestanden</ins></p>
+<p dir="auto">👉 Klik op het tweede pictogram van links in de taakbalk onder aan het scherm.</p>
+<p dir="auto">Zoeken:</p>
+<p dir="auto">👉 Klik op het vergrootglas rechtsboven om het zoekvenster te openen.</p>
+<p dir="auto">👉 Typ (een deel van) de bestandsnaam.</p>
+<p dir="auto">Zoeken is niet hoofdlettergevoelig – het pictogram Aa geeft dat aan. Standaard zoekt het<br>
+programma ook in submappen. Het L-vormige pijltje naar rechts geeft dit aan.</p>
+<h3 dir="auto">Bestanden verwijderen</h3>
+<p dir="auto">Verwijder je een bestand via het rechtsklikmenu of de Delete-toets? Dan gaat het eerst naar de prullenbak. Verwijder je het ook uit de prullenbak, dan is het bestand permanent verwijderd. In tegenstelling tot Windows zijn er in Linux geen eenvoudige programma’s om verwijderde bestanden terug te halen.</p>
+<h3 dir="auto">Meer weten over het programma <ins>Bestanden</ins>?</h3>
+<p dir="auto">Bekijk de uitgebreide uitleg op:</p>
+<p dir="auto"><a href="https://community.linuxmint.com/software/view/nemo" rel="nofollow">https://community.linuxmint.com/software/view/nemo</a></p>
+<h2 dir="auto">Programma’S Installeren En Verwijderen</h2>
+<p dir="auto">Met een paar eenvoudige stappen kun je in Linux Mint nieuwe programma’s installeren of bestaande software verwijderen. Dit doe je via <ins>Programmabeheer</ins>. We leggen stap voor stap uit hoe je dat doet.</p>
+<h3 dir="auto">Een programma installeren</h3>
+<p dir="auto">👉 Druk op de Windows-toets of klik links onder op het menu.</p>
+<p dir="auto">👉 Typ ‘prog’ in het zoekveld.</p>
+<p dir="auto">👉 Klik op <ins>Programmabeheer</ins> in de lijst met resultaten.</p>
+<p dir="auto">Het programma opent met de melding: ‘Aan het laden, een ogenblik geduld.’ Wacht even tot de inhoud volledig is geladen en je programma’s te zien krijgt.</p>
+<p dir="auto">👉 Typ in het zoekveld van <ins>Programmabeheer</ins> ‘screen’.</p>
+<p dir="auto">Je krijgt nu een overzicht van alle programma’s die iets met screen te maken hebben. Zoek in de lijst naar <ins>Simple Screen Recorder</ins>. Dit programma maakt een video-opname van je bureaublad terwijl je werkt.</p>
+<p dir="auto">👉 Klik op de naam om het programma te openen.</p>
+<p dir="auto">👉 Klik op de knop ‘Installeren’ om het programma te installeren.</p>
+<p dir="auto">Je wordt mogelijk gevraagd om het wachtwoord in te voeren.</p>
+<p dir="auto">Na de installatie is het programma beschikbaar via het menu.</p>
+<p dir="auto">Zodra je in <ins>Programmabeheer</ins> op een programma klikt, opent er een overzichtsscherm met meer informatie. Rechtsboven zie je de knop ‘Installeren’ (of ‘Verwijderen’ als het programma al is geïnstalleerd).</p>
+<h3 dir="auto">Een programma verwijderen</h3>
+<p dir="auto">👉 Open <ins>Programmabeheer</ins> .</p>
+<p dir="auto">Zoek het programma op zoals je dat ook deed bij het installeren.</p>
+<p dir="auto">In plaats van de kop ‘Installeren’ zie je nu de knop ‘Verwijderen’.</p>
+<p dir="auto">👉 Klik op ‘Verwijderen’. Het programma wordt verwijderd uit je systeem.</p>
+<h2 dir="auto">Veelvoorkomende Toepassingen</h2>
+<p dir="auto">Je computer is nu klaar voor gebruik. Tijd om ermee aan de slag te gaan voor alledaagse taken. Met onze heldere uitleg en handige tips helpen we je het maximale uit je Linux-systeem te halen.</p>
+<h3 dir="auto">OneDrive-opslag</h3>
+<p dir="auto">Met de programma’s <ins>OneDrive</ins> of <ins>Rclone</ins> kun je je OneDrive-cloudopslag verbinden met je Linux-computer. Installeer het programma via <ins>Programmabeheer</ins>.</p>
+<p dir="auto">Voor meer uitleg over het gebruik van <ins>OneDrive</ins> bekijk <a href="https://nl.linux-console.net/?p=12548" rel="nofollow">deze pagina</a>.</p>
+<h3 dir="auto">Teams- of Zoombijeenkomsten bijwonen</h3>
+<p dir="auto">We raden aan bijeenkomsten te volgen via de webbrowser Firefox, of een app te installeren op een telefoon of tablet. Om Microsoft Teams of Zoom te installeren via Programmabeheer moet je ‘ongeverifieerde flatpaks’ inschakelen in Softwarebeheer. Lees meer over de beveiligingsimplicaties op de Linux Mint-forums.</p>
+<h3 dir="auto">Een e-boek lezen</h3>
+<p dir="auto">Er zijn diverse readers te installeren, bijvoorbeeld <ins>FBReader</ins>. E-boeken van de bibliotheek kun je alleen lezen via de browser, een app op telefoon of tablet.</p>
+<h3 dir="auto">Een dvd afspelen</h3>
+<p dir="auto">Gebruik <ins>VLC Media Player</ins> als je een DVD wilt afspelen. Installeer <ins>VLC Media Player</ins> volgens de stappen in het hoofdstuk ‘Programma’s installeren en verwijderen’.</p>
+<h3 dir="auto">De touchpad gebruiken</h3>
+<p dir="auto">Schuif met twee vingers tegelijk over de touchpad. Met de zij-of onderkant van de touchpad kun je niet scrollen.</p>
+<h3 dir="auto">Meerdere schermen: video kijken op een tv of beamer</h3>
+<p dir="auto">Sluit je computer aan op de tv met een HDMI-kabel. Stel de source van de tv in op de juiste HDMI-ingang. Linux vindt dan het tv-scherm en kopieert het naar je laptopscherm.</p>
+<p dir="auto">Het geluid van de laptop zal ook automatisch naar de HDMI-uitgang gaan. Is dat niet de bedoeling, dan kun je het naar de speakers van de computer sturen. Dit doe je als volgt:</p>
+<p dir="auto">👉 Druk op de Windows-toets.</p>
+<p dir="auto">👉 Zoek het programma <ins>Geluid</ins> en start dit door erop te klikken.</p>
+<p dir="auto">👉 Ga naar het tabblad ‘Uitvoer’.</p>
+<p dir="auto">👉 Klik op ‘Built in speakers’.</p>
+<p dir="auto">Is het de bedoeling dat het tv-scherm een uitbreiding is van het laptopscherm, dan doe je dit:</p>
+<p dir="auto">👉 Druk op de Windows-toets.</p>
+<p dir="auto">👉 Zoek naar het programma <ins>Beeldscherm</ins>.</p>
+<p dir="auto">👉 Klik hierop.</p>
+<p dir="auto">👉 Klik op ‘Schermen samenvoegen’.</p>
+<p dir="auto">👉 Klik en sleep scherm twee op de gewenste plek ten opzichte van het laptopscherm.</p>
+<p dir="auto">👉 Klik op ‘Toepassen’.</p>
+<p dir="auto">👉 Sluit <ins>Beeldscherm</ins>.</p>
+<h3 dir="auto">Een printer aansluiten</h3>
+<p dir="auto">Een printer kun je aansluiten met een kabel of via wifi. Een kabel steek je direct in de computer; via wifi zorg je dat de computer en de printer met hetzelfde netwerk verbonden zijn. De meeste printers worden automatisch herkend zodra je ze verbindt met het netwerk. Via het menu ‘Printers’ kun je eenvoudig een nieuwe printer toevoegen.</p>
+<p dir="auto">Vaak kiest Mint zelf het juiste stuurprogramma. Voor merken als HP, Canon of Epson zijn soms extra drivers nodig. Die kun je installeren via <ins>Softwarebeheer</ins> of de website van de fabrikant. Zodra de printer is toegevoegd, kun je direct afdrukken.</p>
+<h2 dir="auto">Instellingen Aanpassen</h2>
+<p dir="auto">In Linux Mint kun je heel veel naar eigen smaak instellen: van lettertypes en pictogramgrootte tot achtergronden, kleuren en het paneel. Deze aanpassingen zijn niet alleen om je werkomgeving er leuker uit te laten zien. Ze maken hem ook gebruiksvriendelijker: als je slechter ziet, kun je bijvoorbeeld het standaardlettertype vergroten. Volg de stappen en pas je systeem aan naar je eigen smaak en gemak.</p>
+<h3 dir="auto">Weergave en lettertypes</h3>
+<h3 dir="auto">Lettergrootte van vensters</h3>
+<p dir="auto">Ga via <ins>Systeeminstellingen</ins> naar het onderdeel <ins>Lettertypen</ins> om de weergave van tekst in vensters aan te passen. Door het standaardlettertype te vergroten, verbetert de leesbaarheid voor slechtzienden aanzienlijk. Let op: het aanpassen van het documentlettertype heeft meestal weinig effect: veel programma’s gebruiken hun eigen instellingen voor lettertype en -grootte.</p>
+<h3 dir="auto">Bureaubladachtergrond</h3>
+<p dir="auto">Vanuit <ins>Systeeminstellingen</ins> start je <ins>Achtergronden</ins>. Probeer gewoon wat dingen uit. Om een effen kleur in te stellen:</p>
+<p dir="auto">👉 Klik op de tab ‘Instellingen’.</p>
+<p dir="auto">👉 Klik op ‘Geen afbeelding’.</p>
+<p dir="auto">👉 Gebruik het kleuricoon om een kleur te kiezen.</p>
+<p dir="auto">👉 Kies ‘Effen kleur’ of ‘Kleurverloop horizontaal/verticaal’ voor extra effect.</p>
+<h3 dir="auto">Pictogrammen vergroten van het Linux Mint-menu</h3>
+<p dir="auto">👉 Rechterklik op het pictogram van Linux Mint.</p>
+<p dir="auto">👉 Selecteer ‘Instellen’.</p>
+
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/enlarge-icons-nl.png"><img src="../assets/enlarge-icons-nl.png" alt="screenshot of the dialog to enlarge icons" style="max-width: 100%;"></a></p>
+<p dir="auto">👉 Klik op – of + om de grootte van het Linux Mint-pictogram te vergroten of te verkleinen.</p>
+<h3 dir="auto">Bureaublad en taakbalk</h3>
+<h3 dir="auto">Pictogrammen op het bureaublad instellen</h3>
+<p dir="auto">Wil je pictogrammen op je bureaublad plaatsen, zoals de prullenbak of de computer? Deze werken als sneltoetsen.</p>
+<p dir="auto">Ga naar <ins>Systeeminstellingen</ins>, start <ins>Bureaublad</ins> en vink aan wat gewenst is.</p>
+<p dir="auto">Als je klikt op het pictogram ‘Computer’, opent het een venster waarin je de verschillende schijven, aangesloten apparaten en soms netwerkbronnen ziet. Dit is vergelijkbaar met ‘Deze PC’ of ‘Mijn computer’ in Windows.</p>
+<h3 dir="auto">Paneel onder aan het bureaublad aanpassen</h3>
+<p dir="auto">Vanuit <ins>Systeeminstellingen</ins> start je <ins>Paneel</ins>.</p>
+<p dir="auto">Het paneel kleurt roze om aan te geven dat je in bewerkingsmodus zit. De aanpassingen worden direct zichtbaar.</p>
+<p dir="auto">👉 Schuif de ‘Paneelhoogte’ naar een prettige hoogte.</p>
+
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/panel-height-nl.png"><img src="../assets/panel-height-nl.png" alt="screenshot of the dialog to adjust panel height" style="max-width: 100%;"></a></p>
+<p dir="auto">👉 Verlaat het scherm via de linkerpijl linksboven in het scherm.</p>
+<p dir="auto">De taakbalk krijgt weer zijn normale kleur, je bent terug in de normale werksituatie.</p>
+<h3 dir="auto">Onderdelen van het Linux Mint-menu</h3>
+<p dir="auto">Hier kun je de zichtbaarheid van programma’s aan- en uitzetten, ze verschijnen dan wel of niet in het menu. Als je alleen de programma’s instelt die je gebruikt, wordt het menu overzichtelijker. Let op: de pictogrammen komen ook niet meer voor in de zoekresultaten als je iets in het zoekvenster intikt.</p>
+<p dir="auto">👉 Rechtermuisklik op het Linux Mint-pictogram.</p>
+<p dir="auto">👉 Kies ‘Menu bewerken’. Je ziet nu dit scherm.</p>
+
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/customise-mint-menu-nl.png"><img src="../assets/customise-mint-menu-nl.png" alt="screenshot of the dialog to customise the Linux Mint menu" style="max-width: 100%;"></a></p>
+<p dir="auto">Je kunt de programma’s altijd weer zichtbaar maken. Dit doe je door het <ins>Hoofdmenu</ins> te openen en onder de categorie waar je je programma verwacht het vinkje van het programma weer aan te vinken. Klik hierna op ‘Sluiten’.</p>
+<h3 dir="auto">Systeeminstellingen</h3>
+<p dir="auto">De meeste instellingen van je systeem kun je eenvoudig vinden via het Linux Hoofdmenu:</p>
+<p dir="auto">👉 Open het Linux Hoofdmenu.</p>
+<p dir="auto">👉 Typ ‘Systeem’ in het zoekvenster.</p>
+<p dir="auto">👉 Klik op <ins>Systeeminstellingen</ins>.</p>
+<p dir="auto">In dit menu kun je op verschillende pictogrammen klikken om instellingen aan te passen voor scherm, geluid en netwerk.</p>
+<h3 dir="auto">Energiebeheer</h3>
+<p dir="auto">Met het programma <ins>Energiebeheer</ins> kun je drie dingen regelen.</p>
+<ul dir="auto">
+<li>Wat je laptop doet als je hem dichtklapt: in pauzestand gaan of afsluiten.</li>
+<li>Hoe de aan/uitknop zich gedraagt. Er zijn de volgende opties: de knop doet niets, het scherm wordt uitgeschakeld, de laptop gaat in slaap- of sluimerstand of het systeem wordt afgesloten.</li>
+<li>Het energiebeheer voor batterij en netvoeding. Je kunt onder andere de overgang tussen batterij en netvoeding instellen en wanneer de laptop in een energiebesparende modus gaat.</li>
+</ul></div>
 		</body></html>

@@ -110,7 +110,6 @@ From now on, updates will be performed automatically. This is visible in the bot
 
 ![screenshot of the icon for automatic updates](../assets/auto-updates.png)
 
-
 You can always force an update manually by clicking on the security shield. Some updates will only
 become active after you restart your computer. You will receive a notification when this happens.
 
