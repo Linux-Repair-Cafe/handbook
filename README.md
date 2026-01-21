@@ -4,24 +4,24 @@ Available in four languages:
 
 - English
 	- [Markdown](./markdown/en.md)
-	- [HTML](./html/en.html)
-	- [PDF](./pdf/en.pdf)
+	- [HTML](https://linux-repair-cafe.github.io/handbook/html/en.html)
+	- [PDF](https://raw.githubusercontent.com/linux-repair-cafe/handbook/refs/heads/main/pdf/en.pdf)
 - Español
 	- [Markdown](./markdown/es.md)
-	- [HTML](./html/es.html)
-	- [PDF](./pdf/es.pdf)
+	- [HTML](https://linux-repair-cafe.github.io/handbook/html/es.html)
+	- [PDF](https://raw.githubusercontent.com/linux-repair-cafe/handbook/refs/heads/main/pdf/es.pdf)
 - Français
 	- [Markdown](./markdown/fr.md)
-	- [HTML](./html/fr.html)
-	- [PDF](./pdf/fr.pdf)
+	- [HTML](https://linux-repair-cafe.github.io/handbook/html/fr.html)
+	- [PDF](https://raw.githubusercontent.com/linux-repair-cafe/handbook/refs/heads/main/pdf/fr.pdf)
 - Deutsch
 	- [Markdown](./markdown/de.md)
-	- [HTML](./html/de.html)
-	- [PDF](./pdf/de.pdf)
+	- [HTML](https://linux-repair-cafe.github.io/handbook/html/de.html)
+	- [PDF](https://raw.githubusercontent.com/linux-repair-cafe/handbook/refs/heads/main/pdf/de.pdf)
 - Nederlands
 	- [Markdown](./markdown/nl.md)
-	- [HTML](./html/nl.html)
-	- [PDF](./pdf/nl.pdf)
+	- [HTML](https://linux-repair-cafe.github.io/handbook/html/nl.html)
+	- [PDF](https://raw.githubusercontent.com/linux-repair-cafe/handbook/refs/heads/main/pdf/nl.pdf)
 
 
 ## Guide to editing
