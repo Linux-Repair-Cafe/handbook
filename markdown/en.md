@@ -338,7 +338,7 @@ To set a solid colour:
 👉 Select ' set '.
 
 <!-- TODO: localise screenshot -->
-![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-nl.png)
+![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-en.png)
 
 👉 Click on – or + to increase or decrease the size of the Linux Mint icon.
 
@@ -361,7 +361,7 @@ The panel turns pink to indicate that you are in edit mode. The changes are imme
 👉 Drag the 'Panel height' to a comfortable height.
 
 <!-- TODO: localise screenshot -->
-![screenshot of the dialog to adjust panel height](../assets/panel-height-nl.png)
+![screenshot of the dialog to adjust panel height](../assets/panel-height-en.png)
 
 👉 Exit the screen using the left arrow at the top left of the screen.
 
@@ -376,7 +376,7 @@ Here you can turn the visibility of programs on and off; they will then appear o
 👉 Select 'Edit Menu'.You now see this screen.
 
 <!-- TODO: localise screenshot -->
-![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-nl.png)
+![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-en.png)
 
 You can always make the programs visible again. To do this, open the <ins>Main Menu</ins> and check the box for the program under the category where you expect it to be. Then click on 'Close'.
 

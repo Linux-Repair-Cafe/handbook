@@ -340,7 +340,7 @@ A partir de <ins>Paramètres système</ins>, vous démarrez <ins>Fonds d’écra
 👉 Sélectionnez »Paramétrer ».
 
 <!-- TODO: localise screenshot -->
-![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-nl.png)
+![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-fr.png)
 
 👉 Cliquez sur – ou + pour agrandir ou rapetisser l'icône de Linux Mint.
 
@@ -363,7 +363,7 @@ Le panneau se colore en rose pour indiquer que vous êtes en mode édition. Ces 
 👉 Déplacez la « hauteur de panneau » à un niveau adapté.
 
 <!-- TODO: localise screenshot -->
-![screenshot of the dialog to adjust panel height](../assets/panel-height-nl.png)
+![screenshot of the dialog to adjust panel height](../assets/panel-height-fr.png)
 
 👉 Quittez l'écran à l'aide de la flèche gauche à gauche de l'écran.
 
@@ -378,7 +378,7 @@ Ici vous pouvez activer ou désactiver la visibilité des programmes, qui appara
 👉 Choisissez le « Modifier le menu ». Vous voyez maintenant cet écran.
 
 <!-- TODO: localise screenshot -->
-![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-nl.png)
+![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-fr.png)
 
 
 Vous pouvez toujours faire apparaitre les programmes. Pour ce faire, il faut ouvrir le Menuprincipal et dans la catégorie où vous attendez votre programme, cochez de nouveau la case du programme. Cliquez ensuite sur « Fermer ».

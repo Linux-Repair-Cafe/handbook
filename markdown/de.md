@@ -346,7 +346,7 @@ So legen Sie eine einfarbige Hintergrundfarbe fest:
 👉 Wählen Sie „ “ aus.
 
 <!-- TODO: localise screenshot -->
-![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-nl.png)
+![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-de.png)
 
 👉 Klicken Sie auf – oder +, um die Größe des Linux Mint-Symbols zu vergrößern oder zu verkleinern.
 
@@ -369,7 +369,7 @@ Die Leiste wird rosa, um anzuzeigen, dass Sie sich im Bearbeitungsmodus befinden
 👉 Schieben Sie die „Panelhöhe“ auf eine angenehme Höhe.
 
 <!-- TODO: localise screenshot -->
-![screenshot of the dialog to adjust panel height](../assets/panel-height-nl.png)
+![screenshot of the dialog to adjust panel height](../assets/panel-height-de.png)
 
 👉 Verlassen Sie den Bildschirm über den Pfeil oben links im Bildschirm.
 
@@ -384,7 +384,7 @@ Hier können Sie die Sichtbarkeit von Programmen ein- und ausschalten, sodass di
 👉 Wählen Sie „Menü bearbeiten”. Sie sehen nun diesen Bildschirm.
 
 <!-- TODO: localise screenshot -->
-![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-nl.png)
+![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-de.png)
 
 
 Sie können die Programme jederzeit wieder sichtbar machen. Öffnen Sie dazu das <ins>Hauptmenü</ins> und aktivieren Sie unter der Kategorie, in der Sie Ihr Programm erwarten, das Kontrollkästchen des Programms erneut. Klicken Sie anschließend auf „Schließen”.
