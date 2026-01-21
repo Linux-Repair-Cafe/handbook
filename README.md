@@ -1,4 +1,4 @@
-# Handbook for Linux Repair Cafe visitors.
+# Handbook for Linux Repair Cafe visitors
 
 Available in four languages:
 
