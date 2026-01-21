@@ -1,6 +1,8 @@
+![Linux Repair Cafe](../assets/linux-repair-cafe.png)
+
 # Comenzar Con Linux
 
-MANUAL PARA USUARIOS PRINCIPIANTES
+Manual Para Usuarios Principiantes
 
 > ¿TIRARLO? ¡NI PENSARLO! REPAIRCAFE.ORG
 

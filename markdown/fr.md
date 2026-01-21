@@ -1,3 +1,5 @@
+![Linux Repair Cafe](../assets/linux-repair-cafe.png)
+
 # Débuter Avec Linux
 
 Manuel Pour Les Utilisateurs Débutants

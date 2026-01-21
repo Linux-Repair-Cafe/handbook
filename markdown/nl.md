@@ -1,3 +1,5 @@
+![Linux Repair Cafe](../assets/linux-repair-cafe.png)
+
 # Van Start Met Linux
 
 Handleiding Voor Beginnende Gebruikers

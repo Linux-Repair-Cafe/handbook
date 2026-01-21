@@ -1,3 +1,5 @@
+![Linux Repair Cafe](../assets/linux-repair-cafe.png)
+
 # Erste Schritte Mit Linux
 
 Handbuch Für Einsteiger
