@@ -1,0 +1,1508 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+		<style>
+		.markdown-body {
+  --base-size-4: 0.25rem;
+  --base-size-8: 0.5rem;
+  --base-size-16: 1rem;
+  --base-size-24: 1.5rem;
+  --base-size-40: 2.5rem;
+  --base-text-weight-normal: 400;
+  --base-text-weight-medium: 500;
+  --base-text-weight-semibold: 600;
+  --fontStack-monospace: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  --fgColor-accent: Highlight;
+}
+@media (prefers-color-scheme: dark) {
+  .markdown-body, [data-theme="dark"] {
+    /* dark */
+    color-scheme: dark;
+    --focus-outlineColor: #1f6feb;
+    --fgColor-default: #f0f6fc;
+    --fgColor-muted: #9198a1;
+    --fgColor-accent: #4493f8;
+    --fgColor-success: #3fb950;
+    --fgColor-attention: #d29922;
+    --fgColor-danger: #f85149;
+    --fgColor-done: #ab7df8;
+    --bgColor-default: #0d1117;
+    --bgColor-muted: #151b23;
+    --bgColor-neutral-muted: #656c7633;
+    --bgColor-attention-muted: #bb800926;
+    --borderColor-default: #3d444d;
+    --borderColor-muted: #3d444db3;
+    --borderColor-neutral-muted: #3d444db3;
+    --borderColor-accent-emphasis: #1f6feb;
+    --borderColor-success-emphasis: #238636;
+    --borderColor-attention-emphasis: #9e6a03;
+    --borderColor-danger-emphasis: #da3633;
+    --borderColor-done-emphasis: #8957e5;
+    --color-prettylights-syntax-comment: #9198a1;
+    --color-prettylights-syntax-constant: #79c0ff;
+    --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+    --color-prettylights-syntax-entity: #d2a8ff;
+    --color-prettylights-syntax-storage-modifier-import: #f0f6fc;
+    --color-prettylights-syntax-entity-tag: #7ee787;
+    --color-prettylights-syntax-keyword: #ff7b72;
+    --color-prettylights-syntax-string: #a5d6ff;
+    --color-prettylights-syntax-variable: #ffa657;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
+    --color-prettylights-syntax-brackethighlighter-angle: #9198a1;
+    --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+    --color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+    --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+    --color-prettylights-syntax-carriage-return-bg: #b62324;
+    --color-prettylights-syntax-string-regexp: #7ee787;
+    --color-prettylights-syntax-markup-list: #f2cc60;
+    --color-prettylights-syntax-markup-heading: #1f6feb;
+    --color-prettylights-syntax-markup-italic: #f0f6fc;
+    --color-prettylights-syntax-markup-bold: #f0f6fc;
+    --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+    --color-prettylights-syntax-markup-deleted-bg: #67060c;
+    --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+    --color-prettylights-syntax-markup-inserted-bg: #033a16;
+    --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+    --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+    --color-prettylights-syntax-markup-ignored-text: #f0f6fc;
+    --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+    --color-prettylights-syntax-meta-diff-range: #d2a8ff;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #3d444d;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .markdown-body, [data-theme="light"] {
+    /* light */
+    color-scheme: light;
+    --focus-outlineColor: #0969da;
+    --fgColor-default: #1f2328;
+    --fgColor-muted: #59636e;
+    --fgColor-accent: #0969da;
+    --fgColor-success: #1a7f37;
+    --fgColor-attention: #9a6700;
+    --fgColor-danger: #d1242f;
+    --fgColor-done: #8250df;
+    --bgColor-default: #ffffff;
+    --bgColor-muted: #f6f8fa;
+    --bgColor-neutral-muted: #818b981f;
+    --bgColor-attention-muted: #fff8c5;
+    --borderColor-default: #d1d9e0;
+    --borderColor-muted: #d1d9e0b3;
+    --borderColor-neutral-muted: #d1d9e0b3;
+    --borderColor-accent-emphasis: #0969da;
+    --borderColor-success-emphasis: #1a7f37;
+    --borderColor-attention-emphasis: #9a6700;
+    --borderColor-danger-emphasis: #cf222e;
+    --borderColor-done-emphasis: #8250df;
+    --color-prettylights-syntax-comment: #59636e;
+    --color-prettylights-syntax-constant: #0550ae;
+    --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+    --color-prettylights-syntax-entity: #6639ba;
+    --color-prettylights-syntax-storage-modifier-import: #1f2328;
+    --color-prettylights-syntax-entity-tag: #0550ae;
+    --color-prettylights-syntax-keyword: #cf222e;
+    --color-prettylights-syntax-string: #0a3069;
+    --color-prettylights-syntax-variable: #953800;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+    --color-prettylights-syntax-brackethighlighter-angle: #59636e;
+    --color-prettylights-syntax-invalid-illegal-text: #f6f8fa;
+    --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+    --color-prettylights-syntax-carriage-return-text: #f6f8fa;
+    --color-prettylights-syntax-carriage-return-bg: #cf222e;
+    --color-prettylights-syntax-string-regexp: #116329;
+    --color-prettylights-syntax-markup-list: #3b2300;
+    --color-prettylights-syntax-markup-heading: #0550ae;
+    --color-prettylights-syntax-markup-italic: #1f2328;
+    --color-prettylights-syntax-markup-bold: #1f2328;
+    --color-prettylights-syntax-markup-deleted-text: #82071e;
+    --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+    --color-prettylights-syntax-markup-inserted-text: #116329;
+    --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+    --color-prettylights-syntax-markup-changed-text: #953800;
+    --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+    --color-prettylights-syntax-markup-ignored-text: #d1d9e0;
+    --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+    --color-prettylights-syntax-meta-diff-range: #8250df;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #818b98;
+  }
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  color: var(--fgColor-default);
+  background-color: var(--bgColor-default);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body h1:hover .anchor .octicon-link:before,
+.markdown-body h2:hover .anchor .octicon-link:before,
+.markdown-body h3:hover .anchor .octicon-link:before,
+.markdown-body h4:hover .anchor .octicon-link:before,
+.markdown-body h5:hover .anchor .octicon-link:before,
+.markdown-body h6:hover .anchor .octicon-link:before {
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  display: inline-block;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+  mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+}
+
+.markdown-body details,
+.markdown-body figcaption,
+.markdown-body figure {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body [hidden] {
+  display: none !important;
+}
+
+.markdown-body a {
+  background-color: transparent;
+  color: var(--fgColor-accent);
+  text-decoration: none;
+}
+
+.markdown-body abbr[title] {
+  border-bottom: none;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body dfn {
+  font-style: italic;
+}
+
+.markdown-body h1 {
+  margin: .67em 0;
+  font-weight: var(--base-text-weight-semibold, 600);
+  padding-bottom: .3em;
+  font-size: 2em;
+  border-bottom: 1px solid var(--borderColor-muted);
+}
+
+.markdown-body mark {
+  background-color: var(--bgColor-attention-muted);
+  color: var(--fgColor-default);
+}
+
+.markdown-body small {
+  font-size: 90%;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body sup {
+  top: -0.5em;
+}
+
+.markdown-body img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+.markdown-body figure {
+  margin: 1em var(--base-size-40);
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  overflow: hidden;
+  background: transparent;
+  border-bottom: 1px solid var(--borderColor-muted);
+  height: .25em;
+  padding: 0;
+  margin: var(--base-size-24) 0;
+  background-color: var(--borderColor-default);
+  border: 0;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body [type=button],
+.markdown-body [type=reset],
+.markdown-body [type=submit] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+
+.markdown-body [type=checkbox],
+.markdown-body [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body [type=number]::-webkit-inner-spin-button,
+.markdown-body [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.markdown-body [type=search]::-webkit-search-cancel-button,
+.markdown-body [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .54;
+}
+
+.markdown-body ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  appearance: button;
+  font: inherit;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body ::placeholder {
+  color: var(--fgColor-muted);
+  opacity: 1;
+}
+
+.markdown-body hr::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+  font-variant: tabular-nums;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body a:focus,
+.markdown-body [role=button]:focus,
+.markdown-body input[type=radio]:focus,
+.markdown-body input[type=checkbox]:focus {
+  outline: 2px solid var(--focus-outlineColor);
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.markdown-body a:focus:not(:focus-visible),
+.markdown-body [role=button]:focus:not(:focus-visible),
+.markdown-body input[type=radio]:focus:not(:focus-visible),
+.markdown-body input[type=checkbox]:focus:not(:focus-visible) {
+  outline: solid 1px transparent;
+}
+
+.markdown-body a:focus-visible,
+.markdown-body [role=button]:focus-visible,
+.markdown-body input[type=radio]:focus-visible,
+.markdown-body input[type=checkbox]:focus-visible {
+  outline: 2px solid var(--focus-outlineColor);
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.markdown-body a:not([class]):focus,
+.markdown-body a:not([class]):focus-visible,
+.markdown-body input[type=radio]:focus,
+.markdown-body input[type=radio]:focus-visible,
+.markdown-body input[type=checkbox]:focus,
+.markdown-body input[type=checkbox]:focus-visible {
+  outline-offset: 0;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: var(--base-size-4);
+  font: 11px var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace);
+  line-height: 10px;
+  color: var(--fgColor-default);
+  vertical-align: middle;
+  background-color: var(--bgColor-muted);
+  border: solid 1px var(--borderColor-neutral-muted);
+  border-bottom-color: var(--borderColor-neutral-muted);
+  border-radius: 6px;
+  box-shadow: inset 0 -1px 0 var(--borderColor-neutral-muted);
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: var(--base-size-24);
+  margin-bottom: var(--base-size-16);
+  font-weight: var(--base-text-weight-semibold, 600);
+  line-height: 1.25;
+}
+
+.markdown-body h2 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  padding-bottom: .3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid var(--borderColor-muted);
+}
+
+.markdown-body h3 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .85em;
+  color: var(--fgColor-muted);
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: var(--fgColor-muted);
+  border-left: .25em solid var(--borderColor-default);
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body tt,
+.markdown-body code,
+.markdown-body samp {
+  font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace);
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: var(--fontStack-monospace, ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace);
+  font-size: 12px;
+  word-wrap: normal;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-body input::-webkit-outer-spin-button,
+.markdown-body input::-webkit-inner-spin-button {
+  margin: 0;
+  appearance: none;
+}
+
+.markdown-body .mr-2 {
+  margin-right: var(--base-size-8, 8px) !important;
+}
+
+.markdown-body::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .absent {
+  color: var(--fgColor-danger);
+}
+
+.markdown-body .anchor {
+  float: left;
+  padding-right: var(--base-size-4);
+  margin-left: -20px;
+  line-height: 1;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body details {
+  margin-top: 0;
+  margin-bottom: var(--base-size-16);
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: var(--fgColor-default);
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 tt,
+.markdown-body h1 code,
+.markdown-body h2 tt,
+.markdown-body h2 code,
+.markdown-body h3 tt,
+.markdown-body h3 code,
+.markdown-body h4 tt,
+.markdown-body h4 code,
+.markdown-body h5 tt,
+.markdown-body h5 code,
+.markdown-body h6 tt,
+.markdown-body h6 code {
+  padding: 0 .2em;
+  font-size: inherit;
+}
+
+.markdown-body summary h1,
+.markdown-body summary h2,
+.markdown-body summary h3,
+.markdown-body summary h4,
+.markdown-body summary h5,
+.markdown-body summary h6 {
+  display: inline-block;
+}
+
+.markdown-body summary h1 .anchor,
+.markdown-body summary h2 .anchor,
+.markdown-body summary h3 .anchor,
+.markdown-body summary h4 .anchor,
+.markdown-body summary h5 .anchor,
+.markdown-body summary h6 .anchor {
+  margin-left: -40px;
+}
+
+.markdown-body summary h1,
+.markdown-body summary h2 {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.markdown-body ul.no-list,
+.markdown-body ol.no-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.markdown-body ol[type="a s"] {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body ol[type="A s"] {
+  list-style-type: upper-alpha;
+}
+
+.markdown-body ol[type="i s"] {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol[type="I s"] {
+  list-style-type: upper-roman;
+}
+
+.markdown-body ol[type="1"] {
+  list-style-type: decimal;
+}
+
+.markdown-body div>ol:not([type]) {
+  list-style-type: decimal;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: var(--base-size-16);
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: var(--base-size-16);
+  font-size: 1em;
+  font-style: italic;
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body dl dd {
+  padding: 0 var(--base-size-16);
+  margin-bottom: var(--base-size-16);
+}
+
+.markdown-body table th {
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid var(--borderColor-default);
+}
+
+.markdown-body table td>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table tr {
+  background-color: var(--bgColor-default);
+  border-top: 1px solid var(--borderColor-muted);
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: var(--bgColor-muted);
+}
+
+.markdown-body table img {
+  background-color: transparent;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body .emoji {
+  max-width: none;
+  vertical-align: text-top;
+  background-color: transparent;
+}
+
+.markdown-body span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+.markdown-body span.frame>span {
+  display: block;
+  float: left;
+  width: auto;
+  padding: 7px;
+  margin: 13px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--borderColor-default);
+}
+
+.markdown-body span.frame span img {
+  display: block;
+  float: left;
+}
+
+.markdown-body span.frame span span {
+  display: block;
+  padding: 5px 0 0;
+  clear: both;
+  color: var(--fgColor-default);
+}
+
+.markdown-body span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-center>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.markdown-body span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.markdown-body span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-right>span {
+  display: block;
+  margin: 13px 0 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+.markdown-body span.float-left {
+  display: block;
+  float: left;
+  margin-right: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-left span {
+  margin: 13px 0 0;
+}
+
+.markdown-body span.float-right {
+  display: block;
+  float: right;
+  margin-left: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-right>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body code,
+.markdown-body tt {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: var(--bgColor-neutral-muted);
+  border-radius: 6px;
+}
+
+.markdown-body code br,
+.markdown-body tt br {
+  display: none;
+}
+
+.markdown-body del code {
+  text-decoration: inherit;
+}
+
+.markdown-body samp {
+  font-size: 85%;
+}
+
+.markdown-body pre code {
+  font-size: 100%;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: var(--base-size-16);
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: var(--base-size-16);
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  color: var(--fgColor-default);
+  background-color: var(--bgColor-muted);
+  border-radius: 6px;
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body .csv-data td,
+.markdown-body .csv-data th {
+  padding: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.markdown-body .csv-data .blob-num {
+  padding: 10px var(--base-size-8) 9px;
+  text-align: right;
+  background: var(--bgColor-default);
+  border: 0;
+}
+
+.markdown-body .csv-data tr {
+  border-top: 0;
+}
+
+.markdown-body .csv-data th {
+  font-weight: var(--base-text-weight-semibold, 600);
+  background: var(--bgColor-muted);
+  border-top: 0;
+}
+
+.markdown-body [data-footnote-ref]::before {
+  content: "[";
+}
+
+.markdown-body [data-footnote-ref]::after {
+  content: "]";
+}
+
+.markdown-body .footnotes {
+  font-size: 12px;
+  color: var(--fgColor-muted);
+  border-top: 1px solid var(--borderColor-default);
+}
+
+.markdown-body .footnotes ol {
+  padding-left: var(--base-size-16);
+}
+
+.markdown-body .footnotes ol ul {
+  display: inline-block;
+  padding-left: var(--base-size-16);
+  margin-top: var(--base-size-16);
+}
+
+.markdown-body .footnotes li {
+  position: relative;
+}
+
+.markdown-body .footnotes li:target::before {
+  position: absolute;
+  top: calc(var(--base-size-8)*-1);
+  right: calc(var(--base-size-8)*-1);
+  bottom: calc(var(--base-size-8)*-1);
+  left: calc(var(--base-size-24)*-1);
+  pointer-events: none;
+  content: "";
+  border: 2px solid var(--borderColor-accent-emphasis);
+  border-radius: 6px;
+}
+
+.markdown-body .footnotes li:target {
+  color: var(--fgColor-default);
+}
+
+.markdown-body .footnotes .data-footnote-backref g-emoji {
+  font-family: monospace;
+}
+
+.markdown-body body:has(:modal) {
+  padding-right: var(--dialog-scrollgutter) !important;
+}
+
+.markdown-body .pl-c {
+  color: var(--color-prettylights-syntax-comment);
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: var(--color-prettylights-syntax-constant);
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: var(--color-prettylights-syntax-entity);
+}
+
+.markdown-body .pl-smi,
+.markdown-body .pl-s .pl-s1 {
+  color: var(--color-prettylights-syntax-storage-modifier-import);
+}
+
+.markdown-body .pl-ent {
+  color: var(--color-prettylights-syntax-entity-tag);
+}
+
+.markdown-body .pl-k {
+  color: var(--color-prettylights-syntax-keyword);
+}
+
+.markdown-body .pl-s,
+.markdown-body .pl-pds,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra {
+  color: var(--color-prettylights-syntax-string);
+}
+
+.markdown-body .pl-v,
+.markdown-body .pl-smw {
+  color: var(--color-prettylights-syntax-variable);
+}
+
+.markdown-body .pl-bu {
+  color: var(--color-prettylights-syntax-brackethighlighter-unmatched);
+}
+
+.markdown-body .pl-ii {
+  color: var(--color-prettylights-syntax-invalid-illegal-text);
+  background-color: var(--color-prettylights-syntax-invalid-illegal-bg);
+}
+
+.markdown-body .pl-c2 {
+  color: var(--color-prettylights-syntax-carriage-return-text);
+  background-color: var(--color-prettylights-syntax-carriage-return-bg);
+}
+
+.markdown-body .pl-sr .pl-cce {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-string-regexp);
+}
+
+.markdown-body .pl-ml {
+  color: var(--color-prettylights-syntax-markup-list);
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-heading);
+}
+
+.markdown-body .pl-mi {
+  font-style: italic;
+  color: var(--color-prettylights-syntax-markup-italic);
+}
+
+.markdown-body .pl-mb {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-bold);
+}
+
+.markdown-body .pl-md {
+  color: var(--color-prettylights-syntax-markup-deleted-text);
+  background-color: var(--color-prettylights-syntax-markup-deleted-bg);
+}
+
+.markdown-body .pl-mi1 {
+  color: var(--color-prettylights-syntax-markup-inserted-text);
+  background-color: var(--color-prettylights-syntax-markup-inserted-bg);
+}
+
+.markdown-body .pl-mc {
+  color: var(--color-prettylights-syntax-markup-changed-text);
+  background-color: var(--color-prettylights-syntax-markup-changed-bg);
+}
+
+.markdown-body .pl-mi2 {
+  color: var(--color-prettylights-syntax-markup-ignored-text);
+  background-color: var(--color-prettylights-syntax-markup-ignored-bg);
+}
+
+.markdown-body .pl-mdr {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-meta-diff-range);
+}
+
+.markdown-body .pl-ba {
+  color: var(--color-prettylights-syntax-brackethighlighter-angle);
+}
+
+.markdown-body .pl-sg {
+  color: var(--color-prettylights-syntax-sublimelinter-gutter-mark);
+}
+
+.markdown-body .pl-corl {
+  text-decoration: underline;
+  color: var(--color-prettylights-syntax-constant-other-reference-link);
+}
+
+.markdown-body [role=button]:focus:not(:focus-visible),
+.markdown-body [role=tabpanel][tabindex="0"]:focus:not(:focus-visible),
+.markdown-body button:focus:not(:focus-visible),
+.markdown-body summary:focus:not(:focus-visible),
+.markdown-body a:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.markdown-body [tabindex="0"]:focus:not(:focus-visible),
+.markdown-body details-dialog:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.markdown-body g-emoji {
+  display: inline-block;
+  min-width: 1ch;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1em;
+  font-style: normal !important;
+  font-weight: var(--base-text-weight-normal, 400);
+  line-height: 1;
+  vertical-align: -0.075em;
+}
+
+.markdown-body g-emoji img {
+  width: 1em;
+  height: 1em;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item label {
+  font-weight: var(--base-text-weight-normal, 400);
+}
+
+.markdown-body .task-list-item.enabled label {
+  cursor: pointer;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: var(--base-size-4);
+}
+
+.markdown-body .task-list-item .handle {
+  display: none;
+}
+
+.markdown-body .task-list-item-checkbox {
+  margin: 0 .2em .25em -1.4em;
+  vertical-align: middle;
+}
+
+.markdown-body ul:dir(rtl) .task-list-item-checkbox {
+  margin: 0 -1.6em .25em .2em;
+}
+
+.markdown-body ol:dir(rtl) .task-list-item-checkbox {
+  margin: 0 -1.6em .25em .2em;
+}
+
+.markdown-body .contains-task-list:hover .task-list-item-convert-container,
+.markdown-body .contains-task-list:focus-within .task-list-item-convert-container {
+  display: block;
+  width: auto;
+  height: 24px;
+  overflow: visible;
+  clip: auto;
+}
+
+.markdown-body ::-webkit-calendar-picker-indicator {
+  filter: invert(50%);
+}
+
+.markdown-body .markdown-alert {
+  padding: var(--base-size-8) var(--base-size-16);
+  margin-bottom: var(--base-size-16);
+  color: inherit;
+  border-left: .25em solid var(--borderColor-default);
+}
+
+.markdown-body .markdown-alert>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body .markdown-alert>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body .markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: var(--base-text-weight-medium, 500);
+  align-items: center;
+  line-height: 1;
+}
+
+.markdown-body .markdown-alert.markdown-alert-note {
+  border-left-color: var(--borderColor-accent-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--fgColor-accent);
+}
+
+.markdown-body .markdown-alert.markdown-alert-important {
+  border-left-color: var(--borderColor-done-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--fgColor-done);
+}
+
+.markdown-body .markdown-alert.markdown-alert-warning {
+  border-left-color: var(--borderColor-attention-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--fgColor-attention);
+}
+
+.markdown-body .markdown-alert.markdown-alert-tip {
+  border-left-color: var(--borderColor-success-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--fgColor-success);
+}
+
+.markdown-body .markdown-alert.markdown-alert-caution {
+  border-left-color: var(--borderColor-danger-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--fgColor-danger);
+}
+
+.markdown-body>*:first-child>.heading-element:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .highlight pre:has(+.zeroclipboard-container) {
+  min-height: 52px;
+}
+
+
+		@media print {
+			.markdown-body {
+				width: 980px;
+			}
+		}
+		.markdown-body {
+			box-sizing: border-box;
+			min-width: 200px;
+			max-width: 980px;
+			margin: 0 auto;
+			padding: 15px;
+		}
+		@media (prefers-color-scheme: dark) {
+			html {
+				background: black;
+				color: white;
+			}
+		}
+		</style>
+		</head><body>
+		<div class="markdown-body"><h1 dir="auto">Erste Schritte Mit Linux</h1>
+<p dir="auto">Handbuch Für Einsteiger</p>
+<blockquote>
+<p dir="auto">WEGWERFEN? DENKSTE! REPAIRCAFE.ORG</p>
+</blockquote>
+<p dir="auto">Adaptiert von: <a href="https://www.repaircafe.org/de/repair-cafe-linux/" rel="nofollow">https://www.repaircafe.org/de/repair-cafe-linux/</a></p>
+<p dir="auto"><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/3d22dfd9c30b86dbc3e8c5267df57d5626f274c5235c71be1906587e23e6b697/68747470733a2f2f6c6963656e7365627574746f6e732e6e65742f6c2f62792d6e632d73612f342e302f38387833312e706e67" alt="CC BY-NC-SA 4.0" data-canonical-src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" style="max-width: 100%;"></a></p>
+<h2 dir="auto">EINFÜHRUNG</h2>
+<p dir="auto">Herzlichen Glückwunsch zu Ihrem neuen Linux-Betriebssystem! Ihr Laptop hält nun länger, Sie sind weniger abhängig von kommerziellen Unternehmen und Ihre Privatsphäre ist besser geschützt.</p>
+<p dir="auto">Dieses Dokument hilft Ihnen, sich in Linux Mint zurechtzufinden. Es unterstützt Sie beim Abschluss der Installation, bei der Anpassung des Erscheinungsbilds und bei der Beantwortung der ersten Fragen, die Sie möglicherweise haben. Etwa die Hälfte des Inhalts befasst sich mit Themen, die Sie nur einmal einrichten müssen. Wir hoffen, dass Sie damit einen reibungslosen Start mit Ihrem „neuen” Linux-Computer haben.</p>
+<p dir="auto">Das Layout dieses Dokuments dient als Lesehilfe:</p>
+<ul dir="auto">
+<li>Die Namen der Programme sehen wie folgt aus: <ins>Stromverwaltung</ins>.</li>
+</ul>
+<p dir="auto">👉 Ein Zeigefinger vor dem Wort „ ” (Text) weist darauf hin, dass Sie Aktionen am Computer<br>
+ausführen werden.</p>
+<p dir="auto">Vielleicht haben Sie noch nie mit Linux gearbeitet. Keine Sorge, Sie sind nicht auf sich allein gestellt. Im Internet finden Sie unglaublich viele Informationen über dieses Betriebssystem. Wenn Sie eine Frage haben, ist die Wahrscheinlichkeit groß, dass jemand anderes diese Frage bereits gestellt hat – und eine Antwort erhalten hat. Wenn Sie eine Frage in einem Forum stellen, hilft Ihnen in der Regel innerhalb eines Tages jemand weiter.</p>
+<p dir="auto">Nachfolgend finden Sie eine Reihe zuverlässiger, häufig genutzter Websites und Foren:</p>
+<p dir="auto">Deutschsprachige Quellen</p>
+<ul dir="auto">
+<li><a href="https://www.linuxmintusers.de/" rel="nofollow">Das Hilfe-Forum für Linux Mint</a></li>
+<li><a href="https://www.reddit.com/r/linuxmint/" rel="nofollow">Linux Mint Reddit</a></li>
+<li><a href="https://www.reddit.com/r/linuxdeutschland/" rel="nofollow">Linux Deutschland Reddit</a></li>
+</ul>
+<p dir="auto">Englischsprachige Quellen (verwenden Sie die Übersetzungsfunktion von Firefox, wenn Sie<br>
+Schwierigkeiten mit Englisch haben).</p>
+<ul dir="auto">
+<li><a href="https://forums.linuxmint.com/" rel="nofollow">Linux Mint Forum</a></li>
+<li><a href="https://askubuntu.com/" rel="nofollow">Ubuntu Fragen &amp; Antworten</a> – Linux Mint basiert auf Ubuntu. Viele Ubuntu-Lösungen können auch unter Linux verwendet werden.</li>
+<li><a href="https://ask.libreoffice.org/c/english/5" rel="nofollow">LibreOffice-Forum</a></li>
+</ul>
+<p dir="auto">Videomaterial:</p>
+<ul dir="auto">
+<li><a href="https://www.youtube.com/" rel="nofollow">YouTube</a> – suchen Sie nach bestimmten Themen, z. B. „Linux Mint einrichten”</li>
+</ul>
+<p dir="auto">Ein Suchtipp für das Internet: Beginnen Sie Ihre Suche mit: „Linux Mint + [geben Sie hier das Thema ein]”. Zum Beispiel: „Linux Mint + Passwort ändern”. So vermeiden Sie Suchergebnisse für andere Betriebssysteme.</p>
+<h2 dir="auto">Erstes Mal Starten</h2>
+<p dir="auto">Linux Mint ist auf Ihrem Computer installiert, als käme er frisch aus dem Laden. Nach dem ersten Start sind noch einige Schritte erforderlich, um Ihr neues System einsatzbereit zu machen. Diese werden Sie nun durchführen. Es ist auch ratsam, einige notwendige Ergänzungen sofort zu installieren, wie Updates.</p>
+<p dir="auto">In diesem Kapitel gehen wir alle Schritte der Reihe nach mit Ihnen durch. Viele dieser Schritte müssen nur einmal durchgeführt werden. Wenn Sie sie richtig ausführen, werden Sie später davon profitieren. Nach diesen Schritten ist Ihr System einsatzbereit.</p>
+<p dir="auto">Folgen Sie den Schritten in Ruhe und in Ihrem eigenen Tempo – Sie sind fast bereit, mit Linux zu arbeiten!</p>
+<h3 dir="auto">Abschluss der Installation</h3>
+<p dir="auto">Wenn Sie den Computer zum ersten Mal starten, müssen Sie einige Schritte durchführen, um Ihr System einsatzbereit zu machen:</p>
+<ul dir="auto">
+<li>
+<p dir="auto">Spracheinstellung. Wählen Sie die Sprache, in der das System mit Ihnen kommunizieren soll. Wählen Sie die Sprache, die Ihnen am vertrautesten ist. Sie können diese Auswahl später jederzeit ändern.</p>
+</li>
+<li>
+<p dir="auto">Tastaturlayout. Wählen Sie die Tastatur, die Ihrer Tastatur entspricht.</p>
+</li>
+<li>
+<p dir="auto">WLAN-Netzwerk. Wenn Ihr Computer nicht über ein Netzwerkkabel verbunden ist, wird er Sie nach dem WLAN-Passwort fragen. Geben Sie das Passwort Ihres Routers ein.</p>
+</li>
+<li>
+<p dir="auto">Standort. Bestätigen Sie den Standardstandort oder wählen Sie manuell ein anderes Land oder eine andere Region aus.</p>
+</li>
+<li>
+<p dir="auto">Benutzername (Kontoname). Dieser Name wird auch für Ihren persönlichen Ordner verwendet<br>
+(z. B. /home/IhrName). Wählen Sie einen kurzen, eindeutigen Benutzernamen, der aus folgenden Zeichen besteht:</p>
+</li>
+<li>
+<p dir="auto">Nur Kleinbuchstaben</p>
+</li>
+<li>
+<p dir="auto">Keine Leerzeichen oder Satzzeichen</p>
+</li>
+<li>
+<p dir="auto">Einem Wort, das für Sie erkennbar ist</p>
+</li>
+<li>
+<p dir="auto">Passwort. Da Sie auch Administrator Ihres Systems sind, wählen Sie ein sicheres Passwort mit mindestens acht Zeichen und ausreichender Variation (Zahlen, Großbuchstaben, Symbole). Wählen Sie ein Passwort, das Sie sich auch merken können. Teilen Sie es jemandem mit, dem Sie vertrauen, oder<br>
+schreiben Sie es auf.</p>
+</li>
+<li>
+<p dir="auto">Automatische Anmeldung. Wenn Sie diese Option auswählen, müssen Sie beim Start Ihr Passwort nicht eingeben. Wir raten davon ab, da Ihr Computer dann für andere direkt zugänglich ist.</p>
+</li>
+<li>
+<p dir="auto">Verschlüsselung Ihres persönlichen Ordners „ ”. Wir empfehlen, diese Option zu aktivieren. Ihre Daten werden dann verschlüsselt gespeichert, was zusätzlichen Schutz bei Verlust oder Diebstahl Ihres Computers bietet. Diese Maßnahme ist in einigen Situationen (z. B. bei Verwaltungsarbeiten für Vereine) aufgrund der Datenschutzgesetze sogar vorgeschrieben. Für die Verschlüsselung benötigen Sie kein zusätzliches Passwort.</p>
+<blockquote>
+<p dir="auto">[!CAUTION]<br>
+Bei der Verschlüsselung werden Ihre Daten wirklich verschlüsselt. Wenn Sie das Passwort verlieren, können Sie die Dateien nicht mehr wiederherstellen. Es gibt keinen Zaubertrick, um sie zurückzuholen. Daher der Tipp, ein Passwort zu wählen, das Sie sich merken können, und es aufzuschreiben oder jemandem mitzuteilen, dem Sie vertrauen.</p>
+</blockquote>
+</li>
+</ul>
+<h3 dir="auto">Updates installieren</h3>
+<p dir="auto">Die auf Ihrem Computer installierte Version von Linux Mint ist eine Momentaufnahme. Seitdem sind wahrscheinlich neue Updates verfügbar geworden. Kleine Updates gibt es etwa alle sechs Monate, große Updates in der Regel alle zwei Jahre. Es ist ratsam, diese Updates sofort zu installieren, bevor Sie mit der Erkundung Ihres Computers fortfahren.</p>
+<p dir="auto">👉 Klicken Sie auf das Sicherheitssymbol mit dem roten Punkt in der Leiste.</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/tray.png"><img src="../assets/tray.png" alt="screenshot of the task bar tray icons" style="max-width: 100%;"></a></p>
+<p dir="auto">Der Bildschirm <ins>„Aktualisierungsverwaltung“</ins> wird geöffnet.</p>
+<p dir="auto">👉 Klicken Sie auf „OK“.</p>
+<p dir="auto">Sie sehen wieder den Bildschirm <ins>„Aktualisierungsverwaltung“</ins>.</p>
+<p dir="auto">👉 Klicken Sie oben auf „Aktualisieren“.</p>
+<p dir="auto">Möglicherweise wird eine Meldung angezeigt, dass eine neue Version von <ins>Aktualisierungsverwaltung</ins> verfügbar ist. In diesem Fall:</p>
+<p dir="auto">👉 Klicken Sie auf „Aktualisierung durchführen“.</p>
+<p dir="auto">👉 Geben Sie das Passwort ein.</p>
+<p dir="auto">Die Aktualisierung von <ins>Update Manager</ins> selbst wird nun installiert. Sobald diese abgeschlossen ist:</p>
+<p dir="auto">👉 Klicken Sie oben auf „Aktualisierung installieren”.</p>
+<p dir="auto">Die Updates werden heruntergeladen und installiert. Dies kann beim ersten Mal bis zu einer halben Stunde dauern, je nach Ihrer Internetverbindung. Warten Sie bitte geduldig.</p>
+<p dir="auto">👉 Schließen Sie den Bildschirm <ins>„Aktualisierungsverwaltung“</ins>.</p>
+<p dir="auto">Von nun an werden Updates automatisch durchgeführt. Dies wird in der unteren Taskleiste am<br>
+Zahnrad-Symbol angezeigt.</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/auto-updates.png"><img src="../assets/auto-updates.png" alt="screenshot of the icon for automatic updates" style="max-width: 100%;"></a></p>
+<p dir="auto">Sie können jederzeit manuell ein Update erzwingen, indem Sie auf das Sicherheitssymbol klicken. Einige Updates werden übrigens erst nach einem Neustart Ihres Computers aktiv. Sie erhalten dazu eine Benachrichtigung.</p>
+<h2 dir="auto">Programme Verwenden</h2>
+<p dir="auto">Nachdem Sie die Installation abgeschlossen und die neuesten Updates installiert haben, ist Ihr Computer einsatzbereit. Die folgenden Kapitel helfen Ihnen dabei, sich mit Linux vertraut zu machen. In diesem Kapitel geht es um die Verwendung von Programmen.</p>
+<h3 dir="auto">Programme öffnen</h3>
+<p dir="auto">Programme können Sie ganz einfach über das Menü von Linux Mint öffnen. So geht's:</p>
+<p dir="auto">👉 Klicken Sie auf das Linux Mint-Symbol unten links auf dem Bildschirm oder auf die Windows-Taste auf Ihrer Tastatur.</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/linux-mint-menu.png"><img src="../assets/linux-mint-menu.png" alt="Linux Mint menu button icon" style="max-width: 100%;"></a></p>
+<p dir="auto">Klicken Sie auf das Programm, das Sie öffnen möchten.</p>
+<p dir="auto">Beispiel: Menü &gt; Einstellungen &gt; Ton</p>
+<h3 dir="auto">Anpassen der Größe</h3>
+<p dir="auto">Sie können das Menü vergrößern oder verkleinern, indem Sie an den Rändern ziehen.</p>
+<h3 dir="auto">Nach einem Programm suchen</h3>
+<p dir="auto">Oben im Menü befindet sich ein Suchfeld.</p>
+<p dir="auto">👉 Geben Sie einen allgemeinen Begriff ein, z. B. „Text“, „E-Mail“, „Internet“, „Video“, „Drucken“, „Maus“, „Player“, „Rechnen“ usw.</p>
+<p dir="auto">Das Menü zeigt alle Programme an, die mit dem von Ihnen eingegebenen Begriff zu tun haben. Sie kennen den Namen des Programms bereits? Geben Sie ihn dann direkt ein.</p>
+<h3 dir="auto">Programme starten</h3>
+<p dir="auto">👉 Klicken Sie auf den Namen des Programms, um es zu starten.</p>
+<h3 dir="auto">Verknüpfung auf dem Desktop erstellen</h3>
+<p dir="auto">👉 Klicken Sie mit der rechten Maustaste auf das Programm im Menü.</p>
+<p dir="auto">👉 Wählen Sie „Zur Arbeitsfläche hinzufügen”, um die Verknüpfung zu erstellen.</p>
+<h3 dir="auto">Durch Kategorien blättern</h3>
+<p dir="auto">👉 Klicken Sie auf eine Kategorie in der linken Spalte des Menüs.</p>
+<p dir="auto">In der rechten Spalte werden alle zugehörigen Programme angezeigt.</p>
+<p dir="auto">👉 Klicken Sie auf ein Programm, um es zu starten.</p>
+<h2 dir="auto">E-Mail Einrichten</h2>
+<p dir="auto">Um E-Mail einzurichten, benötigen Sie den Benutzernamen und das Passwort Ihres E-Mail-Kontos sowie ein E-Mail-Programm. Linux Mint wird mit dem E-Mail-Programm <ins>Thunderbird</ins> ausgeliefert.</p>
+<p dir="auto">👉 Starten Sie <ins>Thunderbird</ins> über das Menü.</p>
+<p dir="auto">👉 Beantworten Sie die angezeigten Fragen.</p>
+<p dir="auto"><ins>Thunderbird</ins> ruft im Hintergrund automatisch einige E-Mail-Einstellungen ab.</p>
+<p dir="auto">Wenn alles korrekt eingegeben wurde, haben Sie schnell Zugriff auf Ihre Mailbox.</p>
+<p dir="auto">Kommen Sie nicht weiter? Lesen Sie die Anleitung zur automatischen Konfiguration von Konten auf der <a href="https://support.mozilla.org/de/kb/neue-e-mail-adresse" rel="nofollow">Website von Mozilla</a>.</p>
+<h3 dir="auto">Thunderbird-Profil von einem anderen Computer übertragen</h3>
+<p dir="auto">Haben Sie <ins>Thunderbird</ins> zuvor auf einem anderen Computer verwendet? Dann können Sie Ihre E-Mail-Einstellungen, Nachrichten und Ordner übertragen, indem Sie das Profil übertragen. Dazu müssen Sie Ihren Profilordner in Linux sichtbar machen. Das geht so:</p>
+<p dir="auto">👉 Öffnen Sie <ins>„Nemo”</ins> (zweites Symbol von links im Panel).</p>
+<p dir="auto">Sie sehen nun Ihren persönlichen Ordner.</p>
+<p dir="auto">👉 Drücken Sie Strg + H, um versteckte Dateien anzuzeigen.</p>
+<p dir="auto">Suchen Sie den Ordner Thunderbird. Darin sind Ihre Profile gespeichert.</p>
+<p dir="auto">Verwenden Sie diesen Ordner, um Daten von Ihrem alten System zu übertragen, wie in der Anleitung auf der <a href="https://support.mozilla.org/de" rel="nofollow">Mozilla-Website</a> beschrieben: .</p>
+<h2 dir="auto">Dateien Verwalten</h2>
+<p dir="auto">In Linux Mint verwenden Sie das Programm <ins>„Dateien”</ins> (auch <ins>Nemo</ins> genannt), um Ordner und Dateien zu öffnen, zu suchen und zu verwalten.</p>
+<h3 dir="auto">Dateien öffnen und suchen</h3>
+<p dir="auto">Öffnen:</p>
+<p dir="auto">Start <ins>Dateien</ins></p>
+<p dir="auto">👉 Klicken Sie auf das zweite Symbol von links in der Taskleiste am unteren Bildschirmrand.</p>
+<p dir="auto">Suchen:</p>
+<p dir="auto">👉 Klicken Sie auf die Lupe oben rechts, um das Suchfenster zu öffnen.</p>
+<p dir="auto">👉 Geben Sie den Dateinamen (oder einen Teil davon) ein.</p>
+<p dir="auto">Die Suche unterscheidet nicht zwischen Groß- und Kleinschreibung – das Symbol Aa zeigt dies an. Standardmäßig durchsucht das Programm auch Unterordner. Der L-förmige Pfeil nach rechts zeigt dies an.</p>
+<h3 dir="auto">Dateien löschen</h3>
+<p dir="auto">Löschen Sie eine Datei über das Kontextmenü oder die Entf-Taste? Dann wird sie zunächst in den Papierkorb verschoben. Wenn Sie sie auch aus dem Papierkorb löschen, ist die Datei endgültig entfernt. Im Gegensatz zu Windows gibt es unter Linux keine einfachen Programme, um gelöschte Dateien wiederherzustellen.</p>
+<h3 dir="auto">Möchten Sie mehr über das Programm <ins>„Nemo”</ins> erfahren?</h3>
+<p dir="auto">Lesen Sie die ausführliche Erklärung unter:</p>
+<p dir="auto"><a href="https://community.linuxmint.com/software/view/nemo" rel="nofollow">https://community.linuxmint.com/software/view/nemo</a></p>
+<h2 dir="auto">Programme Installieren Und Deinstallieren</h2>
+<p dir="auto">Mit ein paar einfachen Schritten können Sie in Linux Mint neue Programme installieren oder vorhandene Software entfernen. Dies geschieht über die <ins>Softwareverwaltung</ins>. Wir erklären Ihnen Schritt für Schritt, wie das geht.</p>
+<h3 dir="auto">Ein Programm installieren</h3>
+<p dir="auto">👉 Drücken Sie die Windows-Taste oder klicken Sie unten links auf das Menü.</p>
+<p dir="auto">👉 Geben Sie „soft” in das Suchfeld ein.</p>
+<p dir="auto">👉 Klicken Sie in der Ergebnisliste auf <ins>„Softwareverwaltung”</ins>.</p>
+<p dir="auto">Das Programm öffnet sich mit der Meldung: „Wird geladen, bitte warten Sie einen Moment.” Warten Sie, bis der Inhalt vollständig geladen ist und Sie Ihre Programme sehen können.</p>
+<p dir="auto">👉 Geben Sie „screen“ in das Suchfeld der <ins>Programmausführung</ins> ein.</p>
+<p dir="auto">Sie erhalten nun eine Übersicht aller Programme, die etwas mit „screen“ zu tun haben. Suchen Sie in der Liste nach <ins>„Simple Screen Recorder“</ins>. Dieses Programm erstellt eine Videoaufzeichnung Ihres Desktops, während Sie arbeiten.</p>
+<p dir="auto">👉 Klicken Sie auf den Namen, um das Programm zu öffnen.</p>
+<p dir="auto">👉 Klicken Sie auf die Schaltfläche „Installieren“, um das Programm zu installieren.</p>
+<p dir="auto">Möglicherweise werden Sie aufgefordert, das Passwort einzugeben.</p>
+<p dir="auto">Nach der Installation ist das Programm über das Menü verfügbar.</p>
+<p dir="auto">Sobald Sie in der <ins>Softwareverwaltung</ins> auf ein Programm klicken, öffnet sich ein Übersichtsfenster mit weiteren Informationen. Oben rechts sehen Sie die Schaltfläche „Installieren“ (oder „Deinstallieren“, wenn das Programm bereits installiert ist).</p>
+<h3 dir="auto">Ein Programm entfernen</h3>
+<p dir="auto">👉 Öffnen Sie die <ins>Programmausführung</ins>.</p>
+<p dir="auto">Suchen Sie das Programm wie bei der Installation.</p>
+<p dir="auto">Anstelle der Überschrift „Installieren” sehen Sie nun die Schaltfläche „Deinstallieren”.</p>
+<p dir="auto">👉 Klicken Sie auf „Deinstallieren“. Das Programm wird von Ihrem System entfernt.</p>
+<h2 dir="auto">Häufig Verwendete Anwendungen</h2>
+<p dir="auto">Ihr Computer ist nun einsatzbereit. Zeit, ihn für alltägliche Aufgaben zu nutzen. Mit unseren verständlichen Erklärungen und praktischen Tipps helfen wir Ihnen, das Beste aus Ihrem Linux-System herauszuholen.</p>
+<h3 dir="auto">OneDrive-Speicher</h3>
+<p dir="auto">Mit den Programmen <ins>OneDrive</ins> oder <ins>Rclone</ins> können Sie Ihren OneDrive-Cloudspeicher mit Ihrem Linux-Computer verbinden. Installieren Sie das Programm über die Softwareverwaltung.</p>
+<p dir="auto">Weitere Informationen zur Verwendung von <ins>OneDrive</ins> finden Sie auf <a href="https://forums.linuxmint.com/viewtopic.php?t=437801" rel="nofollow">dieser Seite</a>.</p>
+<h3 dir="auto">Teilnahme an Teams- oder Zoom-Meetings</h3>
+<p dir="auto">Wir empfehlen, das Meeting über den <ins>Firefox</ins>-Browser zu verfolgen oder eine App auf Ihrem Smartphone oder Tablet zu installieren. Um Microsoft Teams oder Zoom in der <ins>Softwareverwaltung</ins> zu installieren, aktivieren Sie im Software-Store „nicht verifizierte Flatpaks“. Informieren Sie sich in den <a href="https://forums.linuxmint.com/viewtopic.php?t=421334" rel="nofollow">Linux Mint-Foren</a> über die Sicherheitsaspekte.</p>
+<h3 dir="auto">Ein E-Book lesen</h3>
+<p dir="auto">Es gibt verschiedene Reader, die installiert werden können, zum Beispiel <ins>FBReader</ins>. Erkundigen Sie sich bei Ihrer örtlichen Bibliothek, ob das Lesegerät kompatibel ist.</p>
+<h3 dir="auto">Eine DVD abspielen</h3>
+<p dir="auto">Verwenden Sie den <ins>VLC Media Player</ins>, wenn Sie eine DVD abspielen möchten. Installieren Sie den <ins>VLC Media Player</ins> gemäß den Schritten im Kapitel „Programme installieren und entfernen“.</p>
+<h3 dir="auto">Das Touchpad verwenden</h3>
+<p dir="auto">Streichen Sie mit zwei Fingern gleichzeitig über das Touchpad. Mit der Seite oder Unterseite des Touchpads können Sie nicht scrollen.</p>
+<h3 dir="auto">Mehrere Bildschirme: Videos auf einem Fernseher oder Beamer ansehen</h3>
+<p dir="auto">Verbinden Sie Ihren Computer mit einem HDMI-Kabel mit dem Fernseher. Stellen Sie die Quelle des Fernsehers auf den richtigen HDMI-Eingang ein. Linux findet dann den Fernsehbildschirm und kopiert ihn auf Ihren Laptop-Bildschirm.</p>
+<p dir="auto">Der Ton des Laptops wird ebenfalls automatisch an den HDMI-Ausgang weitergeleitet. Wenn Sie dies nicht wünschen, können Sie ihn an die Lautsprecher des Computers senden. Gehen Sie dazu wie folgt vor:</p>
+<p dir="auto">👉 Drücken Sie die Windows-Taste.</p>
+<p dir="auto">👉 Suchen Sie das Programm <ins>„Sound”</ins> und starten Sie es durch Anklicken.</p>
+<p dir="auto">👉 Gehen Sie zur Registerkarte „Ausgabe“.</p>
+<p dir="auto">👉 Klicken Sie auf „Integrierte Lautsprecher“.</p>
+<p dir="auto">Wenn der Fernsehbildschirm eine Erweiterung des Laptopbildschirms sein soll, gehen Sie wie folgt vor:</p>
+<p dir="auto">👉 Drücken Sie die Windows-Taste.</p>
+<p dir="auto">👉 Suchen Sie das Programm <ins>„Bildschirm“</ins>.</p>
+<p dir="auto">👉 Klicken Sie darauf.</p>
+<p dir="auto">👉 Klicken Sie auf „Bildschirme zusammenführen”.</p>
+<p dir="auto">👉 Klicken Sie auf Bildschirm zwei und ziehen Sie ihn an die gewünschte Stelle relativ zum Laptopbildschirm.</p>
+<p dir="auto">👉 Klicken Sie auf „Übernehmen“.</p>
+<p dir="auto">👉 Schließen Sie <ins>„Bildschirm“</ins>.</p>
+<h3 dir="auto">Einen Drucker anschließen</h3>
+<p dir="auto">Sie können einen Drucker über ein Kabel oder über WLAN anschließen. Ein Kabel schließen Sie direkt an den Computer an; über WLAN stellen Sie sicher, dass der Computer und der Drucker mit demselben Netzwerk verbunden sind. Die meisten Drucker werden automatisch erkannt, sobald Sie sie mit dem Netzwerk verbinden. Über das Menü „Drucker” können Sie ganz einfach einen neuen Drucker hinzufügen.</p>
+<p dir="auto">Oft wählt Mint selbst den richtigen Treiber aus. Für Marken wie HP, Canon oder Epson sind manchmal zusätzliche Treiber erforderlich. Diese können Sie über die <ins>Softwareverwaltung</ins> oder die Website des Herstellers installieren. Sobald der Drucker hinzugefügt wurde, können Sie sofort drucken.</p>
+<h2 dir="auto">Einstellungen Anpassen</h2>
+<p dir="auto">In Linux Mint können Sie viele Einstellungen nach Ihrem Geschmack vornehmen: von Schriftarten und Symbolgrößen bis hin zu Hintergründen, Farben und dem Panel. Diese Anpassungen dienen nicht nur dazu, Ihre Arbeitsumgebung ansprechender zu gestalten. Sie machen sie auch benutzerfreundlicher: Wenn Sie beispielsweise schlechter sehen, können Sie die Standardschriftgröße vergrößern. Befolgen Sie die Schritte und passen Sie Ihr System nach Ihrem Geschmack und Ihren Bedürfnissen an.</p>
+<h3 dir="auto">Anzeige und Schriftarten</h3>
+<h3 dir="auto">Schriftgröße von Fenstern</h3>
+<p dir="auto">Gehen Sie über die <ins>Systemeinstellungen</ins> zum Abschnitt <ins>„Schriftarten“</ins>, um die Darstellung von Text in Fenstern anzupassen. Durch Vergrößern der Standardschriftart wird die Lesbarkeit für Sehbehinderte erheblich verbessert. Bitte beachten Sie: Das Anpassen der Dokumentschriftart hat in der Regel nur geringe Auswirkungen, da viele Programme ihre eigenen Einstellungen für Schriftart und -größe<br>
+verwenden.</p>
+<h3 dir="auto">Desktop-Hintergrund</h3>
+<p dir="auto">Starten Sie <ins>„Hintergründe“</ins> über die <ins>Systemeinstellungen</ins>. Probieren Sie einfach ein paar Dinge aus.</p>
+<p dir="auto">So legen Sie eine einfarbige Hintergrundfarbe fest:</p>
+<p dir="auto">👉 Klicken Sie auf die Registerkarte „Einstellungen”.</p>
+<p dir="auto">👉 Klicken Sie auf „Kein Bild“.</p>
+<p dir="auto">👉 Verwenden Sie das Farbsymbol, um eine Farbe auszuwählen.</p>
+<p dir="auto">👉 Wählen Sie „Einfarbige Farbe“ oder „Farbverlauf horizontal/vertikal“ für einen zusätzlichen Effekt.</p>
+<h3 dir="auto">Symbole im Linux Mint-Menü vergrößern</h3>
+<p dir="auto">👉 Klicken Sie mit der rechten Maustaste auf das Linux Mint-Symbol.</p>
+<p dir="auto">👉 Wählen Sie „ “ aus.</p>
+
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/enlarge-icons-nl.png"><img src="../assets/enlarge-icons-nl.png" alt="screenshot of the dialog to enlarge icons" style="max-width: 100%;"></a></p>
+<p dir="auto">👉 Klicken Sie auf – oder +, um die Größe des Linux Mint-Symbols zu vergrößern oder zu verkleinern.</p>
+<h3 dir="auto">Desktop und Taskleiste</h3>
+<h3 dir="auto">Symbole auf dem Desktop einrichten</h3>
+<p dir="auto">Möchten Sie Symbole wie den Papierkorb oder den Computer auf Ihrem Desktop platzieren? Diese fungieren als Schnellzugriffstasten.</p>
+<p dir="auto">Gehen Sie zu <ins>Systemeinstellungen</ins>, starten Sie <ins>Desktop</ins> und aktivieren Sie die gewünschten Optionen.</p>
+<p dir="auto">Wenn Sie auf das Symbol „Computer“ klicken, öffnet sich ein Fenster, in dem Sie die verschiedenen Laufwerke, angeschlossenen Geräte und manchmal auch Netzwerkressourcen sehen können. Dies ist vergleichbar mit „Dieser PC“ oder „Arbeitsplatz“ in Windows.</p>
+<h3 dir="auto">Anpassen der Leiste am unteren Rand des Desktops</h3>
+<p dir="auto">Starten Sie die <ins>Systemeinstellungen</ins> über „Systemeinstellungen“.</p>
+<p dir="auto">Die Leiste wird rosa, um anzuzeigen, dass Sie sich im Bearbeitungsmodus befinden. Die Anpassungen werden sofort sichtbar.</p>
+<p dir="auto">👉 Schieben Sie die „Panelhöhe“ auf eine angenehme Höhe.</p>
+
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/panel-height-nl.png"><img src="../assets/panel-height-nl.png" alt="screenshot of the dialog to adjust panel height" style="max-width: 100%;"></a></p>
+<p dir="auto">👉 Verlassen Sie den Bildschirm über den Pfeil oben links im Bildschirm.</p>
+<p dir="auto">Die Taskleiste erhält wieder ihre normale Farbe, Sie befinden sich wieder im normalen Arbeitsmodus.</p>
+<h3 dir="auto">Bestandteile des Linux Mint-Menüs</h3>
+<p dir="auto">Hier können Sie die Sichtbarkeit von Programmen ein- und ausschalten, sodass diese im Menü angezeigt werden oder nicht. Wenn Sie nur die Programme einstellen, die Sie verwenden, wird das Menü übersichtlicher. Beachten Sie: Die Symbole werden auch nicht mehr in den Suchergebnissen angezeigt, wenn Sie etwas in das Suchfeld eingeben.</p>
+<p dir="auto">👉 Klicken Sie mit der rechten Maustaste auf das Linux Mint-Symbol.</p>
+<p dir="auto">👉 Wählen Sie „Menü bearbeiten”. Sie sehen nun diesen Bildschirm.</p>
+
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/customise-mint-menu-nl.png"><img src="../assets/customise-mint-menu-nl.png" alt="screenshot of the dialog to customise the Linux Mint menu" style="max-width: 100%;"></a></p>
+<p dir="auto">Sie können die Programme jederzeit wieder sichtbar machen. Öffnen Sie dazu das <ins>Hauptmenü</ins> und aktivieren Sie unter der Kategorie, in der Sie Ihr Programm erwarten, das Kontrollkästchen des Programms erneut. Klicken Sie anschließend auf „Schließen”.</p>
+<h3 dir="auto">Systemeinstellungen</h3>
+<p dir="auto">Die meisten Einstellungen Ihres Systems finden Sie ganz einfach über das Linux-Hauptmenü:</p>
+<p dir="auto">👉 Öffnen Sie das Linux-Hauptmenü.</p>
+<p dir="auto">👉 Geben Sie „System” in das Suchfeld ein.</p>
+<p dir="auto">👉 Klicken Sie auf <ins>„Systemeinstellungen“</ins>.</p>
+<p dir="auto">In diesem Menü können Sie auf verschiedene Symbole klicken, um die Einstellungen für Bildschirm, Ton und Netzwerk anzupassen.</p>
+<h3 dir="auto">Stromverwaltung</h3>
+<p dir="auto">Mit dem Programm Stromverwaltung können Sie drei Dinge regeln.</p>
+<ul dir="auto">
+<li>Was Ihr Laptop macht, wenn Sie ihn zuklappen: in den Ruhezustand gehen oder sich ausschalten.</li>
+<li>Wie sich der Ein-/Aus-Schalter verhält. Es gibt folgende Optionen: Der Schalter hat keine Funktion, der Bildschirm wird ausgeschaltet, der Laptop wechselt in den Ruhezustand oder den Standby-Modus oder das System wird heruntergefahren.</li>
+<li>Die Stromverwaltung für Akku und Netzstrom. Sie können unter anderem den Übergang zwischen Akku und Netzstrom einstellen und festlegen, wann der Laptop in einen Energiesparmodus wechselt geht.</li>
+</ul></div>
+		</body></html>

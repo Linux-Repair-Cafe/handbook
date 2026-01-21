@@ -2,7 +2,7 @@
 # Requires GNU Make >= 4.3 for grouped targets (&:), since one command
 # generates both html/<lang>.html and pdf/<lang>.pdf.
 
-LANGS := en nl fr es
+LANGS := de en es fr nl
 
 HTML := $(addprefix html/,$(addsuffix .html,$(LANGS)))
 PDF  := $(addprefix pdf/,$(addsuffix .pdf,$(LANGS)))
