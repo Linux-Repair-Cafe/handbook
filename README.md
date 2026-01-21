@@ -6,18 +6,22 @@ Available in four languages:
 	- [Markdown](./markdown/en.md)
 	- [HTML](./html/en.html)
 	- [PDF](./pdf/en.pdf)
-- Français
-	- [Markdown](./markdown/fr.md)
-	- [HTML](./html/fr.html)
-	- [PDF](./pdf/fr.pdf)
-- Nederlands
-	- [Markdown](./markdown/nl.md)
-	- [HTML](./html/nl.html)
-	- [PDF](./pdf/nl.pdf)
 - Español
 	- [Markdown](./markdown/es.md)
 	- [HTML](./html/es.html)
 	- [PDF](./pdf/es.pdf)
+- Français
+	- [Markdown](./markdown/fr.md)
+	- [HTML](./html/fr.html)
+	- [PDF](./pdf/fr.pdf)
+- Deutsch
+	- [Markdown](./markdown/de.md)
+	- [HTML](./html/de.html)
+	- [PDF](./pdf/de.pdf)
+- Nederlands
+	- [Markdown](./markdown/nl.md)
+	- [HTML](./html/nl.html)
+	- [PDF](./pdf/nl.pdf)
 
 
 ## Guide to editing
