@@ -70,8 +70,8 @@ manuellement un autre pays ou une autre région.
 - Chiffrement de votre dossier personnel. Nous vous conseillons d'activer cette option. Vos données seront alors stockées de façon chiffrée, ce qui offre une protection supplémentaire en cas de perte ou de vol de votre ordinateur. Cette mesure est même obligatoire dans certaines situations (comme le travail administratif pour des associations), en raison de la législation sur la protection de la vie privée. Pour ce
 chiffrage un mot de passe supplémentaire est nécessaire.
 
-	> [!CAUTION]
-	> Lors du chiffrage, vos données sont véritablement chiffrées. Si vous perdez votre mot de passe, vous ne pouvez plus récupérer vos fichiers. Il n’y a aucune astuce miracle pour les récupérer. D’où la suggestion de choisir un mot de passe mémorisable, et de l'écrire quelque part et de le partager avec une personne de confiance.
+> [!CAUTION]
+> Lors du chiffrage, vos données sont véritablement chiffrées. Si vous perdez votre mot de passe, vous ne pouvez plus récupérer vos fichiers. Il n’y a aucune astuce miracle pour les récupérer. D’où la suggestion de choisir un mot de passe mémorisable, et de l'écrire quelque part et de le partager avec une personne de confiance.
 
 ### Installer les mises à jour
 La version de Linux Mint qui est installée sur votre ordinateur est comme une photo à un moment donné. Depuis, il y a sans doute eu de nouvelles mises à jour. Des petites mises à jour interviennent tous les six mois, les mises à jour plus importantes tous les deux ans. Il est conseillé d’installer ces mises à jour sans attendre avant de poursuivre l’exploration de votre ordinateur.

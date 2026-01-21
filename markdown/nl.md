@@ -78,8 +78,8 @@ van minimaal acht tekens en met voldoende variatie (cijfers, hoofdletters, symbo
 - Automatisch aanmelden. Als je dit selecteert, hoef je bij het opstarten niet je wachtwoord te geven. Dit raden we af, omdat je computer dan voor anderen direct toegankelijk is.
 - Versleuteling van je persoonlijke map. We raden aan om deze optie in te schakelen. Je gegevens worden dan versleuteld opgeslagen, dat biedt extra bescherming bij verlies of diefstal van je computer. Deze maatregel is in sommige situaties (zoals administratief werk voor verenigingen) zelfs verplicht vanwege de privacywetgeving. Voor de versleuteling heb je geen extra wachtwoord nodig.
 
-	> [!CAUTION]
-	> Bij versleuteling zijn je gegevens écht versleuteld. Als je het wachtwoord kwijtraakt, kun je bestanden niet meer herstellen. Er is geen magische truc om ze terug te halen. Vandaar de tip om een wachtwoord te kiezen dat je kunt onthouden, en om dat op te schrijven of te delen met iemand die je vertrouwt.
+> [!CAUTION]
+> Bij versleuteling zijn je gegevens écht versleuteld. Als je het wachtwoord kwijtraakt, kun je bestanden niet meer herstellen. Er is geen magische truc om ze terug te halen. Vandaar de tip om een wachtwoord te kiezen dat je kunt onthouden, en om dat op te schrijven of te delen met iemand die je vertrouwt.
 
 ### Updates installeren
 

@@ -73,8 +73,8 @@ When you start the computer for the first time, you will go through a number of 
 - Encryption of your personal folder - We recommend enabling this option. Your data will then be stored in encrypted form, which offers extra protection in case your computer is lost or stolen. In some situations (such as administrative work for associations), this measure is even mandatory due to privacy legislation. You do not need an additional password for encryption.
 
 
-	> [!CAUTION]
-	> When encrypted, your data is truly encrypted. If you lose the password, you will no longer be able to recover your files. There is no magic trick to retrieve them. That is why we recommend choosing a password that you can remember and writing it down or sharing it with someone you trust.
+> [!CAUTION]
+> When encrypted, your data is truly encrypted. If you lose the password, you will no longer be able to recover your files. There is no magic trick to retrieve them. That is why we recommend choosing a password that you can remember and writing it down or sharing it with someone you trust.
 
 ### Installing updates
 

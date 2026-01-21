@@ -72,8 +72,8 @@ schreiben Sie es auf.
 - Verschlüsselung Ihres persönlichen Ordners „ ”. Wir empfehlen, diese Option zu aktivieren. Ihre Daten werden dann verschlüsselt gespeichert, was zusätzlichen Schutz bei Verlust oder Diebstahl Ihres Computers bietet. Diese Maßnahme ist in einigen Situationen (z. B. bei Verwaltungsarbeiten für Vereine) aufgrund der Datenschutzgesetze sogar vorgeschrieben. Für die Verschlüsselung benötigen Sie kein zusätzliches Passwort.
 
 
-	> [!CAUTION]
-	> Bei der Verschlüsselung werden Ihre Daten wirklich verschlüsselt. Wenn Sie das Passwort verlieren, können Sie die Dateien nicht mehr wiederherstellen. Es gibt keinen Zaubertrick, um sie zurückzuholen. Daher der Tipp, ein Passwort zu wählen, das Sie sich merken können, und es aufzuschreiben oder jemandem mitzuteilen, dem Sie vertrauen.
+> [!CAUTION]
+> Bei der Verschlüsselung werden Ihre Daten wirklich verschlüsselt. Wenn Sie das Passwort verlieren, können Sie die Dateien nicht mehr wiederherstellen. Es gibt keinen Zaubertrick, um sie zurückzuholen. Daher der Tipp, ein Passwort zu wählen, das Sie sich merken können, und es aufzuschreiben oder jemandem mitzuteilen, dem Sie vertrauen.
 
 ### Updates installieren
 

@@ -72,8 +72,8 @@ contraseña de wifi. Teclea la contraseña de tu enrutador.
 - Encriptación de tu archivo personal. Te aconsejamos habilitar esta opción. Tus datos se guardarán de forma encriptada, lo que ofrece una protección adicional en caso de pérdida o robo de tu ordenador. En algunas situaciones esta medida es obligatoria bajo legislación de privacidad (como trabajo administrativo para asociaciones). Para la encriptación no necesitas una contraseña
 adicional.
 
-	> [!CAUTION]
-	> En caso de encriptación los datos son encriptados de verdad. Si perdieras la contraseña, ya no podrás recuperar los archivos. No existe un truco mágico para recuperarlos. Por esta razón nuestro consejo de escoger una contraseña que puedas memorizar, y de escribirla en algún sitio o compartirla con alguien en quien confíes.
+> [!CAUTION]
+> En caso de encriptación los datos son encriptados de verdad. Si perdieras la contraseña, ya no podrás recuperar los archivos. No existe un truco mágico para recuperarlos. Por esta razón nuestro consejo de escoger una contraseña que puedas memorizar, y de escribirla en algún sitio o compartirla con alguien en quien confíes.
 
 ### Instalar actualizaciones
 La versión de Linux Mint que has instalado en tu ordenador, consiste en una instantánea. Desde ese momento, probablemente ya estén disponible nuevas actualizaciones. Más o menos cada seis meses salen pequeñas actualizaciones, las actualizaciones mayores suelen salir cada dos años. Es recomendable instalar estas actualizaciones inmediatamente antes de seguir explorando tu ordenador.
