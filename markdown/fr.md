@@ -385,7 +385,7 @@ Ici vous pouvez activer ou désactiver la visibilité des programmes, qui appara
 
 Vous pouvez toujours faire apparaitre les programmes. Pour ce faire, il faut ouvrir le Menuprincipal et dans la catégorie où vous attendez votre programme, cochez de nouveau la case du programme. Cliquez ensuite sur « Fermer ».
 
-### Paramètre ssystème
+### Paramètre système
 
 La majorité des paramètres de votre système se trouvent facilement dans le Menu principal Linus :
 
