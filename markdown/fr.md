@@ -33,7 +33,7 @@ Sources en langue française :
 - [Forum Francophone Linux Mint](https://forum-francophone-linuxmint.fr/)
 - [Documentation officielle de Linux Mint](https://linuxmint.com/documentation.php)
 
-Les sources de langue anglaise (utilisez la fonction traduction de <ins>Firefox</ins> si vous ne maitrisez pas bien l’anglais).
+Les sources en langue anglaise (utilisez la fonction traduction de <ins>Firefox</ins> si vous ne maitrisez pas bien l’anglais).
 
 - [Linux Mint Forum](https://forums.linuxmint.com/)
 - [Ubuntu Questions & réponses](https://askubuntu.com/) – Linux Mint est basé sur Ubuntu. De nombreuses solutions
@@ -104,7 +104,7 @@ Les mises à jour sont téléchargées et installées. La première fois, cela p
 
 👉 Fermez la fenêtre <ins>Gestionnaire de mise à jour</ins>.
 
-Désormais les mises à jour seront effectuées automatiquement. Ceci est visible dans la barre des tâches inférieure, à l’icône en forme de roue dentée.
+Désormais les mises à jour seront effectuées automatiquement. Ceci est visible dans la barre des tâches inférieure, avec l’icône en forme de roue dentée.
 
 ![screenshot of the icon for automatic updates](../assets/auto-updates.png)
 
@@ -205,7 +205,7 @@ La recherche ne tient pas compte des majuscules et minuscules – ce que montre 
 
 ### Supprimer des fichiers
 
-Pour supprimer un fichier, utilisez-vous le clic droit de la souris ou la touche Suppr ? Rendez-vous tout d'abord dans la corbeille. Si vous supprimez également ce fichier de la corbeille, le fichier est supprimé définitivement* Contrairement à Windows, il n’existe pas dans Linux de programmes simples permettant de récupérer les fichiers définitivement supprimés.
+Pour supprimer un fichier, utilisez-vous le clic droit de la souris ou la touche Suppr. Rendez-vous tout d'abord dans la corbeille. Si vous supprimez également ce fichier de la corbeille, le fichier est supprimé définitivement* Contrairement à Windows, il n’existe pas dans Linux de programmes simples permettant de récupérer les fichiers définitivement supprimés.
 
 En savoir plus sur le programme <ins>Nemo</ins> ?
 
@@ -215,7 +215,7 @@ https://fr.wikipedia.org/wiki/Nemo_%28logiciel%29
 
 ## Installer Et Supprimer Les Programmes
 
-En quelques étapes faciles, vous pouvez installer de nouveaux programmes sous Linux Mint ou désinstaller des logiciels existants. Cela se fait via <ins>Gestionprogramme</ins>. On y explique étape par étape comment procéder.
+En quelques étapes faciles, vous pouvez installer de nouveaux programmes sous Linux Mint ou désinstaller des logiciels existants. Cela se fait via <ins>Gestionprogramme</ins>. On t'explique étape par étape comment procéder.
 
 ### Installer un programme
 
@@ -230,7 +230,7 @@ Le programme s’ouvre avec le message : « chargement en cours, merci de votre 
 
 👉 Tapez dans la barre de recherche de <ins>Gestionnaire de logiciels</ins> « écran ».
 
-Vous verrez un récapitulatif de tous les programmes liés à « écran » Cherchez dans la liste <ins>Enregistreur simple d'écran</ins>. Ce programme fait une capture vidéo de votre bureau pendant que vous travaillez.
+Vous verrez un récapitulatif de tous les programmes liés à « écran ». Cherchez dans la liste <ins>Enregistreur simple d'écran</ins>. Ce programme fait une capture vidéo de votre bureau pendant que vous travaillez.
 
 👉 Cliquez sur le nom du programme pour le démarrer.
 
@@ -259,7 +259,7 @@ Votre ordinateur est prêt à l’emploi Il est temps de commencer à l’utilis
 ### Stockage OneDrive
 Les programmes <ins>OneDrive</ins> ou <ins>Rclone</ins> vous permettent de connecter votre espace de stockage OneDrive dans le cloud à votre ordinateur Linux. Installez le programme via Gestionnaire de logiciels.
 
-<!-- TODO: For more information about using <ins>OneDrive</ins>, see this [page](https://ubuntuhandbook.org/index.php/2024/02/install-onedrive-ubuntu/). -->
+Pour plus d'information sur l'utilisation de <ins>OneDrive</ins>, consultez cette [page](https://ubuntuhandbook.org/index.php/2024/02/install-onedrive-ubuntu/). -->
 
 ### Prendre part à des réunions Teams ou Zoom
 
@@ -339,12 +339,12 @@ A partir de <ins>Paramètres système</ins>, vous démarrez <ins>Fonds d’écra
 
 👉 Clic droit sur l’icône de Linux Mint.
 
-👉 Sélectionnez »Paramétrer ».
+👉 Sélectionnez « Paramétrer ».
 
 <!-- TODO: localise screenshot -->
 ![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-fr.png)
 
-👉 Cliquez sur – ou + pour agrandir ou rapetisser l'icône de Linux Mint.
+👉 Cliquez sur – ou + pour agrandir ou réduire l'icône de Linux Mint.
 
 ### Bureau et barre des tâches
 
@@ -385,7 +385,7 @@ Ici vous pouvez activer ou désactiver la visibilité des programmes, qui appara
 
 Vous pouvez toujours faire apparaitre les programmes. Pour ce faire, il faut ouvrir le Menuprincipal et dans la catégorie où vous attendez votre programme, cochez de nouveau la case du programme. Cliquez ensuite sur « Fermer ».
 
-### Paramètressystème
+### Paramètre système
 
 La majorité des paramètres de votre système se trouvent facilement dans le Menu principal Linus :
 
@@ -404,4 +404,4 @@ Le programme <ins>Gestion de l'énergie</ins> permet d’adapter trois choses.
 
 - Ce que votre ordinateur portable fait lorsque vous le refermez : se mettre en pause ou s'éteindre.
 - Comment se comporte le bouton marche/arrêt. Il existe les options suivantes : le bouton ne fait rien, l'écran s'éteint, le portable se met en veille ou en hibernation ou bien le système s'arrête.
-- La gestion de l’énergie pour les batterie et l'alimentation réseau. Vous pouvez notamment configurer la transition entre la batterie et l’alimentation secteur, ainsi que le moment où l’ordinateur portable passe en mode économie d’énergie.
+- La gestion de l’énergie pour les batteries et l'alimentation réseau. Vous pouvez notamment configurer la transition entre la batterie et l’alimentation secteur, ainsi que le moment où l’ordinateur portable passe en mode économie d’énergie.
