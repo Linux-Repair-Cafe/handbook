@@ -1,6 +1,6 @@
 # Handbook for Linux Repair Cafe visitors
 
-Available in four languages:
+Available in these languages:
 
 - English
 	- [Markdown](./markdown/en.md)
