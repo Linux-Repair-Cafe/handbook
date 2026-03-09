@@ -14,6 +14,7 @@ Adaptiert von: https://www.repaircafe.org/de/repair-cafe-linux/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 
 ## EINFÜHRUNG
+
 Herzlichen Glückwunsch zu Ihrem neuen Linux-Betriebssystem! Ihr Laptop hält nun länger, Sie sind weniger abhängig von kommerziellen Unternehmen und Ihre Privatsphäre ist besser geschützt.
 
 Dieses Dokument hilft Ihnen, sich in Linux Mint zurechtzufinden. Es unterstützt Sie beim Abschluss der Installation, bei der Anpassung des Erscheinungsbilds und bei der Beantwortung der ersten Fragen, die Sie möglicherweise haben. Etwa die Hälfte des Inhalts befasst sich mit Themen, die Sie nur einmal einrichten müssen. Wir hoffen, dass Sie damit einen reibungslosen Start mit Ihrem „neuen” Linux-Computer haben.
@@ -49,6 +50,7 @@ Videomaterial:
 Ein Suchtipp für das Internet: Beginnen Sie Ihre Suche mit: „Linux Mint + [geben Sie hier das Thema ein]”. Zum Beispiel: „Linux Mint + Passwort ändern”. So vermeiden Sie Suchergebnisse für andere Betriebssysteme.
 
 ## Erstes Mal Starten
+
 Linux Mint ist auf Ihrem Computer installiert, als käme er frisch aus dem Laden. Nach dem ersten Start sind noch einige Schritte erforderlich, um Ihr neues System einsatzbereit zu machen. Diese werden Sie nun durchführen. Es ist auch ratsam, einige notwendige Ergänzungen sofort zu installieren, wie Updates.
 
 In diesem Kapitel gehen wir alle Schritte der Reihe nach mit Ihnen durch. Viele dieser Schritte müssen nur einmal durchgeführt werden. Wenn Sie sie richtig ausführen, werden Sie später davon profitieren. Nach diesen Schritten ist Ihr System einsatzbereit.
@@ -64,15 +66,14 @@ Wenn Sie den Computer zum ersten Mal starten, müssen Sie einige Schritte durchf
 - WLAN-Netzwerk. Wenn Ihr Computer nicht über ein Netzwerkkabel verbunden ist, wird er Sie nach dem WLAN-Passwort fragen. Geben Sie das Passwort Ihres Routers ein.
 - Standort. Bestätigen Sie den Standardstandort oder wählen Sie manuell ein anderes Land oder eine andere Region aus.
 - Benutzername (Kontoname). Dieser Name wird auch für Ihren persönlichen Ordner verwendet
-(z. B. /home/IhrName). Wählen Sie einen kurzen, eindeutigen Benutzernamen, der aus folgenden Zeichen besteht:
+  (z. B. /home/IhrName). Wählen Sie einen kurzen, eindeutigen Benutzernamen, der aus folgenden Zeichen besteht:
 - Nur Kleinbuchstaben
 - Keine Leerzeichen oder Satzzeichen
 - Einem Wort, das für Sie erkennbar ist
 - Passwort. Da Sie auch Administrator Ihres Systems sind, wählen Sie ein sicheres Passwort mit mindestens acht Zeichen und ausreichender Variation (Zahlen, Großbuchstaben, Symbole). Wählen Sie ein Passwort, das Sie sich auch merken können. Teilen Sie es jemandem mit, dem Sie vertrauen, oder
-schreiben Sie es auf.
+  schreiben Sie es auf.
 - Automatische Anmeldung. Wenn Sie diese Option auswählen, müssen Sie beim Start Ihr Passwort nicht eingeben. Wir raten davon ab, da Ihr Computer dann für andere direkt zugänglich ist.
 - Verschlüsselung Ihres persönlichen Ordners „ ”. Wir empfehlen, diese Option zu aktivieren. Ihre Daten werden dann verschlüsselt gespeichert, was zusätzlichen Schutz bei Verlust oder Diebstahl Ihres Computers bietet. Diese Maßnahme ist in einigen Situationen (z. B. bei Verwaltungsarbeiten für Vereine) aufgrund der Datenschutzgesetze sogar vorgeschrieben. Für die Verschlüsselung benötigen Sie kein zusätzliches Passwort.
-
 
 > [!CAUTION]
 > Bei der Verschlüsselung werden Ihre Daten wirklich verschlüsselt. Wenn Sie das Passwort verlieren, können Sie die Dateien nicht mehr wiederherstellen. Es gibt keinen Zaubertrick, um sie zurückzuholen. Daher der Tipp, ein Passwort zu wählen, das Sie sich merken können, und es aufzuschreiben oder jemandem mitzuteilen, dem Sie vertrauen.
@@ -313,6 +314,7 @@ Wenn der Fernsehbildschirm eine Erweiterung des Laptopbildschirms sein soll, geh
 👉 Schließen Sie <ins>„Bildschirm“</ins>.
 
 ### Einen Drucker anschließen
+
 Sie können einen Drucker über ein Kabel oder über WLAN anschließen. Ein Kabel schließen Sie direkt an den Computer an; über WLAN stellen Sie sicher, dass der Computer und der Drucker mit demselben Netzwerk verbunden sind. Die meisten Drucker werden automatisch erkannt, sobald Sie sie mit dem Netzwerk verbinden. Über das Menü „Drucker” können Sie ganz einfach einen neuen Drucker hinzufügen.
 
 Oft wählt Mint selbst den richtigen Treiber aus. Für Marken wie HP, Canon oder Epson sind manchmal zusätzliche Treiber erforderlich. Diese können Sie über die <ins>Softwareverwaltung</ins> oder die Website des Herstellers installieren. Sobald der Drucker hinzugefügt wurde, können Sie sofort drucken.
@@ -343,11 +345,13 @@ So legen Sie eine einfarbige Hintergrundfarbe fest:
 👉 Wählen Sie „Einfarbige Farbe“ oder „Farbverlauf horizontal/vertikal“ für einen zusätzlichen Effekt.
 
 ### Symbole im Linux Mint-Menü vergrößern
+
 👉 Klicken Sie mit der rechten Maustaste auf das Linux Mint-Symbol.
 
 👉 Wählen Sie „ “ aus.
 
 <!-- TODO: localise screenshot -->
+
 ![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-de.png)
 
 👉 Klicken Sie auf – oder +, um die Größe des Linux Mint-Symbols zu vergrößern oder zu verkleinern.
@@ -371,6 +375,7 @@ Die Leiste wird rosa, um anzuzeigen, dass Sie sich im Bearbeitungsmodus befinden
 👉 Schieben Sie die „Panelhöhe“ auf eine angenehme Höhe.
 
 <!-- TODO: localise screenshot -->
+
 ![screenshot of the dialog to adjust panel height](../assets/panel-height-de.png)
 
 👉 Verlassen Sie den Bildschirm über den Pfeil oben links im Bildschirm.
@@ -386,8 +391,8 @@ Hier können Sie die Sichtbarkeit von Programmen ein- und ausschalten, sodass di
 👉 Wählen Sie „Menü bearbeiten”. Sie sehen nun diesen Bildschirm.
 
 <!-- TODO: localise screenshot -->
-![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-de.png)
 
+![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-de.png)
 
 Sie können die Programme jederzeit wieder sichtbar machen. Öffnen Sie dazu das <ins>Hauptmenü</ins> und aktivieren Sie unter der Kategorie, in der Sie Ihr Programm erwarten, das Kontrollkästchen des Programms erneut. Klicken Sie anschließend auf „Schließen”.
 
@@ -406,6 +411,7 @@ In diesem Menü können Sie auf verschiedene Symbole klicken, um die Einstellung
 ### Stromverwaltung
 
 Mit dem Programm Stromverwaltung können Sie drei Dinge regeln.
+
 - Was Ihr Laptop macht, wenn Sie ihn zuklappen: in den Ruhezustand gehen oder sich ausschalten.
 - Wie sich der Ein-/Aus-Schalter verhält. Es gibt folgende Optionen: Der Schalter hat keine Funktion, der Bildschirm wird ausgeschaltet, der Laptop wechselt in den Ruhezustand oder den Standby-Modus oder das System wird heruntergefahren.
 - Die Stromverwaltung für Akku und Netzstrom. Sie können unter anderem den Übergang zwischen Akku und Netzstrom einstellen und festlegen, wann der Laptop in einen Energiesparmodus wechselt geht.
