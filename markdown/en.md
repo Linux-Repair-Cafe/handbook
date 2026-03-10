@@ -280,7 +280,7 @@ Use <ins>VLC Media Player</ins> if you want to play a DVD. Install <ins>VLC Medi
 
 ### Using the touchpad
 
-Slide two fingers across the touchpad at the same time. You cannot scroll using the side or bottom of the touchpad.
+To scroll, slide two fingers across the touchpad at the same time. You cannot scroll using the side or bottom of the touchpad.
 
 ### Multiple screens: watching video on a TV or projector
 

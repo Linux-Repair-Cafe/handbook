@@ -280,7 +280,7 @@ Verwenden Sie den <ins>VLC Media Player</ins>, wenn Sie eine DVD abspielen möch
 
 ### Das Touchpad verwenden
 
-Streichen Sie mit zwei Fingern gleichzeitig über das Touchpad. Mit der Seite oder Unterseite des Touchpads können Sie nicht scrollen.
+Um zu scrollen, Streichen Sie mit zwei Fingern gleichzeitig über das Touchpad. Mit der Seite oder Unterseite des Touchpads können Sie nicht scrollen.
 
 ### Mehrere Bildschirme: Videos auf einem Fernseher oder Beamer ansehen
 
