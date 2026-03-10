@@ -403,7 +403,7 @@ Die meisten Einstellungen Ihres Systems finden Sie ganz einfach über das Linux-
 
 👉 Geben Sie „System” in das Suchfeld ein.
 
-👉 Klicken Sie auf <ins>„Systemeinstellungen“</ins>.
+👉 Klicken Sie auf <ins>Systemeinstellungen</ins>.
 
 In diesem Menü können Sie auf verschiedene Symbole klicken, um die Einstellungen für Bildschirm, Ton und Netzwerk anzupassen.
 
