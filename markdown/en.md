@@ -40,8 +40,7 @@ English sources:
 English-language sources (use <ins>Firefox</ins>'s translation function if you find English difficult).
 
 - [Linux Mint Forum](https://forums.linuxmint.com/)
-- [Ubuntu Questions & Answers](https://askubuntu.com/) – Linux Mint is based on Ubuntu. Many Ubuntu solutions can also
-be used in Linux
+- [Ubuntu Questions & Answers](https://askubuntu.com/) – Linux Mint is based on Ubuntu. Many Ubuntu solutions can also be used in Linux Mint.
 - [LibreOffice Forum](https://ask.libreoffice.org/c/english/5)
 
 Video material:
