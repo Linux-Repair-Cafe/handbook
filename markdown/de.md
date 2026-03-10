@@ -60,7 +60,7 @@ Folgen Sie den Schritten in Ruhe und in Ihrem eigenen Tempo – Sie sind fast be
 Wenn Sie den Computer zum ersten Mal starten, müssen Sie einige Schritte durchführen, um Ihr System einsatzbereit zu machen:
 
 - Spracheinstellung. Wählen Sie die Sprache, in der das System mit Ihnen kommunizieren soll. Wählen Sie die Sprache, die Ihnen am vertrautesten ist. Sie können diese Auswahl später jederzeit ändern.
-- Tastaturlayout. Wählen Sie die Tastatur, die Ihrer Tastatur entspricht.
+- Tastaturlayout. Wählen Sie das Layout , welches Ihrer physikalischen Tastatur entspricht.
 - WLAN-Netzwerk. Wenn Ihr Computer nicht über ein Netzwerkkabel verbunden ist, wird er Sie nach dem WLAN-Passwort fragen. Geben Sie das Passwort Ihres Routers ein.
 - Standort. Bestätigen Sie den Standardstandort oder wählen Sie manuell ein anderes Land oder eine andere Region aus.
 - Benutzername (Kontoname). Dieser Name wird auch für Ihren persönlichen Ordner verwendet

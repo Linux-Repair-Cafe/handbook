@@ -62,7 +62,7 @@ Follow the steps calmly and at your own pace — you are almost ready to get sta
 When you start the computer for the first time, you will go through a number of steps to get your system ready for use:
 
 - Language settings - Choose the language in which you want the system to communicate with you. Choose the language you are most familiar with. You can always change this choice later.
-- Keyboard layout – Choose the keyboard that corresponds with your keyboard.
+- Keyboard layout – Choose the layout that corresponds with your physical keyboard.
 - Wi-Fi network - If your computer is not connected with a network cable, it will ask for the Wi-Fi password. Enter the password for your router.
 - Location - Confirm the default location (usually Amsterdam) or manually select another country or region.
 - Username (account name) - This name is also used for your personal folder (e.g., /home/yourname).
