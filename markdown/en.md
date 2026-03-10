@@ -152,7 +152,7 @@ The menu will display all programs related to the topic you typed. If you alread
 
 👉 Right-click on the program in the menu.
 
-Select 'Add to desktop' to create the shortcut.
+👉 Select 'Add to desktop' to create the shortcut.
 
 ### Browse categories
 
