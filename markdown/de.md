@@ -63,13 +63,14 @@ Wenn Sie den Computer zum ersten Mal starten, müssen Sie einige Schritte durchf
 - Tastaturlayout. Wählen Sie das Layout , welches Ihrer physikalischen Tastatur entspricht.
 - WLAN-Netzwerk. Wenn Ihr Computer nicht über ein Netzwerkkabel verbunden ist, wird er Sie nach dem WLAN-Passwort fragen. Geben Sie das Passwort Ihres Routers ein.
 - Standort. Bestätigen Sie den Standardstandort oder wählen Sie manuell ein anderes Land oder eine andere Region aus.
-- Benutzername (Kontoname). Dieser Name wird auch für Ihren persönlichen Ordner verwendet
-  (z. B. /home/IhrName). Wählen Sie einen kurzen, eindeutigen Benutzernamen, der aus folgenden Zeichen besteht:
-- Nur Kleinbuchstaben
-- Keine Leerzeichen oder Satzzeichen
-- Einem Wort, das für Sie erkennbar ist
-- Passwort. Da Sie auch Administrator Ihres Systems sind, wählen Sie ein sicheres Passwort mit mindestens acht Zeichen und ausreichender Variation (Zahlen, Großbuchstaben, Symbole). Wählen Sie ein Passwort, das Sie sich auch merken können. Teilen Sie es jemandem mit, dem Sie vertrauen, oder
-  schreiben Sie es auf.
+- Benutzername (Kontoname). Dieser Name wird auch für Ihren persönlichen Ordner verwendet (z. B. /home/IhrName).
+
+  Wählen Sie einen kurzen, eindeutigen Benutzernamen, der aus folgenden Zeichen besteht:
+  - Nur Kleinbuchstaben
+  - Keine Leerzeichen oder Satzzeichen
+  - Einem Wort, das für Sie erkennbar ist
+
+- Passwort. Da Sie auch Administrator Ihres Systems sind, wählen Sie ein sicheres Passwort mit mindestens acht Zeichen und ausreichender Variation (Zahlen, Großbuchstaben, Symbole). Wählen Sie ein Passwort, das Sie sich auch merken können. Teilen Sie es jemandem mit, dem Sie vertrauen, oder schreiben Sie es auf.
 - Automatische Anmeldung. Wenn Sie diese Option auswählen, müssen Sie beim Start Ihr Passwort nicht eingeben. Wir raten davon ab, da Ihr Computer dann für andere direkt zugänglich ist.
 - Verschlüsselung Ihres persönlichen Ordners „ ”. Wir empfehlen, diese Option zu aktivieren. Ihre Daten werden dann verschlüsselt gespeichert, was zusätzlichen Schutz bei Verlust oder Diebstahl Ihres Computers bietet. Diese Maßnahme ist in einigen Situationen (z. B. bei Verwaltungsarbeiten für Vereine) aufgrund der Datenschutzgesetze sogar vorgeschrieben. Für die Verschlüsselung benötigen Sie kein zusätzliches Passwort.
 
@@ -84,11 +85,11 @@ Die auf Ihrem Computer installierte Version von Linux Mint ist eine Momentaufnah
 
 ![screenshot of the task bar tray icons](../assets/tray.png)
 
-Der Bildschirm <ins>„Aktualisierungsverwaltung“</ins> wird geöffnet.
+Der Bildschirm <ins>Aktualisierungsverwaltung</ins> wird geöffnet.
 
 👉 Klicken Sie auf „OK“.
 
-Sie sehen wieder den Bildschirm <ins>„Aktualisierungsverwaltung“</ins>.
+Sie sehen wieder den Bildschirm <ins>Aktualisierungsverwaltung</ins>.
 
 👉 Klicken Sie oben auf „Aktualisieren“.
 
@@ -104,7 +105,7 @@ Die Aktualisierung von der <ins>Aktualisierungsverwaltung</ins> selbst wird nun 
 
 Die Updates werden heruntergeladen und installiert. Dies kann beim ersten Mal, je nach Ihrer Internetverbindung, bis zu einer halben Stunde dauern. Warten Sie bitte geduldig.
 
-👉 Schließen Sie den Bildschirm <ins>„Aktualisierungsverwaltung“</ins>.
+👉 Schließen Sie den Bildschirm <ins>Aktualisierungsverwaltung</ins>.
 
 Von nun an werden Updates automatisch durchgeführt. Dies wird in der unteren Taskleiste am
 Zahnrad-Symbol angezeigt.
@@ -177,7 +178,7 @@ Kommen Sie nicht weiter? Lesen Sie die Anleitung zur automatischen Konfiguration
 
 Haben Sie <ins>Thunderbird</ins> zuvor auf einem anderen Computer verwendet? Dann können Sie Ihre E-Mail-Einstellungen, Nachrichten und Ordner übertragen, indem Sie das Profil übertragen. Dazu müssen Sie Ihren Profilordner in Linux sichtbar machen. Das geht so:
 
-👉 Öffnen Sie <ins>„Nemo”</ins> (zweites Symbol von links im Panel).
+👉 Öffnen Sie <ins>Nemo</ins> (zweites Symbol von links im Panel).
 
 Sie sehen nun Ihren persönlichen Ordner.
 
@@ -189,7 +190,7 @@ Verwenden Sie diesen Ordner, um Daten von Ihrem alten System zu übertragen, wie
 
 ## Dateien Verwalten
 
-In Linux Mint verwenden Sie das Programm <ins>„Dateien”</ins> (auch <ins>Nemo</ins> genannt), um Ordner und Dateien zu öffnen, zu suchen und zu verwalten.
+In Linux Mint verwenden Sie das Programm <ins>Dateien</ins> (auch <ins>Nemo</ins> genannt), um Ordner und Dateien zu öffnen, zu suchen und zu verwalten.
 
 ### Dateien öffnen und suchen
 
@@ -205,13 +206,13 @@ Suchen:
 
 👉 Geben Sie den Dateinamen (oder einen Teil davon) ein.
 
-Die Suche unterscheidet nicht zwischen Groß- und Kleinschreibung – das Symbol Aa zeigt dies an. Standardmäßig durchsucht das Programm auch Unterordner. Der L-förmige Pfeil nach rechts zeigt dies an.
+Die Suche unterscheidet nicht zwischen Groß- und Kleinschreibung, das Symbol Aa zeigt dies an. Standardmäßig durchsucht das Programm auch Unterordner. Der L-förmige Pfeil nach rechts zeigt dies an.
 
 ### Dateien löschen
 
 Wenn Sie eine Datei über das Kontextmenü oder die Entf-Taste löschen, dann wird sie zunächst in den Papierkorb verschoben. Wenn Sie sie auch aus dem Papierkorb löschen, ist die Datei endgültig entfernt. Im Gegensatz zu Windows gibt es unter Linux keine einfachen Programme, um gelöschte Dateien wiederherzustellen.
 
-### Möchten Sie mehr über das Programm <ins>„Nemo”</ins> erfahren?
+### Möchten Sie mehr über das Programm <ins>Nemo</ins> erfahren?
 
 Lesen Sie die ausführliche Erklärung unter:
 
@@ -227,13 +228,13 @@ Mit ein paar einfachen Schritten können Sie in Linux Mint neue Programme instal
 
 👉 Geben Sie „soft” in das Suchfeld ein.
 
-👉 Klicken Sie in der Ergebnisliste auf <ins>„Softwareverwaltung”</ins>.
+👉 Klicken Sie in der Ergebnisliste auf <ins>Softwareverwaltung</ins>.
 
 Das Programm öffnet sich mit der Meldung: „Wird geladen, bitte warten Sie einen Moment.” Warten Sie, bis der Inhalt vollständig geladen ist und Sie Ihre Programme sehen können.
 
 👉 Geben Sie „screen“ in das Suchfeld der <ins>Softwareverwaltung</ins> ein.
 
-Sie erhalten nun eine Übersicht aller Programme, die etwas mit „screen“ zu tun haben. Suchen Sie in der Liste nach <ins>„Simple Screen Recorder“</ins>. Dieses Programm erstellt eine Videoaufzeichnung Ihres Desktops, während Sie arbeiten.
+Sie erhalten nun eine Übersicht aller Programme, die etwas mit „screen“ zu tun haben. Suchen Sie in der Liste nach <ins>Simple Screen Recorder</ins>. Dieses Programm erstellt eine Videoaufzeichnung Ihres Desktops, während Sie arbeiten.
 
 👉 Klicken Sie auf den Namen, um das Programm zu öffnen.
 
@@ -255,7 +256,7 @@ Anstelle der Überschrift „Installieren” sehen Sie nun die Schaltfläche „
 
 👉 Klicken Sie auf „Deinstallieren“. Das Programm wird von Ihrem System entfernt.
 
-## Häufig Verwendete Anwendungen
+## Häufig verwendete Anwendungen
 
 Ihr Computer ist nun einsatzbereit. Zeit, ihn für alltägliche Aufgaben zu nutzen. Mit unseren verständlichen Erklärungen und praktischen Tipps helfen wir Ihnen, das Beste aus Ihrem Linux-System herauszuholen.
 
@@ -299,7 +300,7 @@ Wenn der Fernsehbildschirm eine Erweiterung des Laptopbildschirms sein soll, geh
 
 👉 Drücken Sie die Windows-Taste.
 
-👉 Suchen Sie das Programm <ins>„Bildschirm“</ins>.
+👉 Suchen Sie das Programm <ins>Bildschirm</ins>.
 
 👉 Klicken Sie darauf.
 
@@ -309,7 +310,7 @@ Wenn der Fernsehbildschirm eine Erweiterung des Laptopbildschirms sein soll, geh
 
 👉 Klicken Sie auf „Übernehmen“.
 
-👉 Schließen Sie <ins>„Bildschirm“</ins>.
+👉 Schließen Sie <ins>Bildschirm</ins>.
 
 ### Einen Drucker anschließen
 
@@ -325,12 +326,12 @@ In Linux Mint können Sie viele Einstellungen nach Ihrem Geschmack vornehmen: vo
 
 ### Schriftgröße von Fenstern
 
-Gehen Sie über die <ins>Systemeinstellungen</ins> zum Abschnitt <ins>„Schriftarten“</ins>, um die Darstellung von Text in Fenstern anzupassen. Durch Vergrößern der Standardschriftart wird die Lesbarkeit für Sehbehinderte erheblich verbessert. Bitte beachten Sie: Das Anpassen der Dokumentschriftart hat in der Regel nur geringe Auswirkungen, da viele Programme ihre eigenen Einstellungen für Schriftart und -größe
+Gehen Sie über die <ins>Systemeinstellungen</ins> zum Abschnitt <ins>Schriftarten</ins>, um die Darstellung von Text in Fenstern anzupassen. Durch Vergrößern der Standardschriftart wird die Lesbarkeit für Sehbehinderte erheblich verbessert. Bitte beachten Sie: Das Anpassen der Dokumentschriftart hat in der Regel nur geringe Auswirkungen, da viele Programme ihre eigenen Einstellungen für Schriftart und -größe
 verwenden.
 
 ### Desktop-Hintergrund
 
-Starten Sie <ins>„Hintergründe“</ins> über die <ins>Systemeinstellungen</ins>. Probieren Sie einfach ein paar Dinge aus.
+Starten Sie <ins>Hintergründe</ins> über die <ins>Systemeinstellungen</ins>. Probieren Sie einfach ein paar Dinge aus.
 
 So legen Sie eine einfarbige Hintergrundfarbe fest:
 
