@@ -164,7 +164,7 @@ The right column shows all related programs.
 
 ## Setting Up E-mail
 
-To set up email, you need the username and password for your email account and an email program. Linux Mint comes with the Thunderbird email program.
+To set up email, you need the username and password for your email account and an email program. Linux Mint comes with the <ins>Thunderbird</ins> email program.
 
 👉 Start <ins>Thunderbird</ins> from the menu.
 
@@ -310,7 +310,7 @@ If you want the TV screen to be an extension of the laptop screen, do the follow
 
 👉 Click on 'Apply'.
 
-👉 Close Display.
+👉 Close <ins>Display</ins>.
 
 ### Connecting a printer
 
