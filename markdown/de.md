@@ -105,14 +105,14 @@ Die Aktualisierung von der <ins>Aktualisierungsverwaltung</ins> selbst wird nun 
 
 Die Updates werden heruntergeladen und installiert. Dies kann beim ersten Mal, je nach Ihrer Internetverbindung, bis zu einer halben Stunde dauern. Warten Sie bitte geduldig.
 
-👉 Schließen Sie den Bildschirm <ins>Aktualisierungsverwaltung</ins>.
+👉 Schließen Sie das Fenster der <ins>Aktualisierungsverwaltung</ins>.
 
 Von nun an werden Updates automatisch durchgeführt. Dies wird in der unteren Taskleiste am
 Zahnrad-Symbol angezeigt.
 
 ![screenshot of the icon for automatic updates](../assets/auto-updates.png)
 
-Sie können jederzeit manuell ein Update erzwingen, indem Sie auf das Sicherheitssymbol klicken. Einige Updates werden übrigens erst nach einem Neustart Ihres Computers aktiv. Sie erhalten dazu eine Benachrichtigung.
+Sie können jederzeit manuell ein Update erzwingen, indem Sie auf den Sicherheitsschild klicken. Einige Updates werden übrigens erst nach einem Neustart Ihres Computers aktiv. Sie erhalten dazu eine Benachrichtigung.
 
 ## Programme Verwenden
 
@@ -140,7 +140,7 @@ Oben im Menü befindet sich ein Suchfeld.
 
 👉 Geben Sie einen allgemeinen Begriff ein, z. B. „Text“, „E-Mail“, „Internet“, „Video“, „Drucken“, „Maus“, „Player“, „Rechnen“ usw.
 
-Das Menü zeigt alle Programme an, die mit dem von Ihnen eingegebenen Begriff zu tun haben. Sie kennen den Namen des Programms bereits? Geben Sie ihn dann direkt ein.
+Das Menü zeigt alle Programme an, die mit dem von Ihnen eingegebenen Begriff zu tun haben. Wenn Sie den Namen des Programms bereits kennen, können Sie den Namen auch direkt eingegeben.
 
 ### Programme starten
 
