@@ -14,12 +14,14 @@ Adapted from: https://www.repaircafe.org/en/repair-cafe-linux/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 
 ## Introduction
+
 Congratulations on your new Linux operating system! Your laptop will now last longer, you will be less dependent on commercial companies, and your privacy will be better protected.
 
 This document will help you find your way around Linux Mint. It will help you complete the installation, configure the appearance, and answer any initial questions you may have. About half of the content covers things you only need to set up once. We hope this will help you get started quickly
 with your "new" Linux computer.
 
 The layout of this document is designed to aid readability:
+
 - Program names look like this: <ins>Power Management</ins>.
 
 👉 A pointing hand next to text indicates that you are going to perform actions on the computer.
@@ -29,6 +31,7 @@ Perhaps you have not worked with Linux before. Don't worry, you are not alone. T
 Below are a number of reliable, frequently used websites and forums:
 
 English sources:
+
 - [Official Website](https://linuxmint.com/)
 - [Linux Mint Forum](https://forums.linuxmint.com/)
 - [Tutorials / Guides](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
@@ -37,15 +40,14 @@ English sources:
 English-language sources (use <ins>Firefox</ins>'s translation function if you find English difficult).
 
 - [Linux Mint Forum](https://forums.linuxmint.com/)
-- [Ubuntu Questions & Answers](https://askubuntu.com/) – Linux Mint is based on Ubuntu. Many Ubuntu solutions can also
-be used in Linux
+- [Ubuntu Questions & Answers](https://askubuntu.com/) – Linux Mint is based on Ubuntu. Many Ubuntu solutions can also be used in Linux Mint.
 - [LibreOffice Forum](https://ask.libreoffice.org/c/english/5)
 
 Video material:
+
 - [YouTube](https://www.youtube.com/) – search for specific topics, for example, "Linux Mint setup."
 
 A search tip for the internet: start your search with: 'Linux Mint + [enter the topic here]'. For example: 'Linux Mint + change password'. This will help you avoid search results for other operating systems.
-
 
 ## Starting Linux Mint For The First Time
 
@@ -60,20 +62,19 @@ Follow the steps calmly and at your own pace — you are almost ready to get sta
 When you start the computer for the first time, you will go through a number of steps to get your system ready for use:
 
 - Language settings - Choose the language in which you want the system to communicate with you. Choose the language you are most familiar with. You can always change this choice later.
-- Keyboard layout – Choose the keyboard that corresponds with your keyboard.
+- Keyboard layout – Choose the layout that corresponds with your physical keyboard.
 - Wi-Fi network - If your computer is not connected with a network cable, it will ask for the Wi-Fi password. Enter the password for your router.
 - Location - Confirm the default location (usually Amsterdam) or manually select another country or region.
 - Username (account name) - This name is also used for your personal folder (e.g., /home/yourname).
 
-	Choose a short, clear username that consists of:
-	- Lowercase letters only
-	- No spaces or punctuation marks
-	- One word that is recognisable to you
+  Choose a short, clear username that consists of:
+  - Lowercase letters only
+  - No spaces or punctuation marks
+  - One word that is recognisable to you
 
 - Password - Because you are also the administrator of your system, choose a strong password of at least eight characters with sufficient variation (numbers, capital letters, symbols). Choose a password that you can remember. Share it with someone you trust or write it down.
 - Automatic login - If you select this option, you will not need to enter your password when you start up your computer. We do not recommend this, as it will give others immediate access to your computer.
 - Encryption of your personal folder - We recommend enabling this option. Your data will then be stored in encrypted form, which offers extra protection in case your computer is lost or stolen. In some situations (such as administrative work for associations), this measure is even mandatory due to privacy legislation. You do not need an additional password for encryption.
-
 
 > [!CAUTION]
 > When encrypted, your data is truly encrypted. If you lose the password, you will no longer be able to recover your files. There is no magic trick to retrieve them. That is why we recommend choosing a password that you can remember and writing it down or sharing it with someone you trust.
@@ -151,7 +152,7 @@ The menu will display all programs related to the topic you typed. If you alread
 
 👉 Right-click on the program in the menu.
 
-Select 'Add to desktop' to create the shortcut.
+👉 Select 'Add to desktop' to create the shortcut.
 
 ### Browse categories
 
@@ -163,7 +164,7 @@ The right column shows all related programs.
 
 ## Setting Up E-mail
 
-To set up email, you need the username and password for your email account and an email program. Linux Mint comes with the Thunderbird email program.
+To set up email, you need the username and password for your email account and an email program. Linux Mint comes with the <ins>Thunderbird</ins> email program.
 
 👉 Start <ins>Thunderbird</ins> from the menu.
 
@@ -260,6 +261,7 @@ Instead of the 'Install' button, you will now see the 'Uninstall' button.
 Your computer is now ready to use. Time to get started with everyday tasks. With our clear explanations and handy tips, we help you get the most out of your Linux system.
 
 ### OneDrive storage
+
 With the <ins>OneDrive</ins> or <ins>Rclone</ins> programs, you can connect your OneDrive cloud storage to your Linux computer. Install the program via <ins>Software Manager</ins>.
 
 For more information about using <ins>OneDrive</ins>, see this [page](https://ubuntuhandbook.org/index.php/2024/02/install-onedrive-ubuntu/).
@@ -269,13 +271,16 @@ For more information about using <ins>OneDrive</ins>, see this [page](https://ub
 We recommend following the meeting via the <ins>Firefox</ins> web browser or installing an app on a phone or tablet. To install Microsoft Teams or Zoom in <ins>Software Management</ins> turn on ‘unverified flatpaks’ in the software store. Read about the security implications on [Linux Mint forums](https://forums.linuxmint.com/viewtopic.php?t=421334).
 
 ### Reading an e-book
+
 There are various readers you can install, such as <ins>FBReader</ins>. Check with your local library whether the reader is compatible.
 
 ### Playing a DVD
+
 Use <ins>VLC Media Player</ins> if you want to play a DVD. Install <ins>VLC Media Player</ins> according to the steps in the chapter 'Installing and removing programs'.
 
 ### Using the touchpad
-Slide two fingers across the touchpad at the same time. You cannot scroll using the side or bottom of the touchpad.
+
+To scroll, slide two fingers across the touchpad at the same time. You cannot scroll using the side or bottom of the touchpad.
 
 ### Multiple screens: watching video on a TV or projector
 
@@ -305,22 +310,26 @@ If you want the TV screen to be an extension of the laptop screen, do the follow
 
 👉 Click on 'Apply'.
 
-👉 Close Display.
+👉 Close <ins>Display</ins>.
 
 ### Connecting a printer
+
 You can connect a printer with a cable or via Wi-Fi. Plug the cable directly into the computer; if using Wi-Fi, make sure the computer and printer are connected to the same network. Most printers are automatically recognised as soon as you connect them to the network. You can easily add a new printer via the "Printers" menu.
 
 Mint often selects the correct driver itself. For brands such as HP, Canon, or Epson, additional drivers are sometimes required. You can install these via <ins>Software Manager</ins> or the manufacturer's website. Once the printer has been added, you can start printing immediately.
 
-## Adjusting Settings 
+## Adjusting Settings
 
 In Linux Mint, you can customise many settings to your liking: from fonts and icon size to backgrounds, colours, and the panel. These adjustments are not only to make your work environment look nicer. They also make it more user-friendly: if you have poor eyesight, for example, you can enlarge the default font. Follow the steps and customise your system to your liking and convenience.
 
 ### Display and fonts
+
 ### Font size of windows
+
 Go to <ins>System Settings</ins> and select <ins>Fonts</ins> to adjust the display of text in windows. Increasing the default font size significantly improves readability for people with visual impairments. Please note: adjusting the document font usually has little effect, as many programs use their own settings for font and font size.
 
 ### Desktop background
+
 Start <ins>Backgrounds</ins> from <ins>System Settings</ins>. Just try a few things out.
 
 To set a solid colour:
@@ -340,6 +349,7 @@ To set a solid colour:
 👉 Select ' set '.
 
 <!-- TODO: localise screenshot -->
+
 ![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-en.png)
 
 👉 Click on – or + to increase or decrease the size of the Linux Mint icon.
@@ -363,6 +373,7 @@ The panel turns pink to indicate that you are in edit mode. The changes are imme
 👉 Drag the 'Panel height' to a comfortable height.
 
 <!-- TODO: localise screenshot -->
+
 ![screenshot of the dialog to adjust panel height](../assets/panel-height-en.png)
 
 👉 Exit the screen using the left arrow at the top left of the screen.
@@ -378,6 +389,7 @@ Here you can turn the visibility of programs on and off; they will then appear o
 👉 Select 'Edit Menu'.You now see this screen.
 
 <!-- TODO: localise screenshot -->
+
 ![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-en.png)
 
 You can always make the programs visible again. To do this, open the <ins>Main Menu</ins> and check the box for the program under the category where you expect it to be. Then click on 'Close'.
