@@ -51,9 +51,9 @@ A search tip for the internet: start your search with: 'Linux Mint + [enter the 
 
 ## Starting Linux Mint For The First Time
 
-Linux Mint is installed on your computer as if it were brand new. After starting it up for the first time, a few more steps are needed to get your new system ready for use. You will now take those steps. It is also wise to install a few necessary additions right away, such as updates.
+Linux Mint is installed on your computer as if it were brand new. After starting it up for the first time, a few more steps are needed to get your new system ready for use, these steps may have been done for you in the Linux Repair Cafe. Otherwise, we recommend that you now take those steps. It is also wise to install a few necessary additions right away, such as updates.
 
-In this chapter, we will walk you through all the steps. Many of these actions only need to be performed once. If you do them correctly, you will benefit from them later. After these steps, your system will be ready for use.
+In this chapter, we will walk you through all the steps. Many of these actions only need to be performed once. After these steps, your system will be ready for use.
 
 Follow the steps calmly and at your own pace — you are almost ready to get started with Linux!
 
@@ -72,7 +72,10 @@ When you start the computer for the first time, you will go through a number of 
   - No spaces or punctuation marks
   - One word that is recognisable to you
 
-- Password - Because you are also the administrator of your system, choose a strong password of at least eight characters with sufficient variation (numbers, capital letters, symbols). Choose a password that you can remember. Share it with someone you trust or write it down.
+- Password - Because you are also the administrator of your system, choose a strong password of at least twelve characters with sufficient variation (numbers, capital letters, symbols). Choose a password that you can remember, try using a sentence instead of random letters/numbers. Share it with someone you trust or write it down.
+
+> forest turtles read books at sunrise
+
 - Automatic login - If you select this option, you will not need to enter your password when you start up your computer. We do not recommend this, as it will give others immediate access to your computer.
 - Encryption of your personal folder - We recommend enabling this option. Your data will then be stored in encrypted form, which offers extra protection in case your computer is lost or stolen. In some situations (such as administrative work for associations), this measure is even mandatory due to privacy legislation. You do not need an additional password for encryption.
 
@@ -81,7 +84,7 @@ When you start the computer for the first time, you will go through a number of 
 
 ### Installing updates
 
-The version of Linux Mint installed on your computer is a snapshot. Since then, new updates have probably become available. Minor updates are released approximately every six months, major updates usually every two years. It is wise to install these updates immediately before continuing to explore your computer.
+The version of Linux Mint installed on your computer is a snapshot. Critical security updates and bug fixes are released frequently (daily/weekly), so new updates have probably become available. It is wise to install these updates immediately before continuing to explore your computer.
 
 👉 Click on the security shield with the red dot in the panel.
 
@@ -107,7 +110,7 @@ The <ins>Update Manager</ins> update itself is now being installed. Once it is c
 
 The updates will be downloaded and installed. This may take up to half an hour the first time, depending on your internet connection. Please wait patiently.
 
-👉 Close the <ins>Update Manager</ins> screen.
+👉 Close the <ins>Update Manager</ins> window.
 
 From now on, updates will be performed automatically. This is visible in the bottom taskbar on the gear icon.
 
@@ -162,9 +165,11 @@ The right column shows all related programs.
 
 👉 Click on a program to start it.
 
-## Setting Up E-mail
+## Setting Up Email
 
-To set up email, you need the username and password for your email account and an email program. Linux Mint comes with the <ins>Thunderbird</ins> email program.
+To access your email you may visit the website of your email provider through your web browser. Optionally you may set up a local email client like <ins>Thunderbird</ins>. 
+
+To set up <ins>Thunderbird</ins>, you need the username and password for your email account and an email program.
 
 👉 Start <ins>Thunderbird</ins> from the menu.
 
@@ -176,19 +181,7 @@ If everything is filled in correctly, you will have quick access to your mailbox
 
 Having trouble? Consult the manual on automatic account configuration via the Mozilla website.
 
-### Transferring your <ins>Thunderbird</ins> profile from another computer
-
-Have you used <ins>Thunderbird</ins> on another computer before? If so, you can transfer your email settings, messages, and folders by transferring your profile. To do this, you need to make your profile folder visible in Linux. Here's how:
-
-👉 Open <ins>Nemo</ins> (second icon from the left in the panel).
-
-You will now see your personal folder.
-
-👉 Press Ctrl + H to display hidden files.
-
-Find the <ins>Thunderbird</ins> folder. This is where your profiles are stored.
-
-Use this folder to transfer data from your old system, as described in the manual on Mozilla's website.
+> Use the import/export function of <ins>Thunderbird</ins> if you wish to copy your emails from <ins>Thunderbird</ins> on another computer.
 
 ## Managing Files
 
@@ -344,9 +337,11 @@ To set a solid colour:
 
 ### Enlarge icons in the Linux Mint menu
 
-👉 Right-click on the Linux Mint icon.
+👉 Right-click on the Linux Mint icon. Click the tab "appearance"
 
-👉 Select ' set '.
+👉 Adjust icon sizes to your liking
+
+👉 Close the menu settings program
 
 <!-- TODO: localise screenshot -->
 
