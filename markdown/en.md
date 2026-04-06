@@ -169,7 +169,7 @@ The right column shows all related programs.
 
 To access your email you may visit the website of your email provider through your web browser. Optionally you may set up a local email client like <ins>Thunderbird</ins>. 
 
-To set up <ins>Thunderbird</ins>, you need the username and password for your email account and an email program.
+To set up <ins>Thunderbird</ins>, you need the username (normally the email address) and password for your email account.
 
 👉 Start <ins>Thunderbird</ins> from the menu.
 
