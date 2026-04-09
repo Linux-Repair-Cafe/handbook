@@ -37,8 +37,6 @@ English sources:
 - [Tutorials / Guides](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
 - [Reddit](https://www.reddit.com/r/linuxmint/)
 
-English-language sources (use <ins>Firefox</ins>'s translation function if you find English difficult).
-
 - [Linux Mint Forum](https://forums.linuxmint.com/)
 - [Ubuntu Questions & Answers](https://askubuntu.com/) – Linux Mint is based on Ubuntu. Many Ubuntu solutions can also be used in Linux Mint.
 - [LibreOffice Forum](https://ask.libreoffice.org/c/english/5)
@@ -90,11 +88,11 @@ The version of Linux Mint installed on your computer is a snapshot. Critical sec
 
 ![screenshot of the task bar tray icons](../assets/tray.png)
 
-The <ins>Update Manager</ins> screen will open.
+The <ins>Update Manager</ins> window will open.
 
 👉 Click on "OK."
 
-You will <ins>Update Manager</ins> screen again.
+You will see the <ins>Update Manager</ins> window again.
 
 👉 Click on 'Refresh' at the top.
 
@@ -131,7 +129,7 @@ You can easily open programs via the Linux Mint menu. Here's how:
 
 ![Linux Mint menu button icon](../assets/linux-mint-menu.png)
 
-Click on the program you want to open.
+👉 Click on the program you want to open.
 
 For example: Menu > Preferences > Sound
 
@@ -141,7 +139,7 @@ You can make the menu larger or smaller by dragging the edges.
 
 ### Searching for a program
 
-There is a search field at the top of the menu.
+There is a search field at the bottom of the menu.
 
 👉 Type in a general term, such as: "text," "mail," "internet," "video," "print," "mouse," "player," "calculate," and so on.
 
@@ -159,7 +157,7 @@ The menu will display all programs related to the topic you typed. If you alread
 
 ### Browse categories
 
-👉 Click on a category in the left column of the menu.
+👉 Click on a category in the middle column of the menu.
 
 The right column shows all related programs.
 
@@ -205,7 +203,7 @@ Searches are not case sensitive – this is indicated by the Aa icon. By default
 
 ### Deleting files
 
-If you delete a file using the right-click menu or the Delete key, it will first be moved to the recycle bin. If you also delete it from the recycle bin, the file will be permanently deleted. Unlike Windows, Linux does not have any simple programs for recovering deleted files.
+If you delete a file using the right-click menu or the Delete key, it will first be moved to the recycle bin. If you also delete it from the recycle bin, the file will be permanently deleted. 
 
 ### Want to know more about the <ins>Nemo</ins> program?
 
@@ -253,15 +251,13 @@ Instead of the 'Install' button, you will now see the 'Uninstall' button.
 
 Your computer is now ready to use. Time to get started with everyday tasks. With our clear explanations and handy tips, we help you get the most out of your Linux system.
 
-### OneDrive storage
+### Online accounts
 
-With the <ins>OneDrive</ins> or <ins>Rclone</ins> programs, you can connect your OneDrive cloud storage to your Linux computer. Install the program via <ins>Software Manager</ins>.
-
-For more information about using <ins>OneDrive</ins>, see this [page](https://ubuntuhandbook.org/index.php/2024/02/install-onedrive-ubuntu/).
+Online accounts such as Google (Drive), Microsoft (OneDrive), NextCloud, etc. can be setup with the <ins>Oneline Accounts</ins> program. The accounts become available as network drives in <ins>Nemo</ins>
 
 ### Attending Teams or Zoom meetings
 
-We recommend following the meeting via the <ins>Firefox</ins> web browser or installing an app on a phone or tablet. To install Microsoft Teams or Zoom in <ins>Software Management</ins> turn on ‘unverified flatpaks’ in the software store. Read about the security implications on [Linux Mint forums](https://forums.linuxmint.com/viewtopic.php?t=421334).
+We recommend following the meeting via the <ins>Firefox</ins> web browser. Consider to create a program for frequently used web applications with the program <ins>Web Apps</ins>
 
 ### Reading an e-book
 
@@ -273,7 +269,7 @@ Use <ins>VLC Media Player</ins> if you want to play a DVD. Install <ins>VLC Medi
 
 ### Using the touchpad
 
-To scroll, slide two fingers across the touchpad at the same time. You cannot scroll using the side or bottom of the touchpad.
+To scroll, slide two fingers across the touchpad at the same time. To scroll using the side of the touchpad go to Touchpad settings.
 
 ### Multiple screens: watching video on a TV or projector
 
@@ -337,7 +333,11 @@ To set a solid colour:
 
 ### Enlarge icons in the Linux Mint menu
 
-👉 Right-click on the Linux Mint icon. Click the tab "appearance"
+👉 Right-click on the Linux Mint icon.
+
+👉 Select "Configure"
+
+👉 Click the tab "Appearance"
 
 👉 Adjust icon sizes to your liking
 
@@ -349,7 +349,7 @@ To set a solid colour:
 
 👉 Click on – or + to increase or decrease the size of the Linux Mint icon.
 
-### Desktop and taskbar
+### Desktop and panel/taskbar
 
 ### Setting up icons on the desktop
 
@@ -371,9 +371,9 @@ The panel turns pink to indicate that you are in edit mode. The changes are imme
 
 ![screenshot of the dialog to adjust panel height](../assets/panel-height-en.png)
 
-👉 Exit the screen using the left arrow at the top left of the screen.
+👉 Close the panel settings program.
 
-The taskbar will return to its normal colour, and you will be back in normal working mode.
+The panel will return to its normal colour, and you will be back in normal working mode.
 
 ### Components of the Linux Mint menu
 
@@ -406,5 +406,5 @@ In this menu, you can click on various icons to adjust settings for display, sou
 The <ins>Power Management</ins> program allows you to control three things.
 
 - What your laptop does when you close it: go into sleep mode or shut down.
-- How the on/off button behaves. The following options are available: the button does nothing, the screen turns off, the laptop goes into sleep or hibernation mode, or the system shuts down.
+- How the on/off button behaves. The following options are available: the button does nothing, the screen turns off, the laptop goes into sleep mode, or the system shuts down.
 - Power management for battery and mains power. Among other things, you can set the transition between battery and mains power and when the laptop goes into energy-saving mode.
