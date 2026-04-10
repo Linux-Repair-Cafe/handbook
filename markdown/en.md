@@ -6,7 +6,9 @@ Manual For Novice Users
 
 > TOSS IT? NO WAY! REPAIRCAFE.ORG
 
-Source: https://github.com/Linux-Repair-Cafe/handbook/tree/main/html
+Source: https://github.com/Linux-Repair-Cafe/handbook
+
+<sup>Adapted from: https://www.repaircafe.org/en/repair-cafe-linux </sup>
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
