@@ -49,9 +49,9 @@ Un consejo de búsqueda para internet: comienza tu consulta de búsqueda con: �
 [incluye el tema]’. Por ejemplo: ‘Linux Mint + cambiar contraseña’. De esta forma evitas resultados de búsqueda para otros sistemas operativos.
 
 ## Poner En Marcha La Primera Vez
-Linux Mint está instalado en tu ordenador como si acabase de salir nuevo del comercio. Después de ponerlo en marcha la primera vez requiere algunos pasos para que tu nuevo sistema queda listo para usar. Esos pasos los vas a dar ahora. También te aconsejamos configurar en este momento algunas adiciones necesarias, como actualizaciones.
+Linux Mint está instalado en tu ordenador como si acabase de salir nuevo del comercio. Después de ponerlo en marcha la primera vez requiere algunos pasos para que tu nuevo sistema queda listo para usar, quizá se hayan tomado ya estos pasos en el Linux Repair Cafe. Si no, te aconsejamos configurar en este momento algunas adiciones necesarias, como actualizaciones.
 
-En este capítulo repasamos todas las partes paso a paso. Muchas de estas acciones sólo requieren ejecutarse una única vez. Si las ejecutas con éxito, te beneficiarás más adelante. Tras ejecutar estos pasos tu sistema estará listo para usar.
+En este capítulo repasamos todas las partes paso a paso. Muchas de estas acciones sólo requieren ejecutarse una única vez. Tras ejecutar estos pasos tu sistema estará listo para usar.
 
 Sigue los pasos tranquilamente y a tu propio ritmo — ¡estás casi listo para comenzar con Linux!
 
@@ -69,7 +69,10 @@ contraseña de wifi. Teclea la contraseña de tu enrutador.
 	- Sólo minúsculas
 	- Sin espacios o signos de puntuación
 	- Una palabra que sea reconocible para ti
-- Contraseña. Como también eres el administrador de tu sistema, escoge una contraseña fuerte de mínimo ocho caracteres y con suficiente variación (cifras, mayúsculas, símbolos). Escoge una contraseña que vayas poder recordar. Compártela con alguien a quien confías o escríbela.
+- Contraseña. Como también eres el administrador de tu sistema, escoge una contraseña fuerte de mínimo doce carácteres y con suficiente variación (cifras, mayúsculas, símbolos). Escoge una contraseña que vayas poder recordar, prueba escogiendo una oración que recuerdes, en vez de letras/cifras aleatorias. Compártela con alguien a quien confías o escríbela.
+
+> tortugas del bosque leen libros amaneciendo
+
 - Iniciar sesión automáticamente. Si seleccionas esta opción, no tendrás que incluir tu contraseña al iniciar sesión. Lo desaconsejamos, ya que tu ordenador es libremente accesible para otras personas.
 - Encriptación de tu archivo personal. Te aconsejamos habilitar esta opción. Tus datos se guardarán de forma encriptada, lo que ofrece una protección adicional en caso de pérdida o robo de tu ordenador. En algunas situaciones esta medida es obligatoria bajo legislación de privacidad (como trabajo administrativo para asociaciones). Para la encriptación no necesitas una contraseña
 adicional.
@@ -78,7 +81,7 @@ adicional.
 > En caso de encriptación los datos son encriptados de verdad. Si perdieras la contraseña, ya no podrás recuperar los archivos. No existe un truco mágico para recuperarlos. Por esta razón nuestro consejo de escoger una contraseña que puedas memorizar, y de escribirla en algún sitio o compartirla con alguien en quien confíes.
 
 ### Instalar actualizaciones
-La versión de Linux Mint que has instalado en tu ordenador, consiste en una instantánea. Desde ese momento, probablemente ya estén disponible nuevas actualizaciones. Más o menos cada seis meses salen pequeñas actualizaciones, las actualizaciones mayores suelen salir cada dos años. Es recomendable instalar estas actualizaciones inmediatamente antes de seguir explorando tu ordenador.
+La versión de Linux Mint que has instalado en tu ordenador, consiste en una captura instantánea. Actualizaciones críticas y correciones de errores se emiten frequentemente (diario/semanal), por lo que nuevas actualizaciones probablemente estén disponibles. Es prudente instalar estas actualizaciones antes de continuar explorando tu ordenador.
 
 👉 Haga clic en el escudo de seguridad con el punto rojo en el panel.
 
@@ -105,7 +108,7 @@ Se instalará ahora la actualización de Gestor de actualizaciones. Cuando haya 
 Se bajarán e instalarán las actualizaciones. La primera vez puede tardar hasta media hora,
 dependiendo de tu conexión de internet. Espera tranquilamente.
 
-👉 Cierra la pantalla Gestor de actualizaciones.
+👉 Cierra la ventana Gestor de actualizaciones.
 
 Desde este momento las actualizaciones se ejecutarán automáticamente. Esto es visible en la barra de tareas inferior en el icono de rueda dentada.
 
@@ -162,7 +165,9 @@ La columna derecha mostrará todos los programas asociados.
 
 ## Configurar El Correo Electrónico
 
-Para poder configurar el correo electrónico necesitas el nombre de usuario y la contraseña de tu cuenta de correo electrónico, y un programa de correo electrónico. Linux Mint viene con el programa de correo electrónico <ins>Thunderbird</ins>.
+Para acceder a tu email puedes visitar la página web de tu proveedor de email a través de tu navegador web. Opcionalmente, puedes configurar un cliente email como <ins>Thunderbird</ins>.
+
+Para configurar <ins>Thunderbird</ins>, necesitas el usuario (normalmente el email) y la contraseña de tu cuenta email.
 
 👉 Inicia <ins>Thunderbird</ins> mediante el menú.
 
@@ -175,18 +180,7 @@ electrónico.
 
 ¿No lo consigues? Consulta el manual sobre configuración automática de la cuenta mediante la [página web de Mozilla](https://support.mozilla.org/es/kb/configuracion-automatica-de-las-cuentas?utm_source=chatgpt.com).
 
-### Transferir el perfil de <ins>Thunderbird</ins> desde otro ordenador
-¿Has usado <ins>Thunderbird</ins> anteriormente en otro ordenador? Entonces puedes llevarte tu configuración de correo electrónico, mensajes y carpetas transfiriendo tu perfil. Para ello, debes hacer visible tu carpeta de perfil en Linux. Se hace así:
-
-👉 Abre <ins>Nemo</ins> (segundo pictograma de la izquierda en el panel).
-
-Ahora ves tu archivo personal.
-
-👉 Presiona Ctrl + H para mostrar archivos ocultos.
-
-Busca la carpeta <ins>Thunderbird</ins>. Aquí están guardados tus perfiles.
-
-Usa esta carpeta para transferir los datos de tu sistema antiguo.
+> Utiliza la función importar/exportar de <ins>Thunderbird</ins> si deseas copiar tus emails de <ins>Thunderbird</ins> otro ordenador.
 
 ## Administrar Archivos
 
@@ -243,7 +237,7 @@ Puede ser que te pida que insertes la contraseña.
 
 Tras la instalación el programa estará disponible mediante el menú.
 
-Si haces clic en un programa dentro de <ins>Gestor de software</ins>, se abrirá una pantalla de descripción general con más información. En la parte superior derecha verás el botón ‘Instalar’ (o ‘Eliminar’ si el programa ya está instalado).
+Si haces clic en un programa dentro de <ins>Gestor de software</ins>, se abrirá una ventana de descripción general con más información. En la parte superior derecha verás el botón ‘Instalar’ (o ‘Eliminar’ si el programa ya está instalado).
 
 ### Eliminar un programa
 
@@ -340,9 +334,11 @@ Desde <ins>Configuración del sistema<ins> puedes iniciar <ins>Fondos</ins>. Pru
 
 ### Agrandar pictogramas del menú Linux Mint
 
-👉 Haga clic derecho en el pictograma de Linux Mint.
+👉 Haga clic derecho en el pictograma de Linux Mint. Haga clic en "apariencia"
 
-👉 Selecciona ‘Configurar’.
+👉 Ajuste los iconos a su preferencia
+
+👉 Cierre la ventana de ajustes
 
 <!-- TODO: localise screenshot -->
 ![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-es.png)
@@ -380,7 +376,7 @@ Aquí puedes encender o apagar la visibilidad de programas, dependiendo de tu el
 
 👉 Haga clic derecho en el pictograma de Linux Mint.
 
-👉 Escoge ‘Editar menú’. Ahora verás esta pantalla.
+👉 Escoge ‘Editar menú’. Ahora verás esta ventana.
 
 <!-- TODO: localise screenshot -->
 ![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-es.png)

@@ -6,7 +6,9 @@ Manual For Novice Users
 
 > TOSS IT? NO WAY! REPAIRCAFE.ORG
 
-Adapted from: https://www.repaircafe.org/en/repair-cafe-linux/
+Source: https://github.com/Linux-Repair-Cafe/handbook
+
+<sup>Adapted from: https://www.repaircafe.org/en/repair-cafe-linux </sup>
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
@@ -37,8 +39,6 @@ English sources:
 - [Tutorials / Guides](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
 - [Reddit](https://www.reddit.com/r/linuxmint/)
 
-English-language sources (use <ins>Firefox</ins>'s translation function if you find English difficult).
-
 - [Linux Mint Forum](https://forums.linuxmint.com/)
 - [Ubuntu Questions & Answers](https://askubuntu.com/) – Linux Mint is based on Ubuntu. Many Ubuntu solutions can also be used in Linux Mint.
 - [LibreOffice Forum](https://ask.libreoffice.org/c/english/5)
@@ -51,9 +51,9 @@ A search tip for the internet: start your search with: 'Linux Mint + [enter the 
 
 ## Starting Linux Mint For The First Time
 
-Linux Mint is installed on your computer as if it were brand new. After starting it up for the first time, a few more steps are needed to get your new system ready for use. You will now take those steps. It is also wise to install a few necessary additions right away, such as updates.
+Linux Mint is installed on your computer as if it were brand new. After starting it up for the first time, a few more steps are needed to get your new system ready for use, these steps may have been done for you in the Linux Repair Cafe. Otherwise, we recommend that you now take those steps. It is also wise to install a few necessary additions right away, such as updates.
 
-In this chapter, we will walk you through all the steps. Many of these actions only need to be performed once. If you do them correctly, you will benefit from them later. After these steps, your system will be ready for use.
+In this chapter, we will walk you through all the steps. Many of these actions only need to be performed once. After these steps, your system will be ready for use.
 
 Follow the steps calmly and at your own pace — you are almost ready to get started with Linux!
 
@@ -72,7 +72,10 @@ When you start the computer for the first time, you will go through a number of 
   - No spaces or punctuation marks
   - One word that is recognisable to you
 
-- Password - Because you are also the administrator of your system, choose a strong password of at least eight characters with sufficient variation (numbers, capital letters, symbols). Choose a password that you can remember. Share it with someone you trust or write it down.
+- Password - Because you are also the administrator of your system, choose a strong password of at least twelve characters with sufficient variation (numbers, capital letters, symbols). Choose a password that you can remember, try using a sentence instead of random letters/numbers. Share it with someone you trust or write it down.
+
+> forest turtles read books at sunrise
+
 - Automatic login - If you select this option, you will not need to enter your password when you start up your computer. We do not recommend this, as it will give others immediate access to your computer.
 - Encryption of your personal folder - We recommend enabling this option. Your data will then be stored in encrypted form, which offers extra protection in case your computer is lost or stolen. In some situations (such as administrative work for associations), this measure is even mandatory due to privacy legislation. You do not need an additional password for encryption.
 
@@ -81,17 +84,17 @@ When you start the computer for the first time, you will go through a number of 
 
 ### Installing updates
 
-The version of Linux Mint installed on your computer is a snapshot. Since then, new updates have probably become available. Minor updates are released approximately every six months, major updates usually every two years. It is wise to install these updates immediately before continuing to explore your computer.
+The version of Linux Mint installed on your computer is a snapshot. Critical security updates and bug fixes are released frequently (daily/weekly), so new updates have probably become available. It is wise to install these updates immediately before continuing to explore your computer.
 
 👉 Click on the security shield with the red dot in the panel.
 
 ![screenshot of the task bar tray icons](../assets/tray.png)
 
-The <ins>Update Manager</ins> screen will open.
+The <ins>Update Manager</ins> window will open.
 
 👉 Click on "OK."
 
-You will <ins>Update Manager</ins> screen again.
+You will see the <ins>Update Manager</ins> window again.
 
 👉 Click on 'Refresh' at the top.
 
@@ -107,7 +110,7 @@ The <ins>Update Manager</ins> update itself is now being installed. Once it is c
 
 The updates will be downloaded and installed. This may take up to half an hour the first time, depending on your internet connection. Please wait patiently.
 
-👉 Close the <ins>Update Manager</ins> screen.
+👉 Close the <ins>Update Manager</ins> window.
 
 From now on, updates will be performed automatically. This is visible in the bottom taskbar on the gear icon.
 
@@ -128,7 +131,7 @@ You can easily open programs via the Linux Mint menu. Here's how:
 
 ![Linux Mint menu button icon](../assets/linux-mint-menu.png)
 
-Click on the program you want to open.
+👉 Click on the program you want to open.
 
 For example: Menu > Preferences > Sound
 
@@ -138,7 +141,7 @@ You can make the menu larger or smaller by dragging the edges.
 
 ### Searching for a program
 
-There is a search field at the top of the menu.
+There is a search field at the bottom of the menu.
 
 👉 Type in a general term, such as: "text," "mail," "internet," "video," "print," "mouse," "player," "calculate," and so on.
 
@@ -156,15 +159,17 @@ The menu will display all programs related to the topic you typed. If you alread
 
 ### Browse categories
 
-👉 Click on a category in the left column of the menu.
+👉 Click on a category in the middle column of the menu.
 
 The right column shows all related programs.
 
 👉 Click on a program to start it.
 
-## Setting Up E-mail
+## Setting Up Email
 
-To set up email, you need the username and password for your email account and an email program. Linux Mint comes with the <ins>Thunderbird</ins> email program.
+To access your email you may visit the website of your email provider through your web browser. Optionally you may set up a local email client like <ins>Thunderbird</ins>. 
+
+To set up <ins>Thunderbird</ins>, you need the username (normally the email address) and password for your email account.
 
 👉 Start <ins>Thunderbird</ins> from the menu.
 
@@ -176,19 +181,7 @@ If everything is filled in correctly, you will have quick access to your mailbox
 
 Having trouble? Consult the manual on automatic account configuration via the Mozilla website.
 
-### Transferring your <ins>Thunderbird</ins> profile from another computer
-
-Have you used <ins>Thunderbird</ins> on another computer before? If so, you can transfer your email settings, messages, and folders by transferring your profile. To do this, you need to make your profile folder visible in Linux. Here's how:
-
-👉 Open <ins>Nemo</ins> (second icon from the left in the panel).
-
-You will now see your personal folder.
-
-👉 Press Ctrl + H to display hidden files.
-
-Find the <ins>Thunderbird</ins> folder. This is where your profiles are stored.
-
-Use this folder to transfer data from your old system, as described in the manual on Mozilla's website.
+> Use the import/export function of <ins>Thunderbird</ins> if you wish to copy your emails from <ins>Thunderbird</ins> on another computer.
 
 ## Managing Files
 
@@ -212,7 +205,7 @@ Searches are not case sensitive – this is indicated by the Aa icon. By default
 
 ### Deleting files
 
-If you delete a file using the right-click menu or the Delete key, it will first be moved to the recycle bin. If you also delete it from the recycle bin, the file will be permanently deleted. Unlike Windows, Linux does not have any simple programs for recovering deleted files.
+If you delete a file using the right-click menu or the Delete key, it will first be moved to the recycle bin. If you also delete it from the recycle bin, the file will be permanently deleted. 
 
 ### Want to know more about the <ins>Nemo</ins> program?
 
@@ -260,15 +253,13 @@ Instead of the 'Install' button, you will now see the 'Uninstall' button.
 
 Your computer is now ready to use. Time to get started with everyday tasks. With our clear explanations and handy tips, we help you get the most out of your Linux system.
 
-### OneDrive storage
+### Online accounts
 
-With the <ins>OneDrive</ins> or <ins>Rclone</ins> programs, you can connect your OneDrive cloud storage to your Linux computer. Install the program via <ins>Software Manager</ins>.
-
-For more information about using <ins>OneDrive</ins>, see this [page](https://ubuntuhandbook.org/index.php/2024/02/install-onedrive-ubuntu/).
+Online accounts such as Google (Drive), Microsoft (OneDrive), NextCloud, etc. can be setup with the <ins>Oneline Accounts</ins> program. The accounts become available as network drives in <ins>Nemo</ins>
 
 ### Attending Teams or Zoom meetings
 
-We recommend following the meeting via the <ins>Firefox</ins> web browser or installing an app on a phone or tablet. To install Microsoft Teams or Zoom in <ins>Software Management</ins> turn on ‘unverified flatpaks’ in the software store. Read about the security implications on [Linux Mint forums](https://forums.linuxmint.com/viewtopic.php?t=421334).
+We recommend following the meeting via the <ins>Firefox</ins> web browser. Consider to create a program for frequently used web applications with the program <ins>Web Apps</ins>
 
 ### Reading an e-book
 
@@ -280,7 +271,7 @@ Use <ins>VLC Media Player</ins> if you want to play a DVD. Install <ins>VLC Medi
 
 ### Using the touchpad
 
-To scroll, slide two fingers across the touchpad at the same time. You cannot scroll using the side or bottom of the touchpad.
+To scroll, slide two fingers across the touchpad at the same time. To scroll using the side of the touchpad go to Touchpad settings.
 
 ### Multiple screens: watching video on a TV or projector
 
@@ -346,7 +337,13 @@ To set a solid colour:
 
 👉 Right-click on the Linux Mint icon.
 
-👉 Select ' set '.
+👉 Select "Configure"
+
+👉 Click the tab "Appearance"
+
+👉 Adjust icon sizes to your liking
+
+👉 Close the menu settings program
 
 <!-- TODO: localise screenshot -->
 
@@ -354,7 +351,7 @@ To set a solid colour:
 
 👉 Click on – or + to increase or decrease the size of the Linux Mint icon.
 
-### Desktop and taskbar
+### Desktop and panel/taskbar
 
 ### Setting up icons on the desktop
 
@@ -376,9 +373,9 @@ The panel turns pink to indicate that you are in edit mode. The changes are imme
 
 ![screenshot of the dialog to adjust panel height](../assets/panel-height-en.png)
 
-👉 Exit the screen using the left arrow at the top left of the screen.
+👉 Close the panel settings program.
 
-The taskbar will return to its normal colour, and you will be back in normal working mode.
+The panel will return to its normal colour, and you will be back in normal working mode.
 
 ### Components of the Linux Mint menu
 
@@ -411,5 +408,5 @@ In this menu, you can click on various icons to adjust settings for display, sou
 The <ins>Power Management</ins> program allows you to control three things.
 
 - What your laptop does when you close it: go into sleep mode or shut down.
-- How the on/off button behaves. The following options are available: the button does nothing, the screen turns off, the laptop goes into sleep or hibernation mode, or the system shuts down.
+- How the on/off button behaves. The following options are available: the button does nothing, the screen turns off, the laptop goes into sleep mode, or the system shuts down.
 - Power management for battery and mains power. Among other things, you can set the transition between battery and mains power and when the laptop goes into energy-saving mode.

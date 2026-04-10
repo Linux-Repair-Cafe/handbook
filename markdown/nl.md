@@ -2,11 +2,13 @@
 
 # Van Start Met Linux
 
-Handleiding Voor Beginnende Gebruikers
+Handleiding voor beginnende gebruikers
 
 > WEGGOOIEN? MOOI NIET! REPAIRCAFE.ORG
 
-Aangepast van: https://www.repaircafe.org/nl/repair-cafe-linux/
+Bron: https://github.com/Linux-Repair-Cafe/handbook
+
+<sup>Aangepast van: https://www.repaircafe.org/en/repair-cafe-linux </sup>
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
@@ -17,9 +19,9 @@ Aangepast van: https://www.repaircafe.org/nl/repair-cafe-linux/
 
 Gefeliciteerd met je nieuwe Linux besturingssysteem! Je laptop gaat nu langer mee, je bent minder afhankelijk van commerciële bedrijven en je privacy wordt beter gewaarborgd.
 
-Dit document helpt je je weg vinden in Linux Mint. Het helpt je bij het afronden van de installatie, het instellen van het uiterlijk en het beantwoorden van de eerste vragen die je misschien hebt. Ongeveer de helft van de inhoud gaat over zaken die je maar één keer hoeft in te stellen. We hopen dat je zo een vlot begin kunt maken met het gebruiken van je ‘nieuwe’ Linux-computer.
+Dit document helpt je je weg te vinden in Linux Mint. Het helpt je bij het afronden van de installatie, het instellen van het uiterlijk en het beantwoorden van de eerste vragen die je misschien hebt. Ongeveer de helft van de inhoud gaat over zaken die je maar één keer hoeft in te stellen. We hopen dat je zo een vlot begin kunt maken met het gebruik van je ‘nieuwe’ Linux-computer.
 
-De opmaak in dit document is een leeshulp:
+De opmaak in dit document is als volgt:
 
 - Namen van programma’s zien er zo uit: <ins>Energiebeheer</ins>.
 
@@ -35,14 +37,18 @@ Nederlandstalige bronnen:
 - [Linux Mint Forum NL](https://forums.linuxmint.com/viewforum.php?f=67)
 - [LibreOffice Nederland](https://nl.libreoffice.org/)
 - [LibreOffice Vragenforum NL](https://ask.libreoffice.org/c/dutch/18)
-- [Linuxalt.com](https://www.linuxalt.com/) – alternatieven voor Windows-programma’s in Linux
 
 Engelstalige bronnen (gebruik de vertaalfunctie van <ins>Firefox</ins> als je Engels lastig vindt).
 
+- [Official Website](https://linuxmint.com/)
+- [Linux Mint Forum](https://forums.linuxmint.com/)
+- [Tutorials / Gidsen](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
+- [Reddit](https://www.reddit.com/r/linuxmint/)
 - [Linux Mint Forum](https://forums.linuxmint.com/)
 - [Ubuntu Vraag & Antwoord](https://askubuntu.com/) – Linux Mint is gebaseerd op Ubuntu. Veel Ubuntu-oplossingen zijn
 ook bruikbaar in Linux
 - [LibreOffice Forum](https://ask.libreoffice.org/c/english/5)
+
 
 Videomateriaal:
 
@@ -50,16 +56,11 @@ Videomateriaal:
 
 Een zoektip voor internet: begin je zoekopdracht met: ‘Linux Mint + [vul hier het onderwerp in]’. Bijvoorbeeld: ‘Linux Mint + wachtwoord veranderen’. Zo vermijd je zoekresultaten voor andere besturingssystemen.
 
-Wil je investeren in je kennis over Linux? Dan zijn de volgende bronnen aan te raden:
+## De eerste keer opstarten
 
-- [Makkelijke Linux Tips](https://makkelijkelinuxtips.blogspot.com/p/1.html) – praktische, duidelijke tips en trucs
-- [Linux Gebruikershandleiding](https://www.delinuxspecialist.nl/lgh/lgh-1.6-pre2.pdf) – een pdf-document in het Nederlands van meer dan 100 pagina’s. Sommige delen zijn wat verouderd, maar veel technische informatie (zoals bestandsstructuren en commando’s) blijft tijdloos
+Linux Mint is geïnstalleerd op je computer alsof deze nieuw uit de winkel komt. Na de eerste keer opstarten zijn nog een paar stappen nodig om je nieuwe systeem gebruiksklaar te maken. Die zijn misschien al voor je gedaan in het Linux Repair Cafe en anders ga je ze nu zetten. Ook is het verstandig om enkele noodzakelijke aanvullingen direct te installeren, zoals updates.
 
-## De Eerste Keer Opstarten
-
-Linux Mint is geïnstalleerd op je computer alsof deze nieuw uit de winkel komt. Na de eerste keer opstarten zijn nog een paar stappen nodig om je nieuwe systeem gebruiksklaar te maken. Die ga je nu zetten. Ook is het verstandig om enkele noodzakelijke aanvullingen direct te installeren, zoals updates.
-
-In dit hoofdstuk lopen we alle onderdelen stap voor stap met je door. Veel van deze handelingen zijn maar één keer nodig. Als je ze goed uitvoert, heb je daar later profijt van. Na deze stappen is je systeem klaar voor gebruik.
+In dit hoofdstuk lopen we alle onderdelen stap voor stap met je door. Veel van deze handelingen zijn maar één keer nodig. Na deze stappen is je systeem klaar voor gebruik.
 
 Volg de stappen rustig en in je eigen tempo — je bent bijna klaar om met Linux aan de slag te gaan!
 
@@ -68,15 +69,19 @@ Volg de stappen rustig en in je eigen tempo — je bent bijna klaar om met Linux
 Wanneer je de computer voor het eerst opstart, doorloop je een aantal stappen om je systeem gebruiksklaar te maken:
 
 - Taalinstelling. Kies de taal waarin je wilt dat het systeem met je communiceert. Kies de taal die voor jou het meest vertrouwd is. Je kunt deze keuze later altijd aanpassen.
-- Toetsenbordindeling. We raden aan te kiezen voor Engels (VS, internationaal, met dode toetsen). Daarmee kun je accenten typen zoals ö, ë, è en ï. Wil je later een extra toetsenbordindeling toevoegen? Dat kan altijd als je de installatie hebt afgerond.
+- Toetsenbordindeling. Je kunt bijvoorbeeld kiezen voor Engels (VS, internationaal, met dode toetsen). Daarmee kun je accenten typen zoals ö, ë, è en ï. Of kies Engels (VS, euroteken op 5). De euro (€) krijg je dan door de rechter ALT toets en 5 te kiezen. Wil je later een extra toetsenbordindeling toevoegen? Dat kan altijd als je de installatie hebt afgerond.
 - Wifinetwerk. Als je computer niet met een netwerkkabel is verbonden, zal hij om het wifiwachtwoord vragen. Voer het wachtwoord van je router in.
 - Locatie. Bevestig de standaardlocatie (meestal Amsterdam) of kies handmatig een ander land of andere regio.
-- Gebruikersnaam (accountnaam). Deze naam wordt ook gebruikt voor je persoonlijke map (bijv. / home/jouwnaam). Kies een korte, duidelijke gebruikersnaam die bestaat uit:
+- Gebruikersnaam (accountnaam). Deze naam wordt ook gebruikt voor je persoonlijke map (bijv. / home/jouwnaam). 
+
+    Kies een korte, duidelijke gebruikersnaam die bestaat uit:
 	- Alleen kleine letters
 	- Geen spaties of leestekens
 	- Eén woord dat voor jou herkenbaar is
+
 - Wachtwoord. Omdat je ook beheerder bent van je systeem, kies je een sterk wachtwoord
-van minimaal acht tekens en met voldoende variatie (cijfers, hoofdletters, symbolen). Kies een wachtwoord dat je ook kunt onthouden. Deel dit met iemand die je vertrouwt of schrijf het op.
+van minimaal twaalf tekens en met voldoende variatie (cijfers, hoofdletters, symbolen). Kies een wachtwoord dat je ook kunt onthouden of gebruik een zin in plaats van letters, nummers en tekens. Deel dit met iemand die je vertrouwt of schrijf het op.
+>  bos schildpadden lezen boeken bij zonsopkomst
 - Automatisch aanmelden. Als je dit selecteert, hoef je bij het opstarten niet je wachtwoord te geven. Dit raden we af, omdat je computer dan voor anderen direct toegankelijk is.
 - Versleuteling van je persoonlijke map. We raden aan om deze optie in te schakelen. Je gegevens worden dan versleuteld opgeslagen, dat biedt extra bescherming bij verlies of diefstal van je computer. Deze maatregel is in sommige situaties (zoals administratief werk voor verenigingen) zelfs verplicht vanwege de privacywetgeving. Voor de versleuteling heb je geen extra wachtwoord nodig.
 
@@ -85,9 +90,9 @@ van minimaal acht tekens en met voldoende variatie (cijfers, hoofdletters, symbo
 
 ### Updates installeren
 
-De versie van Linux Mint die op je computer is geïnstalleerd, is een momentopname. Sindsdien zijn er waarschijnlijk nieuwe updates beschikbaar gekomen. Kleine updates zijn er ongeveer elke zes maanden, grote updates meestal elke twee jaar. Het is verstandig deze updates meteen te installeren voordat je verder gaat met het verkennen van je computer.
+De versie van Linux Mint die op je computer is geïnstalleerd, is een momentopname. Kritische beveiligings updates en software correcties komen regelmatig (dagelijks/wekelijks) beschikbaar. Het is verstandig deze updates meteen te installeren voordat je verder gaat met het verkennen van je computer.
 
-👉 Klik op het veiligheidsschild met de rode stip in het paneel.
+👉 Klik op het veiligheidsschild met de rode stip in de werkbalk onderaan.
 
 ![screenshot of the task bar tray icons](../assets/tray.png)
 
@@ -103,7 +108,7 @@ Er kan een mededeling komen dat een nieuwe versie van <ins>Bijwerkbeheer</ins> b
 
 👉 Klik op ‘Actualisering uitvoeren’.
 
-👉 Geef het wachtwoord.
+👉 Geef je wachtwoord.
 
 De update van <ins>Bijwerkbeheer</ins> zelf wordt nu geïnstalleerd. Zodra deze klaar is:
 
@@ -119,7 +124,7 @@ Vanaf nu worden updates automatisch uitgevoerd. Dit is zichtbaar in de onderste 
 
 Je kunt altijd handmatig een update forceren door op het veiligheidsschild te klikken. Sommige updates worden trouwens pas actief na een herstart van je computer. Hier krijg je een melding van.
 
-## Programma’S Gebruiken
+## Programma’s gebruiken
 
 Nu je de installatie hebt afgerond en de laatste updates hebt geïnstalleerd, is je computer klaar voor gebruik. De volgende hoofdstukken helpen je bij het wennen aan Linux. Dit hoofdstuk gaat over het gebruik van programma’s.
 
@@ -131,7 +136,9 @@ Programma’s kun je eenvoudig openen via het menu van Linux Mint. Dit doe je zo
 
 ![Linux Mint menu button icon](../assets/linux-mint-menu.png)
 
-Klik op het programma dat je wilt gebruiken. Bijvoorbeeld: Menu > Voorkeuren > Geluid
+👉 Klik op het programma dat je wilt gebruiken. 
+
+Bijvoorbeeld: Menu > Voorkeuren > Geluid
 
 ### Het formaat aanpassen
 
@@ -139,7 +146,7 @@ Je kunt het menu groter of kleiner maken door aan de randen te slepen.
 
 ### Zoeken naar een programma
 
-Boven in het menu staat een zoekveld.
+Onderaan in het menu staat een zoekveld.
 
 👉 Typ een algemene term, zoals: ‘tekst’, ‘mail’, ‘internet’, ‘video’, ‘afdruk’, ‘muis’, ‘player’, ‘reken’, enzovoort.
 
@@ -153,11 +160,11 @@ Het menu toont alle programma’s die te maken hebben met het onderwerp dat je h
 
 👉 Rechterklik op het programma in het menu.
 
-👉 Kies ‘Toevoegen aan het werkblad’ om de snelkoppeling te maken.
+👉 Kies ‘Toevoegen aan het bureaublad’ om de snelkoppeling te maken.
 
 ### Bladeren door categorieën
 
-👉 Klik op een categorie in de linkerkolom van het menu.
+👉 Klik op een categorie in de middelste kolom van het menu.
 
 De rechterkolom toont alle bijbehorende programma’s.
 
@@ -165,7 +172,8 @@ De rechterkolom toont alle bijbehorende programma’s.
 
 ## E-Mail Instellen
 
-Voor het instellen van e-mail heb je de gebruikersnaam en het wachtwoord van je mailaccount nodig, en een mailprogramma. Linux Mint wordt geleverd met het mailprogramma Thunderbird.
+Om email te lezen kun je de website van je email provider bezoeken. Als alternatief kun je een lokaal email programma gebruiken zoals <ins>Thunderbird</ins>.
+Voor het instellen van <ins>Thunderbird</ins> heb je je gebruikersnaam (meestal het email adres) en je wachtwoord van je mailaccount nodig.
 
 👉 Start <ins>Thunderbird</ins> via het menu.
 
@@ -177,23 +185,11 @@ Als alles goed is ingevuld, heb je snel toegang tot je mailbox.
 
 Kom je er niet uit? Raadpleeg de handleiding over automatische accountconfiguratie via de [website van Mozilla](https://support.mozilla.org/nl/kb/automatische-accountconfiguratie).
 
-### Thunderbird-profiel overzetten van een andere computer
-
-Heb je <ins>Thunderbird</ins> eerder gebruikt op een andere computer? Dan kun je je e-mailinstellingen, berichten en mappen meenemen door het profiel over te zetten. Hiervoor moet je je profielmap zichtbaar maken in Linux. Dat gaat zo:
-
-👉 Open Bestanden (tweede pictogram van links in het paneel).
-
-Je ziet nu je persoonlijke map.
-
-👉 Druk op Ctrl + H om verborgen bestanden weer te geven.
-
-Zoek de map <ins>Thunderbird</ins>. Hierin staan je profielen opgeslagen.
-
-Gebruik deze map om gegevens over te zetten van je oude systeem, zoals beschreven in de handleiding op de [website van Mozilla](https://support.mozilla.org/nl/kb/profielen-waar-thunderbird-gebruikersgegevens-bewaart#w_een-back-up-van-een-profiel-terugzetten).
+> Gebruik de import/export functie van <ins>Thunderbird</ins> als je je emails van <ins>Thunderbird</ins> op een andere computer wilt overzetten.
 
 ## Bestanden Beheren
 
-In Linux Mint gebruik je het programma Bestanden (ook wel Nemo genoemd) om mappen en
+In Linux Mint gebruik je het programma Bestanden (ook wel <ins>Nemo</ins> genoemd) om mappen en
 bestanden te openen, te zoeken en beheren.
 
 ### Bestanden openen en zoeken
@@ -215,13 +211,11 @@ programma ook in submappen. Het L-vormige pijltje naar rechts geeft dit aan.
 
 ### Bestanden verwijderen
 
-Verwijder je een bestand via het rechtsklikmenu of de Delete-toets? Dan gaat het eerst naar de prullenbak. Verwijder je het ook uit de prullenbak, dan is het bestand permanent verwijderd. In tegenstelling tot Windows zijn er in Linux geen eenvoudige programma’s om verwijderde bestanden terug te halen.
+Verwijder je een bestand via het rechtsklikmenu of de Delete-toets? Dan gaat het eerst naar de prullenbak. Verwijder je het ook uit de prullenbak, dan is het bestand permanent verwijderd.
 
 ### Meer weten over het programma <ins>Bestanden</ins>?
 
-Bekijk de uitgebreide uitleg op:
-
-https://community.linuxmint.com/software/view/nemo
+Bekijk de uitgebreide uitleg op: https://community.linuxmint.com/software/view/nemo
 
 ## Programma’S Installeren En Verwijderen
 
@@ -231,7 +225,7 @@ Met een paar eenvoudige stappen kun je in Linux Mint nieuwe programma’s instal
 
 👉 Druk op de Windows-toets of klik links onder op het menu.
 
-👉 Typ ‘prog’ in het zoekveld.
+👉 Typ ‘prog’ in het zoekveld of vind <ins>Programmabeheer</ins> via menu > Beheer > <ins>Programmabeheer</ins>
 
 👉 Klik op <ins>Programmabeheer</ins> in de lijst met resultaten.
 
@@ -265,15 +259,13 @@ In plaats van de kop ‘Installeren’ zie je nu de knop ‘Verwijderen’.
 
 Je computer is nu klaar voor gebruik. Tijd om ermee aan de slag te gaan voor alledaagse taken. Met onze heldere uitleg en handige tips helpen we je het maximale uit je Linux-systeem te halen.
 
-### OneDrive-opslag
+### Internetaccounts
 
-Met de programma’s <ins>OneDrive</ins> of <ins>Rclone</ins> kun je je OneDrive-cloudopslag verbinden met je Linux-computer. Installeer het programma via <ins>Programmabeheer</ins>.
-
-Voor meer uitleg over het gebruik van <ins>OneDrive</ins> bekijk [deze pagina](https://nl.linux-console.net/?p=12548).
+Online accounts zoals Google (Drive), Microsoft (OneDrive) , NextCloud, etc. kunnen toegevoegd worden met het <ins>Internetaccounts</ins> programma. De accounts komen beschikbaar als netwerk schijven onder <ins>Nemo</ins>/Bestanden
 
 ### Teams- of Zoombijeenkomsten bijwonen
 
-We raden aan bijeenkomsten te volgen via de webbrowser Firefox, of een app te installeren op een telefoon of tablet. Om Microsoft Teams of Zoom te installeren via Programmabeheer moet je ‘ongeverifieerde flatpaks’ inschakelen in Softwarebeheer. Lees meer over de beveiligingsimplicaties op de Linux Mint-forums.
+We raden aan bijeenkomsten te volgen via de webbrowser Firefox. Overweeg om van veel gebruikte web toepassingen een programma te maken met <ins>Webtoepassingen</ins>
 
 ### Een e-boek lezen
 
@@ -285,7 +277,7 @@ Gebruik <ins>VLC Media Player</ins> als je een DVD wilt afspelen. Installeer <in
 
 ### De touchpad gebruiken
 
-Schuif met twee vingers tegelijk over de touchpad. Met de zij-of onderkant van de touchpad kun je niet scrollen.
+Om te scrollen, schuif met twee vingers tegelijk over het touchpad. Om met de zijkant van de touchpad te scrollen ga je eerst naar <ins>Muis en Touchpad</ins> instellingen.
 
 ### Meerdere schermen: video kijken op een tv of beamer
 
@@ -323,9 +315,9 @@ Een printer kun je aansluiten met een kabel of via wifi. Een kabel steek je dire
 
 Vaak kiest Mint zelf het juiste stuurprogramma. Voor merken als HP, Canon of Epson zijn soms extra drivers nodig. Die kun je installeren via <ins>Softwarebeheer</ins> of de website van de fabrikant. Zodra de printer is toegevoegd, kun je direct afdrukken.
 
-## Instellingen Aanpassen
+## Instellingen aanpassen
 
-In Linux Mint kun je heel veel naar eigen smaak instellen: van lettertypes en pictogramgrootte tot achtergronden, kleuren en het paneel. Deze aanpassingen zijn niet alleen om je werkomgeving er leuker uit te laten zien. Ze maken hem ook gebruiksvriendelijker: als je slechter ziet, kun je bijvoorbeeld het standaardlettertype vergroten. Volg de stappen en pas je systeem aan naar je eigen smaak en gemak.
+In Linux Mint kun je heel veel naar eigen smaak instellen: van lettertypes en pictogramgrootte tot achtergronden, kleuren en de werkbalk. Deze aanpassingen zijn niet alleen om je werkomgeving er leuker uit te laten zien. Ze maken hem ook gebruiksvriendelijker: als je slechter ziet, kun je bijvoorbeeld het standaardlettertype vergroten. Volg de stappen en pas je systeem aan naar je eigen smaak en gemak.
 
 ### Weergave en lettertypes
 
@@ -339,7 +331,7 @@ Vanuit <ins>Systeeminstellingen</ins> start je <ins>Achtergronden</ins>. Probeer
 
 👉 Klik op de tab ‘Instellingen’.
 
-👉 Klik op ‘Geen afbeelding’.
+👉 Bij Fotoverhouding kies je ‘Geen afbeelding’.
 
 👉 Gebruik het kleuricoon om een kleur te kiezen.
 
@@ -347,11 +339,14 @@ Vanuit <ins>Systeeminstellingen</ins> start je <ins>Achtergronden</ins>. Probeer
 
 ### Pictogrammen vergroten van het Linux Mint-menu
 
-👉 Rechterklik op het pictogram van Linux Mint.
+👉 Rechtsklik op het pictogram van Linux Mint.
 
 👉 Selecteer ‘Instellen’.
 
-<!-- TODO: localise screenshot -->
+👉 Pas de pictogram grootte aan naar smaak
+
+👉 Sluit het menu programma
+
 ![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-nl.png)
 
 👉 Klik op – of + om de grootte van het Linux Mint-pictogram te vergroten of te verkleinen.
@@ -366,18 +361,17 @@ Ga naar <ins>Systeeminstellingen</ins>, start <ins>Bureaublad</ins> en vink aan 
 
 Als je klikt op het pictogram ‘Computer’, opent het een venster waarin je de verschillende schijven, aangesloten apparaten en soms netwerkbronnen ziet. Dit is vergelijkbaar met ‘Deze PC’ of ‘Mijn computer’ in Windows.
 
-### Paneel onder aan het bureaublad aanpassen
+### Werkbalk onder aan het bureaublad aanpassen
 
-Vanuit <ins>Systeeminstellingen</ins> start je <ins>Paneel</ins>.
+Vanuit <ins>Systeeminstellingen</ins> start je <ins>Werkbalk</ins>.
 
-Het paneel kleurt roze om aan te geven dat je in bewerkingsmodus zit. De aanpassingen worden direct zichtbaar.
+De werkbalk kleurt roze om aan te geven dat je in bewerkingsmodus zit. De aanpassingen worden direct zichtbaar.
 
-👉 Schuif de ‘Paneelhoogte’ naar een prettige hoogte.
+👉 Schuif de ‘Werkbalkhoogte’ naar een prettige hoogte.
 
-<!-- TODO: localise screenshot -->
 ![screenshot of the dialog to adjust panel height](../assets/panel-height-nl.png)
 
-👉 Verlaat het scherm via de linkerpijl linksboven in het scherm.
+👉 Sluit het werkbalk configuratie programma.
 
 De taakbalk krijgt weer zijn normale kleur, je bent terug in de normale werksituatie.
 
@@ -391,7 +385,6 @@ Hier kun je de zichtbaarheid van programma’s aan- en uitzetten, ze verschijnen
 
 <!-- TODO: localise screenshot -->
 ![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-nl.png)
-
 
 Je kunt de programma’s altijd weer zichtbaar maken. Dit doe je door het <ins>Hoofdmenu</ins> te openen en onder de categorie waar je je programma verwacht het vinkje van het programma weer aan te vinken. Klik hierna op ‘Sluiten’.
 
@@ -412,5 +405,5 @@ In dit menu kun je op verschillende pictogrammen klikken om instellingen aan te 
 Met het programma <ins>Energiebeheer</ins> kun je drie dingen regelen.
 
 - Wat je laptop doet als je hem dichtklapt: in pauzestand gaan of afsluiten.
-- Hoe de aan/uitknop zich gedraagt. Er zijn de volgende opties: de knop doet niets, het scherm wordt uitgeschakeld, de laptop gaat in slaap- of sluimerstand of het systeem wordt afgesloten.
+- Hoe de aan/uitknop zich gedraagt. Er zijn de volgende opties: de knop doet niets, het scherm wordt uitgeschakeld, de laptop gaat in slaap of het systeem wordt afgesloten.
 - Het energiebeheer voor batterij en netvoeding. Je kunt onder andere de overgang tussen batterij en netvoeding instellen en wanneer de laptop in een energiebesparende modus gaat.
