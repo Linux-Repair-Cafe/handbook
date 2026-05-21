@@ -14,7 +14,7 @@ Adapté de: https://www.repaircafe.org/fr/repair-cafe-linux/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 
 ## Préambule
-Félicitations pour votre nouveau système d’exploitation Linux ! Vous prolongez la durée de vie de votre ordinateur portable, vous êtes moins dépendant des entreprises commerciales et vousprotégez mieux votre vie privée.
+Félicitations pour votre nouveau système d’exploitation Linux ! Vous prolongez la durée de vie de votre ordinateur portable, vous êtes moins dépendant des entreprises commerciales et vous protégez mieux votre vie privée.
 
 Ce document vous aide à vous familiariser avec Linux Mint. Il vous aide à finir l’installation, à configurer l'apparence et à répondre aux premières questions que vous pourriez avoir. Environ la moitié du contenu concerne des éléments à ne configurer qu’une seule fois. Nous espérons que cela vous permettra de démarrer facilement avec votre « nouvel » ordinateur Linux
 
@@ -90,7 +90,7 @@ L'écran <ins>Gestionnaire de mise à jour</ins> réapparait.
 
 👉 Cliquez sur la partie supérieure sur « rafraichir ».
 
-Il se peut qu’un message indique qu’une nouvelle version du Gestionnaire de mise à jour est disponible Dans ce cas :
+Il se peut qu’un message indique qu’une nouvelle version du Gestionnaire de mise à jour est disponible, dans ce cas :
 
 👉 Cliquez sur « Effectuer la mise à jour ».
 
@@ -110,7 +110,7 @@ Désormais les mises à jour seront effectuées automatiquement. Ceci est visibl
 
 Vous pouvez toujours forcer une mise à jour manuellement en cliquant sur le bouclier de sécurité. Certaines mises à jour ne seront activées qu’après un redémarrage de votre ordinateur. Vous en recevrez une notification.
 
-## Utiliser Les Programmes
+## Utiliser les programmes
 
 Maintenant que l’installation est terminée et que les dernières mises à jour sont faites, votre ordinateur est prêt à l’emploi. Les prochains chapitres vous aident à vous habituer à Linux. Ce chapitre traite de l’utilisation des programmes.
 
@@ -170,7 +170,7 @@ Lorsque tout est bien complété, vous avez un accès rapide à votre messagerie
 
 Vous ne vous en sortez pas ? Consultez le manuel sur la configuration automatique du compte sur le site [Web de Mozilla](https://support.mozilla.org/fr/kb/configuration-automatique-de-compte).
 
-### Thunderbird-profiel overzetten van een andere computer
+### Transférer le profil Thunderbird depuis un autre ordinateur
 
 Avez-vous déjà utilisé <ins>Thunderbird</ins> sur un autre ordinateur ? Vous pourrez alors récupérer vos réglages de messagerie, vos mails et dossiers en transférant votre profil. Pour cela il faut rendre votre dossier profil visible dans Linux. Voici comment procéder :
 
@@ -205,7 +205,7 @@ La recherche ne tient pas compte des majuscules et minuscules – ce que montre 
 
 ### Supprimer des fichiers
 
-Pour supprimer un fichier, utilisez-vous le clic droit de la souris ou la touche Suppr. Rendez-vous tout d'abord dans la corbeille. Si vous supprimez également ce fichier de la corbeille, le fichier est supprimé définitivement* Contrairement à Windows, il n’existe pas dans Linux de programmes simples permettant de récupérer les fichiers définitivement supprimés.
+Pour supprimer un fichier, utilisez-vous le clic droit de la souris ou la touche Suppr. Rendez-vous tout d'abord dans la corbeille. Si vous supprimez également ce fichier de la corbeille, le fichier est supprimé définitivement. Contrairement à Windows, il n’existe pas dans Linux de programmes simples permettant de récupérer les fichiers définitivement supprimés.
 
 En savoir plus sur le programme <ins>Nemo</ins> ?
 
@@ -213,13 +213,13 @@ Regardez les explications détaillées sur :
 
 https://fr.wikipedia.org/wiki/Nemo_%28logiciel%29
 
-## Installer Et Supprimer Les Programmes
+## Installer et supprimer les rogrammes
 
 En quelques étapes faciles, vous pouvez installer de nouveaux programmes sous Linux Mint ou désinstaller des logiciels existants. Cela se fait via <ins>Gestionprogramme</ins>. On t'explique étape par étape comment procéder.
 
 ### Installer un programme
 
-👉 Appuyer sur la touche Windows ou cliquez à gauche sous le menu.
+👉 Appuyez sur la touche Windows ou cliquez à gauche sous le menu.
 
 👉 Tapez « gest » dans le champ de recherche ou trouvez le <ins>Gestionnaire de logiciels</ins> via Menu > Administration > Gestionnaire de logiciels.
 
@@ -252,14 +252,14 @@ Au lieu de l’intitulé ‘Installer’ vous voyez désormais l’intitulé ‘
 
 👉 Cliquer sur « Supprimer ». Le programme sera supprimé du système
 
-## Applications Courantes
+## Applications courantes
 
-Votre ordinateur est prêt à l’emploi Il est temps de commencer à l’utiliser pour les tâches quotidiennes. Nos explications claires et nos conseils pratiques vous aident à tirer le maximum du système Linux
+Votre ordinateur est prêt à l’emploi. Il est temps de commencer à l’utiliser pour les tâches quotidiennes. Nos explications claires et nos conseils pratiques vous aident à tirer le maximum du système Linux
 
 ### Stockage OneDrive
-Les programmes <ins>OneDrive</ins> ou <ins>Rclone</ins> vous permettent de connecter votre espace de stockage OneDrive dans le cloud à votre ordinateur Linux. Installez le programme via Gestionnaire de logiciels.
+Les programmes <ins>OneDrive</ins> ou <ins>Rclone</ins> vous permettent de connecter votre espace de stockage OneDrive à votre ordinateur Linux. Installez le programme via Gestionnaire de logiciels.
 
-Pour plus d'information sur l'utilisation de <ins>OneDrive</ins>, consultez cette [page](https://ubuntuhandbook.org/index.php/2024/02/install-onedrive-ubuntu/). -->
+Pour plus d'information sur l'utilisation de <ins>OneDrive</ins>, consultez cette [page](https://ubuntuhandbook.org/index.php/2024/02/install-onedrive-ubuntu/).
 
 ### Prendre part à des réunions Teams ou Zoom
 
@@ -313,7 +313,7 @@ Vous pouvez raccorder une imprimante avec un câble ou par une connexion Wifi. U
 
 Souvent Mint choisit le bon programme pilote. Pour les marques comme HP, Canon ou Epson, il faut parfois installer des pilotes en plus. Vous pouvez les installer par <ins>Gestionlogiciel</ins> ou sur le site du fabricant. Dès que l’imprimante est ajoutée, vous pouvez procéder à l’impression.
 
-## Modifier Les Paramètres
+## Modifier les paramètres
 
 Dans Linux Mint, vous pouvez personnaliser de nombreux éléments à votre goût : des polices et de la taille des icônes jusqu’aux arrière-plans, couleurs et panneau. Ces ajustements ne servent pas uniquement à rendre votre environnement de travail plus agréable visuellement. Ils le rendent aussi plus convivial : si vous avez une vue réduite, vous pouvez par exemple agrandir la police par défaut. Suivez les étapes et adapter votre système à votre goût et confort.
 
@@ -321,7 +321,7 @@ Dans Linux Mint, vous pouvez personnaliser de nombreux éléments à votre goût
 
 ### Taille de lettre des fenêtres
 
-Par <ins>Paramètres système</ins> rendez-vous à <ins>Tailles de caractères</ins> pour modifier l'affichage des textes dans les fenêtres. Si tu agrandis la police par défaut, la lecture devient beaucoup plus facile pour les personnes qui voient moins bien. Attention : changer la police des documents n’a souvent pas beaucoup d’effet, car beaucoup de programmes utilisent leurs propres réglages pour la police et la taille.
+Par <ins>Paramètres système</ins> rendez-vous à <ins>Tailles de caractères</ins> pour modifier l'affichage des textes dans les fenêtres. Si vous agrandissez la police par défaut, la lecture devient beaucoup plus facile pour les personnes qui voient moins bien. Attention : changer la police des documents n’a souvent pas beaucoup d’effet, car beaucoup de programmes utilisent leurs propres réglages pour la police et la taille.
 
 ### Fond d'écran
 
@@ -383,7 +383,7 @@ Ici vous pouvez activer ou désactiver la visibilité des programmes, qui appara
 ![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-fr.png)
 
 
-Vous pouvez toujours faire apparaitre les programmes. Pour ce faire, il faut ouvrir le Menuprincipal et dans la catégorie où vous attendez votre programme, cochez de nouveau la case du programme. Cliquez ensuite sur « Fermer ».
+Vous pouvez toujours faire apparaitre les programmes. Pour ce faire, il faut ouvrir le Menu principal et dans la catégorie où vous attendez votre programme, cochez de nouveau la case du programme. Cliquez ensuite sur « Fermer ».
 
 ### Paramètre système
 
