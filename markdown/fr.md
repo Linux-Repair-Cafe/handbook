@@ -6,7 +6,9 @@ Manuel Pour Les Utilisateurs Débutants
 
 > JETER ? PAS QUESTION ! REPAIRCAFE.ORG
 
-Adapté de: https://www.repaircafe.org/fr/repair-cafe-linux/
+Source: https://github.com/Linux-Repair-Cafe/handbook
+
+<sup>Adapté de: https://www.repaircafe.org/fr/repair-cafe-linux/</sup>
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
@@ -46,11 +48,11 @@ Matériel vidéo :
 
 Astuce de recherche pour internet : commencez votre recherche avec : « Linux Mint + [saisissez ici le sujet] ». Par exemple : « Linux Mint + modifier son mot de passe ». Vous évitez ainsi tous les résultats de recherche pour d'autres systèmes d’exploitation.
 
-## Démarrer La Première Fois
+## Démarrer la première fois
 
-Linux Mint est installé sur votre ordinateur comme si celui sortait tout neuf du magasin. Après le premier démarrage, quelques étapes supplémentaires sont nécessaires pour rendre votre nouveau système prêt à l’emploi. Vous allez les faire maintenant. Il est également recommandé d’installer immédiatement quelques compléments indispensables, comme les mises à jour.
+Linux Mint est installé sur votre ordinateur comme si celui sortait tout neuf du magasin. Après le premier démarrage, quelques étapes supplémentaires sont nécessaires pour rendre votre nouveau système prêt à l’emploi, ces étapes devraient avoir été faites dans le Linux Repair Cafe. Sinon nous vous recommandons de les faire maintenant. Il est également recommandé d’installer immédiatement quelques compléments indispensables, comme les mises à jour.
 
-Ce chapitre permet de passer en revue toutes les étapes pas à pas avec vous. Beaucoup de ces actions ne sont nécessaires qu’une une seule fois. Si vous les effectuez correctement, vous en profiterez plus tard. Une fois ces étapes finies, votre système est prêt à être utilisé.
+Ce chapitre permet de passer en revue toutes les étapes pas à pas avec vous. Beaucoup de ces actions ne sont nécessaires qu’une une seule fois. Une fois ces étapes finies, votre système est prêt à être utilisé.
 
 Suivez les étapes calmement et à votre rythme - vous êtes presque prêt à démarrer l’utilisation de Linux !
 
@@ -67,7 +69,7 @@ manuellement un autre pays ou une autre région.
 	- Uniquement des lettres minuscules
 	- Sans espace ni signe de ponctuation
 	- Un mot reconnaissable pour vous
-- Mot de passe. Comme vous êtes également l’administrateur de votre système, choisissez un mot de passe fort, contenant au moins huit caractères, avec suffisamment de variété (chiffres, majuscules, symboles). Choisissez un mot de passe facilement mémorisable. Partagez-le avec une personne de confiance ou écrivez-le quelque part.
+- Mot de passe. Comme vous êtes également l’administrateur de votre système, choisissez un mot de passe fort, contenant au moins huit caractères, avec suffisamment de variété (chiffres, majuscules, symboles). Choisissez un mot de passe facilement mémorisable, essayez d'utiliser une phrase au lieu de caractères alphanumériques aléatoires. Partagez-le avec une personne de confiance ou écrivez-le quelque part.
 - Connexion automatique. Si vous faites ce choix, vous n'aurez pas à saisir votre mot de passe au démarrage. Nous déconseillons cette possibilité qui rend votre ordinateur directement accessible à autrui.
 - Chiffrement de votre dossier personnel. Nous vous conseillons d'activer cette option. Vos données seront alors stockées de façon chiffrée, ce qui offre une protection supplémentaire en cas de perte ou de vol de votre ordinateur. Cette mesure est même obligatoire dans certaines situations (comme le travail administratif pour des associations), en raison de la législation sur la protection de la vie privée. Pour ce
 chiffrage un mot de passe supplémentaire est nécessaire.
@@ -76,7 +78,7 @@ chiffrage un mot de passe supplémentaire est nécessaire.
 > Lors du chiffrage, vos données sont véritablement chiffrées. Si vous perdez votre mot de passe, vous ne pouvez plus récupérer vos fichiers. Il n’y a aucune astuce miracle pour les récupérer. D’où la suggestion de choisir un mot de passe mémorisable, et de l'écrire quelque part et de le partager avec une personne de confiance.
 
 ### Installer les mises à jour
-La version de Linux Mint qui est installée sur votre ordinateur est comme une photo à un moment donné. Depuis, il y a sans doute eu de nouvelles mises à jour. Des petites mises à jour interviennent tous les six mois, les mises à jour plus importantes tous les deux ans. Il est conseillé d’installer ces mises à jour sans attendre avant de poursuivre l’exploration de votre ordinateur.
+La version de Linux Mint qui est installée sur votre ordinateur est comme une photo à un moment donné. Des mises à jour de sécurité critiques et des correctifs de bogues sont publiés fréquemment (quotidiennement/hebdomadairement), de nouvelles mises à jour sont donc probablement disponibles. Il est conseillé d’installer ces mises à jour sans attendre avant de poursuivre l’exploration de votre ordinateur.
 
 👉 Cliquez sur le bouclier de sécurité avec le point rouge dans le panneau.
 
@@ -156,9 +158,11 @@ La colonne de droite affiche tous les programmes correspondants.
 
 👉 Cliquez sur un programme pour le démarrer.
 
-## Configurer Le Courrier Électronique
+## Configurer le courrier électronique
 
-Pour configurer votre adresse électronique, vous avez besoin du nom d’utilisateur et du mot de passe de votre compte mail, ainsi que d’un programme de messagerie. Linux Mint est livré avec le programme de messagerie <ins>Thunderbird</ins>.
+Pour accéder à votre messagerie, vous pouvez vous rendre sur le site web de votre fournisseur via votre navigateur. Vous pouvez également installer un client de messagerie local comme <ins>Thunderbird</ins>.
+
+Pour installer <ins>Thunderbird</ins>, vous avez besoin de votre identifiant (généralement votre adresse e-mail) et de votre mot de passe pour votre compte de messagerie.
 
 👉 Démarrez <ins>Thunderbird</ins> à partir du menu.
 
@@ -170,19 +174,7 @@ Lorsque tout est bien complété, vous avez un accès rapide à votre messagerie
 
 Vous ne vous en sortez pas ? Consultez le manuel sur la configuration automatique du compte sur le site [Web de Mozilla](https://support.mozilla.org/fr/kb/configuration-automatique-de-compte).
 
-### Transférer le profil Thunderbird depuis un autre ordinateur
-
-Avez-vous déjà utilisé <ins>Thunderbird</ins> sur un autre ordinateur ? Vous pourrez alors récupérer vos réglages de messagerie, vos mails et dossiers en transférant votre profil. Pour cela il faut rendre votre dossier profil visible dans Linux. Voici comment procéder :
-
-👉 Ouvrez <ins>Nemo</ins> (deuxième icône de gauche dans le panneau).
-
-Vous voyez alors votre dossier personnel.
-
-👉 Appuyez sur Ctrl + H pour afficher les fichiers cachés.
-
-Cherchez le dossier <ins>Thunderbird</ins>. C’est ici que sont sauvegardés vos profils.
-
-Utilisez ce dossier pour transférer des données depuis votre ancien système, comme décrit dans le manuel sur le site [web de Mozilla](https://support.mozilla.org/fr/kb/deplacer-donnees-thunderbird-vers-nouvel-ordinateur?).
+> Utilisez la fonction import/export de <ins>Thunderbird</ins> si vous voulez copiez vos emails <ins>Thunderbird</ins> sur un autre ordinateur.
 
 ## Gestion Des Dossiers
 
@@ -205,7 +197,7 @@ La recherche ne tient pas compte des majuscules et minuscules – ce que montre 
 
 ### Supprimer des fichiers
 
-Pour supprimer un fichier, utilisez-vous le clic droit de la souris ou la touche Suppr. Rendez-vous tout d'abord dans la corbeille. Si vous supprimez également ce fichier de la corbeille, le fichier est supprimé définitivement. Contrairement à Windows, il n’existe pas dans Linux de programmes simples permettant de récupérer les fichiers définitivement supprimés.
+Pour supprimer un fichier, utilisez-vous le clic droit de la souris ou la touche Suppr. Rendez-vous tout d'abord dans la corbeille. Si vous supprimez également ce fichier de la corbeille, le fichier est supprimé définitivement.
 
 En savoir plus sur le programme <ins>Nemo</ins> ?
 
@@ -256,14 +248,13 @@ Au lieu de l’intitulé ‘Installer’ vous voyez désormais l’intitulé ‘
 
 Votre ordinateur est prêt à l’emploi. Il est temps de commencer à l’utiliser pour les tâches quotidiennes. Nos explications claires et nos conseils pratiques vous aident à tirer le maximum du système Linux
 
-### Stockage OneDrive
-Les programmes <ins>OneDrive</ins> ou <ins>Rclone</ins> vous permettent de connecter votre espace de stockage OneDrive à votre ordinateur Linux. Installez le programme via Gestionnaire de logiciels.
+### Compte de stockage en ligne
 
-Pour plus d'information sur l'utilisation de <ins>OneDrive</ins>, consultez cette [page](https://ubuntuhandbook.org/index.php/2024/02/install-onedrive-ubuntu/).
+Les comptes de stockage en ligne tels que <ins>Google Drive</ins>, <ins>Microsoft OneDrive</ins>, <ins>Nextcloud</ins>, etc. peuvent être configurés avec le programme <ins>Oneline Accounts</ins>. Ces comptes deviennent ensuite accessibles en tant que lecteurs réseau dans <ins>Nemo</ins>.
 
 ### Prendre part à des réunions Teams ou Zoom
 
-Nous recommandons de suivre la réunion via le navigateur web <ins>Firefox</ins> ou d’installer une application sur un téléphone ou une tablette. Pour installer Microsoft Teams ou Zoom dans la <ins>Gestionnaire de logiciels</ins>, activez les « flatpaks non vérifiés » dans la boutique de logiciels. Lisez les informations sur les implications en matière de sécurité sur les forums de Linux Mint.
+Nous recommandons de suivre la réunion via le navigateur web <ins>Firefox</ins>. Envisagez de créer un programme pour les applications Web fréquemment utilisées avec le programme <ins>Web Apps</ins>
 
 ### Lire un e-boek
 
@@ -275,7 +266,7 @@ Utilisez <ins>VLC Media Player</ins> si vous souhaitez lire un DVD. Installez <i
 
 ### Utiliser le pavé tactile
 
-Faites glisser deux doigts en même temps sur le pavé tactile. Avec le côté ou le bas du pavé tactile, vous ne pouvez pas faire défiler.
+Faites glisser deux doigts en même temps sur le pavé tactile. Pour faire défiler l'écran avec le côté du pavé tactile, allez dans les paramètres du pavé tactile.
 
 ### Plusieurs écrans : regarder une vidéo sur une télévision ou un projecteur
 
@@ -341,6 +332,12 @@ A partir de <ins>Paramètres système</ins>, vous démarrez <ins>Fonds d’écra
 
 👉 Sélectionnez « Paramétrer ».
 
+👉 Cliquez sur l'onglet « Apparence ».
+
+👉 Ajustez la taille des icônes à votre convenance.
+
+👉 Fermez les paramètres.
+
 <!-- TODO: localise screenshot -->
 ![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-fr.png)
 
@@ -367,7 +364,7 @@ Le panneau se colore en rose pour indiquer que vous êtes en mode édition. Ces 
 <!-- TODO: localise screenshot -->
 ![screenshot of the dialog to adjust panel height](../assets/panel-height-fr.png)
 
-👉 Quittez l'écran à l'aide de la flèche gauche à gauche de l'écran.
+👉 Fermez la fenêtre des paramètres.
 
 👉 La barre de tâches récupère sa couleur habituelle, vous êtes revenu dans la situation de travail normal.
 
@@ -403,5 +400,5 @@ paramètres pour l'écran, le son et le réseau.
 Le programme <ins>Gestion de l'énergie</ins> permet d’adapter trois choses.
 
 - Ce que votre ordinateur portable fait lorsque vous le refermez : se mettre en pause ou s'éteindre.
-- Comment se comporte le bouton marche/arrêt. Il existe les options suivantes : le bouton ne fait rien, l'écran s'éteint, le portable se met en veille ou en hibernation ou bien le système s'arrête.
+- Comment se comporte le bouton marche/arrêt. Il existe les options suivantes : le bouton ne fait rien, l'écran s'éteint, le portable se met en veille, ou bien le système s'arrête.
 - La gestion de l’énergie pour les batteries et l'alimentation réseau. Vous pouvez notamment configurer la transition entre la batterie et l’alimentation secteur, ainsi que le moment où l’ordinateur portable passe en mode économie d’énergie.
