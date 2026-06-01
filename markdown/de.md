@@ -190,7 +190,7 @@ In Linux Mint verwenden Sie das Programm <ins>Dateien</ins> (auch <ins>Nemo</ins
 
 Öffnen:
 
-Start <ins>Dateien</ins>
+👉 Start <ins>Dateien</ins>
 
 👉 Klicken Sie auf das zweite Symbol von links in der Taskleiste am unteren Bildschirmrand.
 
