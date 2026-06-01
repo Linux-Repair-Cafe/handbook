@@ -220,7 +220,7 @@ Mit ein paar einfachen Schritten können Sie in Linux Mint neue Programme instal
 
 👉 Drücken Sie die Windows-Taste oder klicken Sie unten links auf das Menü.
 
-👉 Geben Sie „soft” in das Suchfeld ein.
+👉 Geben Sie „soft” in das Suchfeld ein oder finden Sie die <ins>Softwareverwaltung</ins> über Menü > Verwaltung > <ins>Softwareverwaltung</ins>.
 
 👉 Klicken Sie in der Ergebnisliste auf <ins>Softwareverwaltung</ins>.
 
