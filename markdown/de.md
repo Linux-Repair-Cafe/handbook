@@ -6,7 +6,9 @@ Handbuch Für Einsteiger
 
 > WEGWERFEN? DENKSTE! REPAIRCAFE.ORG
 
-Adaptiert von: https://www.repaircafe.org/de/repair-cafe-linux/
+Source: https://github.com/Linux-Repair-Cafe/handbook
+
+<sup>Adaptiert von: https://www.repaircafe.org/de/repair-cafe-linux/</sup>
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
@@ -49,9 +51,9 @@ Ein Suchtipp für das Internet: Beginnen Sie Ihre Suche mit: „Linux Mint + [ge
 
 ## Linux Mint das erstes Mal starten
 
-Linux Mint ist auf Ihrem Computer installiert, als käme er frisch aus dem Laden. Nach dem ersten Start sind noch einige Schritte erforderlich, um Ihr neues System einsatzbereit zu machen. Diese werden Sie nun durchführen. Es ist auch ratsam, einige notwendige Ergänzungen sofort zu installieren, wie Updates.
+Linux Mint ist auf Ihrem Computer installiert, als käme er frisch aus dem Laden. Nach dem ersten Start sind noch einige Schritte erforderlich, um Ihr neues System einsatzbereit zu machen. Diese Schritte wurden möglicherweise bereits für Sie im Linux Repair Cafe durchgeführt. Andernfalls empfehlen wir, sie jetzt durchzuführen. Es ist auch ratsam, einige notwendige Ergänzungen sofort zu installieren, wie Updates.
 
-In diesem Kapitel gehen wir alle Schritte der Reihe nach mit Ihnen durch. Viele dieser Schritte müssen nur einmal durchgeführt werden. Wenn Sie sie richtig ausführen, werden Sie später davon profitieren. Nach diesen Schritten ist Ihr System einsatzbereit.
+In diesem Kapitel gehen wir alle Schritte der Reihe nach mit Ihnen durch. Viele dieser Schritte müssen nur einmal durchgeführt werden. Nach diesen Schritten ist Ihr System einsatzbereit.
 
 Folgen Sie den Schritten in Ruhe und in Ihrem eigenen Tempo – Sie sind fast bereit, mit Linux zu arbeiten!
 
@@ -70,7 +72,9 @@ Wenn Sie den Computer zum ersten Mal starten, müssen Sie einige Schritte durchf
   - Keine Leerzeichen oder Satzzeichen
   - Einem Wort, das für Sie erkennbar ist
 
-- Passwort. Da Sie auch Administrator Ihres Systems sind, wählen Sie ein sicheres Passwort mit mindestens acht Zeichen und ausreichender Variation (Zahlen, Großbuchstaben, Symbole). Wählen Sie ein Passwort, das Sie sich auch merken können. Teilen Sie es jemandem mit, dem Sie vertrauen, oder schreiben Sie es auf.
+- Passwort. Da Sie auch Administrator Ihres Systems sind, wählen Sie ein sicheres Passwort mit mindestens zwölf Zeichen und ausreichender Variation (Zahlen, Großbuchstaben, Symbole). Wählen Sie ein Passwort, das Sie sich auch merken können, versuchen Sie einen Satz anstelle von zufälligen Buchstaben/Zahlen. Teilen Sie es jemandem mit, dem Sie vertrauen, oder schreiben Sie es auf.
+
+> Waldsschildkröten lesen Bücher bei Sonnenaufgang
 - Automatische Anmeldung. Wenn Sie diese Option auswählen, müssen Sie beim Start Ihr Passwort nicht eingeben. Wir raten davon ab, da Ihr Computer dann für andere direkt zugänglich ist.
 - Verschlüsselung Ihres persönlichen Ordners „ ”. Wir empfehlen, diese Option zu aktivieren. Ihre Daten werden dann verschlüsselt gespeichert, was zusätzlichen Schutz bei Verlust oder Diebstahl Ihres Computers bietet. Diese Maßnahme ist in einigen Situationen (z. B. bei Verwaltungsarbeiten für Vereine) aufgrund der Datenschutzgesetze sogar vorgeschrieben. Für die Verschlüsselung benötigen Sie kein zusätzliches Passwort.
 
@@ -79,7 +83,7 @@ Wenn Sie den Computer zum ersten Mal starten, müssen Sie einige Schritte durchf
 
 ### Updates installieren
 
-Die auf Ihrem Computer installierte Version von Linux Mint ist eine Momentaufnahme. Seitdem sind wahrscheinlich neue Updates verfügbar geworden. Kleine Updates gibt es etwa alle sechs Monate, große Updates in der Regel alle zwei Jahre. Es ist ratsam, diese Updates sofort zu installieren, bevor Sie mit der Erkundung Ihres Computers fortfahren.
+Die auf Ihrem Computer installierte Version von Linux Mint ist eine Momentaufnahme. Kritische Sicherheitsupdates und Fehlerbehebungen werden regelmäßig veröffentlicht (täglich/wöchentlich), daher sind wahrscheinlich neue Updates verfügbar. Es ist ratsam, diese Updates sofort zu installieren, bevor Sie mit der Erkundung Ihres Computers fortfahren.
 
 👉 Klicken Sie auf das Sicherheitsschield mit dem roten Punkt in der Leiste.
 
@@ -126,7 +130,7 @@ Programme können Sie ganz einfach über das Menü von Linux Mint öffnen. So ge
 
 ![Linux Mint menu button icon](../assets/linux-mint-menu.png)
 
-Klicken Sie auf das Programm, das Sie öffnen möchten.
+👉 Klicken Sie auf das Programm, das Sie öffnen möchten.
 
 Beispiel: Menü > Einstellungen > Ton
 
@@ -136,7 +140,7 @@ Sie können das Menü vergrößern oder verkleinern, indem Sie an den Rändern z
 
 ### Nach einem Programm suchen
 
-Oben im Menü befindet sich ein Suchfeld.
+Unten im Menü befindet sich ein Suchfeld.
 
 👉 Geben Sie einen allgemeinen Begriff ein, z. B. „Text“, „E-Mail“, „Internet“, „Video“, „Drucken“, „Maus“, „Player“, „Rechnen“ usw.
 
@@ -162,7 +166,9 @@ In der rechten Spalte werden alle zugehörigen Programme angezeigt.
 
 ## E-Mail Einrichten
 
-Um E-Mail einzurichten, benötigen Sie den Benutzernamen und das Passwort Ihres E-Mail-Kontos sowie ein E-Mail-Programm. Linux Mint wird mit dem E-Mail-Programm <ins>Thunderbird</ins> ausgeliefert.
+Um auf Ihre E-Mails zuzugreifen, können Sie die Website Ihres E-Mail-Anbieters über Ihren Webbrowser besuchen. Optional können Sie auch ein lokales E-Mail-Programm wie <ins>Thunderbird</ins> einrichten.
+
+Um <ins>Thunderbird</ins> einzurichten, benötigen Sie den Benutzernamen (normalerweise die E-Mail-Adresse) und das Passwort Ihres E-Mail-Kontos.
 
 👉 Starten Sie <ins>Thunderbird</ins> über das Menü.
 
@@ -174,19 +180,7 @@ Wenn alles korrekt eingegeben wurde, haben Sie schnell Zugriff auf Ihre Mailbox.
 
 Kommen Sie nicht weiter? Lesen Sie die Anleitung zur automatischen Konfiguration von Konten auf der [Website von Mozilla](https://support.mozilla.org/de/kb/neue-e-mail-adresse).
 
-### Thunderbird-Profil von einem anderen Computer übertragen
-
-Haben Sie <ins>Thunderbird</ins> zuvor auf einem anderen Computer verwendet? Dann können Sie Ihre E-Mail-Einstellungen, Nachrichten und Ordner übertragen, indem Sie das Profil übertragen. Dazu müssen Sie Ihren Profilordner in Linux sichtbar machen. Das geht so:
-
-👉 Öffnen Sie <ins>Nemo</ins> (zweites Symbol von links im Panel).
-
-Sie sehen nun Ihren persönlichen Ordner.
-
-👉 Drücken Sie Strg + H, um versteckte Dateien anzuzeigen.
-
-Suchen Sie den Ordner Thunderbird. Darin sind Ihre Profile gespeichert.
-
-Verwenden Sie diesen Ordner, um Daten von Ihrem alten System zu übertragen, wie in der Anleitung auf der [Mozilla-Website](https://support.mozilla.org/de) beschrieben: .
+> Verwenden Sie die Import-/Exportfunktion von <ins>Thunderbird</ins>, wenn Sie Ihre E-Mails von <ins>Thunderbird</ins> auf einem anderen Computer kopieren möchten.
 
 ## Dateien Verwalten
 
@@ -210,7 +204,7 @@ Die Suche unterscheidet nicht zwischen Groß- und Kleinschreibung, das Symbol Aa
 
 ### Dateien löschen
 
-Wenn Sie eine Datei über das Kontextmenü oder die Entf-Taste löschen, dann wird sie zunächst in den Papierkorb verschoben. Wenn Sie sie auch aus dem Papierkorb löschen, ist die Datei endgültig entfernt. Im Gegensatz zu Windows gibt es unter Linux keine einfachen Programme, um gelöschte Dateien wiederherzustellen.
+Wenn Sie eine Datei über das Kontextmenü oder die Entf-Taste löschen, dann wird sie zunächst in den Papierkorb verschoben. Wenn Sie sie auch aus dem Papierkorb löschen, ist die Datei endgültig entfernt.
 
 ### Möchten Sie mehr über das Programm <ins>Nemo</ins> erfahren?
 
@@ -260,15 +254,13 @@ Anstelle der Überschrift „Installieren” sehen Sie nun die Schaltfläche „
 
 Ihr Computer ist nun einsatzbereit. Zeit, ihn für alltägliche Aufgaben zu nutzen. Mit unseren verständlichen Erklärungen und praktischen Tipps helfen wir Ihnen, das Beste aus Ihrem Linux-System herauszuholen.
 
-### OneDrive-Speicher
+### Online-Konten
 
-Mit den Programmen <ins>OneDrive</ins> oder <ins>Rclone</ins> können Sie Ihren OneDrive-Cloudspeicher mit Ihrem Linux-Computer verbinden. Installieren Sie das Programm über die Softwareverwaltung.
-
-Weitere Informationen zur Verwendung von <ins>OneDrive</ins> finden Sie auf [dieser Seite](https://forums.linuxmint.com/viewtopic.php?t=437801).
+Online-Konten wie Google (Drive), Microsoft (OneDrive), NextCloud usw. können mit dem Programm <ins>Online-Konten</ins> eingerichtet werden. Die Konten werden dann als Netzlaufwerke in <ins>Nemo</ins> verfügbar.
 
 ### Teilnahme an Teams- oder Zoom-Meetings
 
-Wir empfehlen, das Meeting über den <ins>Firefox</ins>-Browser zu verfolgen oder eine App auf Ihrem Smartphone oder Tablet zu installieren. Um Microsoft Teams oder Zoom über die <ins>Softwareverwaltung</ins> zu installieren, aktivieren Sie im Software-Store „nicht verifizierte Flatpaks“. Informieren Sie sich in den [Linux Mint-Foren](https://forums.linuxmint.com/viewtopic.php?t=421334) über die Sicherheitsaspekte.
+Wir empfehlen, dem Meeting über den <ins>Firefox</ins>-Webbrowser zu folgen. Für häufig verwendete Webanwendungen können Sie mit dem Programm <ins>Web Apps</ins> eine Anwendung erstellen.
 
 ### Ein E-Book lesen
 
@@ -280,7 +272,7 @@ Verwenden Sie den <ins>VLC Media Player</ins>, wenn Sie eine DVD abspielen möch
 
 ### Das Touchpad verwenden
 
-Um zu scrollen, Streichen Sie mit zwei Fingern gleichzeitig über das Touchpad. Mit der Seite oder Unterseite des Touchpads können Sie nicht scrollen.
+Um zu scrollen, streichen Sie mit zwei Fingern gleichzeitig über das Touchpad. Um mit der Seite des Touchpads zu scrollen, gehen Sie zu den Touchpad-Einstellungen.
 
 ### Mehrere Bildschirme: Videos auf einem Fernseher oder Beamer ansehen
 
@@ -347,7 +339,13 @@ So legen Sie eine einfarbige Hintergrundfarbe fest:
 
 👉 Klicken Sie mit der rechten Maustaste auf das Linux Mint-Symbol.
 
-👉 Wählen Sie „ “ aus.
+👉 Wählen Sie „Konfigurieren” aus.
+
+👉 Klicken Sie auf die Registerkarte „Erscheinungsbild”.
+
+👉 Passen Sie die Symbolgrößen nach Ihrem Geschmack an.
+
+👉 Schließen Sie das Menü-Einstellungsprogramm.
 
 <!-- TODO: localise screenshot -->
 
@@ -377,7 +375,7 @@ Die Leiste wird rosa, um anzuzeigen, dass Sie sich im Bearbeitungsmodus befinden
 
 ![screenshot of the dialog to adjust panel height](../assets/panel-height-de.png)
 
-👉 Verlassen Sie den Bildschirm über den Pfeil oben links im Bildschirm.
+👉 Schließen Sie das Panel-Einstellungsprogramm.
 
 Die Taskleiste erhält wieder ihre normale Farbe, Sie befinden sich wieder im normalen Arbeitsmodus.
 
