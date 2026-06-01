@@ -365,7 +365,7 @@ Wenn Sie auf das Symbol „Computer“ klicken, öffnet sich ein Fenster, in dem
 
 ### Anpassen der Leiste am unteren Rand des Desktops
 
-Starten Sie die <ins>Systemeinstellungen</ins> über „Systemeinstellungen“.
+Starten Sie <ins>Leiste</ins> über die <ins>Systemeinstellungen</ins>.
 
 Die Leiste wird rosa, um anzuzeigen, dass Sie sich im Bearbeitungsmodus befinden. Die Anpassungen werden sofort sichtbar.
 
@@ -375,7 +375,7 @@ Die Leiste wird rosa, um anzuzeigen, dass Sie sich im Bearbeitungsmodus befinden
 
 ![screenshot of the dialog to adjust panel height](../assets/panel-height-de.png)
 
-👉 Schließen Sie das Panel-Einstellungsprogramm.
+👉 Schließen Sie das Leiste-Einstellungsprogramm.
 
 Die Taskleiste erhält wieder ihre normale Farbe, Sie befinden sich wieder im normalen Arbeitsmodus.
 
