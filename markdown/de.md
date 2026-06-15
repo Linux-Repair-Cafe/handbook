@@ -347,8 +347,6 @@ So legen Sie eine einfarbige Hintergrundfarbe fest:
 
 👉 Schließen Sie das Menü-Einstellungsprogramm.
 
-<!-- TODO: localise screenshot -->
-
 ![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-de.png)
 
 👉 Klicken Sie auf – oder +, um die Größe des Linux Mint-Symbols zu vergrößern oder zu verkleinern.
@@ -371,8 +369,6 @@ Die Leiste wird rosa, um anzuzeigen, dass Sie sich im Bearbeitungsmodus befinden
 
 👉 Schieben Sie die „Leistenhöhe“ auf eine angenehme Höhe.
 
-<!-- TODO: localise screenshot -->
-
 ![screenshot of the dialog to adjust panel height](../assets/panel-height-de.png)
 
 👉 Schließen Sie das Leiste-Einstellungsprogramm.
@@ -386,8 +382,6 @@ Hier können Sie die Sichtbarkeit von Programmen ein- und ausschalten, sodass di
 👉 Klicken Sie mit der rechten Maustaste auf das Linux Mint-Symbol.
 
 👉 Wählen Sie „Menü bearbeiten”. Sie sehen nun dieses Fenster.
-
-<!-- TODO: localise screenshot -->
 
 ![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-de.png)
 

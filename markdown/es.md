@@ -343,7 +343,6 @@ Desde <ins>Configuración del sistema<ins> puedes iniciar <ins>Fondos</ins>. Pru
 
 👉 Cierra el programa de configuración del menú
 
-<!-- TODO: localise screenshot -->
 ![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-es.png)
 
 👉 Haga clic en – o + para hacer el tamaño del pictograma de Linux Mint más grande o más pequeño.
@@ -366,7 +365,6 @@ El panel cambia a color rosa para indicar que estás en modo de edición. Estos 
 
 👉 Desliza la ‘Altura del panel’ a una altura cómoda.
 
-<!-- TODO: localise screenshot -->
 ![screenshot of the dialog to adjust panel height](../assets/panel-height-es.png)
 
 👉 Cierra el programa de configuración del panel
@@ -381,7 +379,6 @@ Aquí puedes encender o apagar la visibilidad de programas, dependiendo de tu el
 
 👉 Escoge ‘Editar menú’. Ahora verás esta ventana.
 
-<!-- TODO: localise screenshot -->
 ![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-es.png)
 
 Siempre puedes decidir hacer estos programas otra vez visibles. Esto se hace abriendo el Menú principal y activando el programa de nuevo en la categoría donde esperas tú el programa. Después haz clic en ‘Cerrar’.

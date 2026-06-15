@@ -383,7 +383,6 @@ Hier kun je de zichtbaarheid van programma’s aan- en uitzetten, ze verschijnen
 
 👉 Kies ‘Menu bewerken’. Je ziet nu dit scherm.
 
-<!-- TODO: localise screenshot -->
 ![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-nl.png)
 
 Je kunt de programma’s altijd weer zichtbaar maken. Dit doe je door het <ins>Hoofdmenu</ins> te openen en onder de categorie waar je je programma verwacht het vinkje van het programma weer aan te vinken. Klik hierna op ‘Sluiten’.

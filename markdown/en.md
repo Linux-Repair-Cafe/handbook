@@ -345,8 +345,6 @@ To set a solid colour:
 
 👉 Close the menu settings program
 
-<!-- TODO: localise screenshot -->
-
 ![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-en.png)
 
 👉 Click on – or + to increase or decrease the size of the Linux Mint icon.
@@ -369,8 +367,6 @@ The panel turns pink to indicate that you are in edit mode. The changes are imme
 
 👉 Drag the 'Panel height' to a comfortable height.
 
-<!-- TODO: localise screenshot -->
-
 ![screenshot of the dialog to adjust panel height](../assets/panel-height-en.png)
 
 👉 Close the panel settings program.
@@ -384,8 +380,6 @@ Here you can turn the visibility of programs on and off; they will then appear o
 👉 Right-click on the Linux Mint icon.
 
 👉 Select 'Edit Menu'.You now see this screen.
-
-<!-- TODO: localise screenshot -->
 
 ![screenshot of the dialog to customise the Linux Mint menu](../assets/customise-mint-menu-en.png)
 
