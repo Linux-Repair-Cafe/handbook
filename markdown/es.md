@@ -6,7 +6,8 @@ Manual Para Usuarios Principiantes
 
 > ¿TIRARLO? ¡NI PENSARLO! REPAIRCAFE.ORG
 
-Adaptación de: https://www.repaircafe.org/es/repair-cafe-linux/
+Fuente: https://github.com/Linux-Repair-Cafe/handbook
+<sup>Adaptación de: https://www.repaircafe.org/es/repair-cafe-linux/ </sup>
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
@@ -59,19 +60,17 @@ Sigue los pasos tranquilamente y a tu propio ritmo — ¡estás casi listo para 
 
 Cuando inicias el ordenador por primera vez, tienes que seguir unos cuantos pasos para que tu sistema quede listo para usar:
 
-- Configuración de idioma. Escoge la lengua en la que quieres que el sistema se comunique contigo.
-Escoge el idioma más familiar para ti. Siempre puedes adaptarlo.
+- Configuración de idioma. Escoge la lengua en la que quieres que el sistema se comunique contigo. Escoge el idioma más familiar para ti. Siempre puedes adaptarlo.
 - Disposición de teclado. Elige el teclado que corresponda con tu teclado.
-- Red de wifi. Si tu ordenador no está conectado con un cable de red, te preguntará por la
-contraseña de wifi. Teclea la contraseña de tu enrutador.
+- Red de wifi. Si tu ordenador no está conectado con un cable de red, te preguntará por la contraseña de wifi. Teclea la contraseña de tu enrutador.
 - Ubicación. Confirma la ubicación estándar (suele ser Ámsterdam) o escoge manualmente otro país u otra región.
 - Nombre de usuario (nombre de cuenta). Este nombre también se utiliza para tu archivo personal (por ejemplo . /home/tu nombre). Escoge un nombre de usuario corto, claro que consiste en:
 	- Sólo minúsculas
 	- Sin espacios o signos de puntuación
 	- Una palabra que sea reconocible para ti
-- Contraseña. Como también eres el administrador de tu sistema, escoge una contraseña fuerte de mínimo doce carácteres y con suficiente variación (cifras, mayúsculas, símbolos). Escoge una contraseña que vayas poder recordar, prueba escogiendo una oración que recuerdes, en vez de letras/cifras aleatorias. Compártela con alguien a quien confías o escríbela.
+- Contraseña. Como también eres el administrador de tu sistema, escoge una contraseña fuerte de mínimo doce carácteres y con suficiente variación (cifras, mayúsculas, símbolos). Escoge una contraseña que vayas poder recordar, prueba escoger una oración que recuerdes, en vez de letras/cifras aleatorias. Compártela con alguien a quien confías o escríbela.
 
-> tortugas del bosque leen libros amaneciendo
+> tortugas del bosque leen libros al amanecer
 
 - Iniciar sesión automáticamente. Si seleccionas esta opción, no tendrás que incluir tu contraseña al iniciar sesión. Lo desaconsejamos, ya que tu ordenador es libremente accesible para otras personas.
 - Encriptación de tu archivo personal. Te aconsejamos habilitar esta opción. Tus datos se guardarán de forma encriptada, lo que ofrece una protección adicional en caso de pérdida o robo de tu ordenador. En algunas situaciones esta medida es obligatoria bajo legislación de privacidad (como trabajo administrativo para asociaciones). Para la encriptación no necesitas una contraseña
@@ -87,11 +86,11 @@ La versión de Linux Mint que has instalado en tu ordenador, consiste en una cap
 
 ![screenshot of the task bar tray icons](../assets/tray.png)
 
-Se abre la pantalla Gestor de actualizaciones.
+Se abre la ventana Gestor de actualizaciones.
 
 👉 Haga clic en ‘OK’.
 
-Volverás a ver la pantalla de Gestor de actualizaciones.
+Volverás a ver la ventana de Gestor de actualizaciones.
 
 👉 En la parte superior haga clic en ‘Renovar’.
 
@@ -129,7 +128,7 @@ Puedes iniciar programas fácilmente desde el menú de Linux Mint. Se hace así:
 
 ![Linux Mint menu button icon](../assets/linux-mint-menu.png)
 
-Haz clic en el programa que deseas abrir.
+👉 Haz clic en el programa que deseas abrir.
 
 Por ejemplo: Menú > Preferencias > Sonido
 
@@ -139,7 +138,7 @@ Puedes hacer el menú más grande o más pequeño arrastrando los bordes.
 
 ### Buscar un programa
 
-En la parte superior del menú se encuentra un campo de búsqueda.
+En la parte inferior del menú se encuentra un campo de búsqueda.
 
 👉 Teclea un término general como: ‘texto’, ‘correo electrónico’, ‘internet’, ‘video’, ‘copia’, ‘ratón’, ‘reproductor’, ‘calcula’, etcétera.
 
@@ -159,7 +158,7 @@ El menú muestra todos los programas relacionados con el tema que tú has teclea
 
 👉 Haga clic en una categoría en la columna izquierda del menú.
 
-La columna derecha mostrará todos los programas asociados.
+La columna central mostrará todos los programas asociados.
 
 👉 Haga clic en un programa para iniciarlo.
 
@@ -167,7 +166,7 @@ La columna derecha mostrará todos los programas asociados.
 
 Para acceder a tu email puedes visitar la página web de tu proveedor de email a través de tu navegador web. Opcionalmente, puedes configurar un cliente email como <ins>Thunderbird</ins>.
 
-Para configurar <ins>Thunderbird</ins>, necesitas el usuario (normalmente el email) y la contraseña de tu cuenta email.
+Para configurar <ins>Thunderbird</ins>, necesitas el usuario (normalmente la dirección de email) y la contraseña para cuenta email.
 
 👉 Inicia <ins>Thunderbird</ins> mediante el menú.
 
@@ -180,7 +179,7 @@ electrónico.
 
 ¿No lo consigues? Consulta el manual sobre configuración automática de la cuenta mediante la [página web de Mozilla](https://support.mozilla.org/es/kb/configuracion-automatica-de-las-cuentas?utm_source=chatgpt.com).
 
-> Utiliza la función importar/exportar de <ins>Thunderbird</ins> si deseas copiar tus emails de <ins>Thunderbird</ins> otro ordenador.
+> Utiliza la función importar/exportar de <ins>Thunderbird</ins> si deseas copiar tus emails a/de <ins>Thunderbird</ins> en otro ordenador.
 
 ## Administrar Archivos
 
@@ -204,7 +203,7 @@ La búsqueda no distingue entre mayúsculas y minúsculas – lo indica el picto
 
 ### Eliminar archivos
 
-¿Se elimina un archivo mediante el menú del botón derecho o la tecla de Suprimir? Entonces primero se transfiere a la papelera. Si también lo eliminas de la papelera, el archivo será eliminado definitivamente. A diferencia de Windows en Linux no hay programas sencillos para poder recuperar archivos eliminados.
+¿Se elimina un archivo mediante el menú del botón derecho o la tecla de Suprimir? Entonces primero se transfiere a la papelera. Si también lo eliminas de la papelera, el archivo será eliminado definitivamente.
 
 ### ¿Quieres saber más sobre el programa <ins>Nemo</ins>?
 Ve la explicación detallada en:
@@ -253,15 +252,13 @@ En vez del botón ‘Instalar’ verás el botón ‘Eliminar’.
 
 Tu ordenador está listo para usar. Es momento para comenzar a usarlo para tus tareas cotidianas. Con nuestra explicación clara y consejos prácticos te ayudaremos a sacar el máximo de tu sistema Linux.
 
-### Almacenamiento OneDrive
+### Cuentas Online
 
-Con los programas <ins>OneDrive</ins> en <ins>Rclone</ins> puedes conectar tu almacenamiento en la nube OneDrive con tu ordenador Linux. Instala el programa mediante <ins>Gestor de software</ins>.
-
-Para una explicación más detallada sobre el uso de <ins>OneDrive</ins> consulta [esta página](https://forums.linuxmint.com/viewtopic.php?t=409957).
+Cuentas online, como por ejemplo Google (Drive), Microsoft (OneDrive), NextCloud, etc. se pueden configurar mediante el programa <ins>Cuentas Online</ins>. Las cuentas llegan a ser disponibles como unidades de almacenamiento en red en <ins>Nemo</ins>
 
 ### Participar en reuniones de Teams o Zoom
 
-Recomendamos seguir la reunión mediante el navegador web <ins>Firefox</ins> o instalar una aplicación en un teléfono o tableta. Para instalar Microsoft Teams o Zoom en la <ins>Gestor de software</ins>, activa los «flatpaks no verificados» en la tienda de software. Lee sobre las implicaciones de seguridad en los foros de Linux Mint.
+Recomendamos seguir la reunión mediante el navegador web <ins>Firefox</ins>. Considera crear un programa para aplicaciones web que uses frecuentemente con el programa <ins>Web Apps</ins>
 
 ### Leer un libro electrónico
 
@@ -273,7 +270,7 @@ Usa <ins>VLC Media Player</ins> si deseas reproducir un DVD. Instala <ins>VLC Me
 
 ### Usar el panel táctil
 
-Desliza simultáneamente dos dedos sobre el panel táctil. No es posible desplazarse utilizando los lados o la parte inferior del panel táctil.
+Desliza simultáneamente dos dedos sobre el panel táctil. Para desplazarse utilizando los lados o la parte inferior del panel táctil ve a la seccion del panel táctil en la configuración.
 
 ### Múltiples pantallas: ver un en un televisor o proyector
 
@@ -340,12 +337,18 @@ Desde <ins>Configuración del sistema<ins> puedes iniciar <ins>Fondos</ins>. Pru
 
 👉 Cierre la ventana de ajustes
 
+👉 Haga clic en la pestaña "Apariencia"
+
+👉 Ajusta los iconos a tu gusto
+
+👉 Cierra el programa de configuración del menú
+
 <!-- TODO: localise screenshot -->
 ![screenshot of the dialog to enlarge icons](../assets/enlarge-icons-es.png)
 
 👉 Haga clic en – o + para hacer el tamaño del pictograma de Linux Mint más grande o más pequeño.
 
-### Escritorio y barra de tareas
+### Escritorio y panel/barra de tareas
 
 ### Configurar pictogramas en el escritorio
 
@@ -353,7 +356,7 @@ Desde <ins>Configuración del sistema<ins> puedes iniciar <ins>Fondos</ins>. Pru
 
 Vete a <ins>Configuración del sistema</ins>, inicia <ins>Escritorio</ins> y confirma lo que desees.
 
-Si pulsas el pictograma ‘Ordenador’, se abrirá una pantalla donde podrás ver los distintos discos, dispositivos conectados y a veces también fuentes de red. Esto es comparable con ‘Este ordenador’ o ‘Mi ordenador’ en Windows.
+Si pulsas el pictograma ‘Ordenador’, se abrirá una ventana donde podrás ver los distintos discos, dispositivos conectados y a veces también fuentes de red. Esto es comparable con ‘Este ordenador’ o ‘Mi ordenador’ en Windows.
 
 ### Adaptar el panel en la parte inferior del escritorio
 
@@ -366,7 +369,7 @@ El panel cambia a color rosa para indicar que estás en modo de edición. Estos 
 <!-- TODO: localise screenshot -->
 ![screenshot of the dialog to adjust panel height](../assets/panel-height-es.png)
 
-👉 Sale de la pantalla mediante la flecha izquierda en la parte superior izquierda de la pantalla.
+👉 Cierra el programa de configuración del panel
 
 La barra de tareas retomará su color normal, has vuelto a la situación de trabajo normal.
 
@@ -400,5 +403,5 @@ En este menú podrás hacer clic en diferentes pictogramas para poder adaptar co
 Con el programa Gestor de energía podrás solucionar tres cosas.
 
 - Lo que hace tu portátil cuando lo pliegas: en modo pausa o que se apague.
-- La manera de comportarse el botón de apagar/encender. Hay las siguientes opciones: el botón no hace nada, la pantalla se apaga, el portátil entra en modo de suspensión o letargo o el sistema se apaga.
+- La manera de comportarse el botón de apagar/encender. Hay las siguientes opciones: el botón no hace nada, la pantalla se apaga, el portátil entra en modo de suspensión o el sistema se apaga.
 - La gestión energética para batería y fuente de alimentación. Entre otras cosas puedes configurar la transición entre la batería y fuente de alimentación y en qué momento pasa el portátil a un modo de ahorro energético.
